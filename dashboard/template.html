@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Graduate Outcomes Dashboard: IPEDS Master's and Doctoral Completions 2020-2023</title>
+<meta name="description" content="Offline dashboard of IPEDS master's and doctoral completions (2020-2023) with small-cell suppression, completions-to-enrollment ratios and a separate NSF SED median-years benchmark.">
+<style>
+:root{--ink:#111;--muted:#4a4a4a;--line:#767676;--bg:#fff;--panel:#f4f4f4;--accent:#0b1f3a;--warnbg:#fff4c2;--focus:#0b57d0}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.45 system-ui,"Segoe UI",Arial,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:#0b3d91}
+.skip{position:absolute;left:-999px;top:0;background:#000;color:#fff;padding:.6rem 1rem;z-index:99}
+.skip:focus{left:0}
+header.top{background:var(--accent);color:#fff;padding:1rem 1.25rem}
+header.top h1{margin:0;font-size:1.45rem}
+header.top p{margin:.3rem 0 0;max-width:70rem}
+header.top a{color:#fff}
+main{padding:1rem 1.25rem 2rem;max-width:1400px;margin:0 auto}
+.notice{border:2px solid var(--ink);background:var(--panel);padding:.6rem .9rem;margin:.5rem 0 1rem}
+nav.tabs{border-bottom:3px solid var(--ink)}
+[role=tablist]{display:flex;flex-wrap:wrap;gap:.25rem;margin:0;padding:0}
+[role=tab]{font:inherit;padding:.6rem 1rem;border:2px solid var(--ink);border-bottom:none;background:#fff;color:var(--ink);cursor:pointer;border-radius:6px 6px 0 0}
+[role=tab][aria-selected=true]{background:var(--accent);color:#fff;font-weight:700;text-decoration:underline;text-underline-offset:4px}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.panel{padding:1rem 0}
+.panel h2{margin:.2rem 0 .3rem;font-size:1.25rem}
+.lede{color:var(--muted);margin:.1rem 0 .8rem;max-width:62rem}
+.controls{display:flex;flex-wrap:wrap;gap:.8rem 1.2rem;align-items:flex-end;background:var(--panel);border:1px solid var(--line);padding:.7rem .9rem;margin-bottom:.8rem}
+.controls label{display:flex;flex-direction:column;font-weight:600;font-size:.9rem;gap:.2rem}
+.controls input,.controls select{font:inherit;padding:.35rem .5rem;border:2px solid var(--ink);background:#fff;color:var(--ink);min-width:9rem;max-width:30rem}
+.controls input.inst{width:30rem;max-width:90vw}
+.msg{font-size:.9rem;min-height:1.2em}
+.warnings{margin:.3rem 0}
+.warn{background:var(--warnbg);border:2px dashed var(--ink);padding:.35rem .6rem;margin:.3rem 0;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,560px),1fr));gap:1.2rem}
+figure.chart-block{margin:0;border:1px solid var(--line);padding:.6rem .7rem;background:#fff}
+figure.chart-block h3{margin:.1rem 0 .3rem;font-size:1.05rem}
+.chart{width:100%;min-height:340px}
+figcaption{font-size:.9rem;color:var(--muted);margin:.3rem 0}
+details{margin:.4rem 0}
+details>summary{cursor:pointer;font-weight:600}
+.tablewrap{max-height:360px;overflow:auto;border:1px solid var(--line);margin-top:.4rem}
+table{border-collapse:collapse;font-size:.85rem;width:100%}
+caption{text-align:left;font-weight:600;padding:.3rem}
+th,td{border:1px solid #9a9a9a;padding:.25rem .5rem;text-align:right;vertical-align:top}
+th{background:#e6e6e6;position:sticky;top:0}
+th:first-child,td:first-child{text-align:left}
+td.l,th.l{text-align:left}
+#definitions{border:2px solid var(--ink);padding:.6rem 1rem;margin-top:1.5rem;background:#fafafa}
+#definitions h2{font-size:1.2rem;margin:.2rem 0}
+#definitions li{margin:.3rem 0}
+footer{padding:1rem 1.25rem;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;max-width:1400px;margin:0 auto}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="top" role="banner">
+  <h1>Graduate Outcomes Dashboard: master's and doctoral completions, IPEDS 2020-2023</h1>
+  <p>Four views of one data source. Small cells are hidden, not zero. Ratios are not completion rates. <a href="#definitions">Definitions and limits</a>.</p>
+</header>
+<main id="main" role="main">
+  <div class="notice" role="note"><strong>Role views are filtered views of one source, not access control.</strong>
+  Every tab reads the same suppressed data (program counts under 10 are withheld). Switching tabs does not unlock any additional data. This is a static HTML dashboard; no Tableau workbook has been built.</div>
+
+  <nav class="tabs" aria-label="Audience views">
+    <div role="tablist" aria-label="Audience views" id="tablist">
+      <button role="tab" id="tab-pd" aria-controls="view-pd" aria-selected="true" tabindex="0">Program director</button>
+      <button role="tab" id="tab-dean" aria-controls="view-dean" aria-selected="false" tabindex="-1">Dean</button>
+      <button role="tab" id="tab-gd" aria-controls="view-gd" aria-selected="false" tabindex="-1">Graduate dean</button>
+      <button role="tab" id="tab-prov" aria-controls="view-prov" aria-selected="false" tabindex="-1">Provost</button>
+    </div>
+  </nav>
+
+  <datalist id="inst-list"></datalist>
+
+  <!-- PROGRAM DIRECTOR -->
+  <section id="view-pd" class="panel" role="tabpanel" aria-labelledby="tab-pd" tabindex="0">
+    <h2>Program director: program-level completions by year</h2>
+    <p class="lede">Choose an institution, award level and field (2-digit CIP family). Cells under 10 completions are shown as "hidden" (this includes zero counts and complementary suppression, so a hidden cell may itself be 10 or more), never as zero.</p>
+    <div class="controls" role="group" aria-label="Program director controls">
+      <label>Institution (type to search)<input class="inst" list="inst-list" autocomplete="off" aria-describedby="pd-msg"></label>
+      <label>Award level<select class="sel-level"></select></label>
+      <label>Field (CIP family)<select id="pd-fam"></select></label>
+      <label>Program (CIP 6-digit) for lower chart<select id="pd-prog"></select></label>
+    </div>
+    <div class="msg" id="pd-msg" role="status" aria-live="polite"></div>
+    <div class="warnings" id="pd-warn" role="status" aria-live="polite"></div>
+    <div class="grid">
+      <figure class="chart-block">
+        <h3 id="pd1-h"></h3>
+        <div id="pd1" class="chart" role="img" aria-label=""></div>
+        <figcaption id="pd1-cap"></figcaption>
+        <details><summary>Data table: family totals by year</summary><div class="tablewrap" id="pd1-tbl" tabindex="0" aria-label="Scrollable data table"></div></details>
+      </figure>
+      <figure class="chart-block">
+        <h3 id="pd2-h"></h3>
+        <div id="pd2" class="chart" role="img" aria-label=""></div>
+        <figcaption id="pd2-cap"></figcaption>
+        <details><summary>Data table: selected program by year</summary><div class="tablewrap" id="pd2-tbl" tabindex="0" aria-label="Scrollable data table"></div></details>
+      </figure>
+    </div>
+    <details open><summary>All programs in this field (matrix with "hidden" for suppressed cells)</summary><div class="tablewrap" id="pd3-tbl" tabindex="0" aria-label="Scrollable program table"></div></details>
+  </section>
+
+  <!-- DEAN -->
+  <section id="view-dean" class="panel" role="tabpanel" aria-labelledby="tab-dean" tabindex="0" hidden>
+    <h2>Dean: institution-level field mix, year-over-year change, ratio</h2>
+    <p class="lede">Field mix uses only displayed program cells (10 or more completions); hidden cells are counted, not estimated. Percent changes compare institution totals and show the program-cell counts behind them.</p>
+    <div class="controls" role="group" aria-label="Dean controls">
+      <label>Institution (type to search)<input class="inst" list="inst-list" autocomplete="off" aria-describedby="dean-msg"></label>
+      <label>Award level<select class="sel-level"></select></label>
+      <label>Year (field mix)<select class="sel-year"></select></label>
+    </div>
+    <div class="msg" id="dean-msg" role="status" aria-live="polite"></div>
+    <div class="warnings" id="dean-warn" role="status" aria-live="polite"></div>
+    <div class="grid">
+      <figure class="chart-block">
+        <h3 id="d1-h"></h3>
+        <div id="d1" class="chart" role="img" aria-label=""></div>
+        <figcaption id="d1-cap"></figcaption>
+        <details><summary>Data table: field mix</summary><div class="tablewrap" id="d1-tbl" tabindex="0" aria-label="Scrollable data table"></div></details>
+      </figure>
+      <figure class="chart-block">
+        <h3 id="d2-h"></h3>
+        <div id="d2" class="chart" role="img" aria-label=""></div>
+        <figcaption id="d2-cap"></figcaption>
+        <details><summary>Data table: year-over-year change</summary><div class="tablewrap" id="d2-tbl" tabindex="0" aria-label="Scrollable data table"></div></details>
+      </figure>
+      <figure class="chart-block">
+        <h3 id="d3-h"></h3>
+        <div id="d3" class="chart" role="img" aria-label=""></div>
+        <figcaption id="d3-cap"></figcaption>
+        <details><summary>Data table: ratio by year</summary><div class="tablewrap" id="d3-tbl" tabindex="0" aria-label="Scrollable data table"></div></details>
+      </figure>
+    </div>
+  </section>
+
+  <!-- GRADUATE DEAN -->
+  <section id="view-gd" class="panel" role="tabpanel" aria-labelledby="tab-gd" tabindex="0" hidden>
+    <h2>Graduate dean: institution versus peer group</h2>
+    <p class="lede">The completions-to-enrollment <em>ratio</em> divides one year's master's and doctoral completions by fall graduate enrollment. It is a ratio, not a completion rate, and has no cohort meaning. Enrollment exists only at institution level, so the ratio is always for all levels combined.</p>
+    <div class="controls" role="group" aria-label="Graduate dean controls">
+      <label>Institution (type to search)<input class="inst" list="inst-list" autocomplete="off" aria-describedby="gd-msg"></label>
+      <label>Peer group basis<select id="gd-peer">
+        <option value="control">Same control (public / private)</option>
+        <option value="carnegie">Same Carnegie basic class</option>
+        <option value="state">Same state</option>
+        <option value="all">All institutions (national)</option></select></label>
+      <label>Year<select class="sel-year"></select></label>
+      <label>Award level (suppression chart)<select class="sel-level"></select></label>
+    </div>
+    <div class="msg" id="gd-msg" role="status" aria-live="polite"></div>
+    <div class="warnings" id="gd-warn" role="status" aria-live="polite"></div>
+    <div class="grid">
+      <figure class="chart-block">
+        <h3 id="g1-h"></h3>
+        <div id="g1" class="chart" role="img" aria-label=""></div>
+        <figcaption id="g1-cap"></figcaption>
+        <details><summary>Data table: peer distribution summary</summary><div class="tablewrap" id="g1-tbl" tabindex="0" aria-label="Scrollable data table"></div></details>
+      </figure>
+      <figure class="chart-block">
+        <h3 id="g2-h"></h3>
+        <div id="g2" class="chart" role="img" aria-label=""></div>
+        <figcaption id="g2-cap"></figcaption>
+        <details><summary>Data table: ratio over time</summary><div class="tablewrap" id="g2-tbl" tabindex="0" aria-label="Scrollable data table"></div></details>
+      </figure>
+      <figure class="chart-block">
+        <h3 id="g3-h"></h3>
+        <div id="g3" class="chart" role="img" aria-label=""></div>
+        <figcaption id="g3-cap"></figcaption>
+        <details><summary>Data table: suppression share of programs</summary><div class="tablewrap" id="g3-tbl" tabindex="0" aria-label="Scrollable data table"></div></details>
+      </figure>
+    </div>
+  </section>
+
+  <!-- PROVOST -->
+  <section id="view-prov" class="panel" role="tabpanel" aria-labelledby="tab-prov" tabindex="0" hidden>
+    <h2>Provost: national and sector overview</h2>
+    <p class="lede">National totals, how much the suppression threshold hides, and an external benchmark. The NSF Survey of Earned Doctorates (SED) medians are a separate field-level source; they are not institution cohort data and cannot be matched to IPEDS completions.</p>
+    <div class="controls" role="group" aria-label="Provost controls">
+      <label>Award level<select class="sel-level"></select></label>
+      <label>Year<select class="sel-year"></select></label>
+      <label>SED time basis<select id="pv-sed"></select></label>
+    </div>
+    <div class="warnings" id="prov-warn" role="status" aria-live="polite"></div>
+    <div class="grid">
+      <figure class="chart-block" style="grid-column:1/-1">
+        <h3 id="p1-h"></h3>
+        <div id="p1" class="chart" role="img" aria-label="" style="min-height:380px"></div>
+        <figcaption id="p1-cap"></figcaption>
+        <details><summary>Data table: national totals by level</summary><div class="tablewrap" id="p1-tbl" tabindex="0" aria-label="Scrollable data table"></div></details>
+      </figure>
+      <figure class="chart-block">
+        <h3 id="p2-h"></h3>
+        <div id="p2" class="chart" role="img" aria-label=""></div>
+        <figcaption id="p2-cap"></figcaption>
+        <details><summary>Data table: suppression at thresholds 5, 10 and 20</summary><div class="tablewrap" id="p2-tbl" tabindex="0" aria-label="Scrollable data table"></div></details>
+      </figure>
+      <figure class="chart-block">
+        <h3 id="p4-h"></h3>
+        <div id="p4" class="chart" role="img" aria-label=""></div>
+        <figcaption id="p4-cap"></figcaption>
+        <details><summary>Data table: national ratio</summary><div class="tablewrap" id="p4-tbl" tabindex="0" aria-label="Scrollable data table"></div></details>
+      </figure>
+      <figure class="chart-block">
+        <h3 id="p5-h"></h3>
+        <div id="p5" class="chart" role="img" aria-label="" style="min-height:420px"></div>
+        <figcaption id="p5-cap"></figcaption>
+        <details><summary>Data table: national field summary</summary><div class="tablewrap" id="p5-tbl" tabindex="0" aria-label="Scrollable data table"></div></details>
+      </figure>
+      <figure class="chart-block">
+        <h3 id="p3-h"></h3>
+        <div id="p3" class="chart" role="img" aria-label="" style="min-height:420px"></div>
+        <figcaption id="p3-cap"></figcaption>
+        <details><summary>Data table: SED median years</summary><div class="tablewrap" id="p3-tbl" tabindex="0" aria-label="Scrollable data table"></div></details>
+      </figure>
+    </div>
+  </section>
+
+  <aside id="definitions" role="complementary" aria-labelledby="def-h">
+    <h2 id="def-h">Definitions and limits</h2>
+    <ul>
+      <li><strong>Ratio, not a cohort rate.</strong> "Completions-to-enrollment ratio" = master's and doctoral completions in an academic year divided by fall graduate enrollment of the same IPEDS file year (a prior-fall variant is also shown). The students counted in each are not the same people, enrollment includes certificate students and part-timers, and program lengths differ. Do not read it as a graduation or completion rate.</li>
+      <li><strong>IPEDS Graduate Rates has no graduate cohorts.</strong> The IPEDS Graduation Rates (GR) survey covers undergraduate cohorts only, so no graduate cohort completion rate can be computed from these sources.</li>
+      <li><strong>No causal claims.</strong> Differences between institutions, fields, peer groups or years are descriptive. They do not show that any program, policy or institution caused an outcome.</li>
+      <li><strong>2023 enrollment is provisional.</strong> Fall 2023 enrollment is a provisional release, so 2023 ratios may change. 2024 completions are provisional and are not used. Completions are final/revised files for 2020-2023.</li>
+      <li><strong>Suppression rules.</strong> Program cells (institution x 6-digit CIP x award level x year) with fewer than 10 completions, including zero, are hidden and shown as "hidden". Complementary suppression also hides the next-smallest cell in an institution x level x year x CIP family group, and then in the institution x level x year group, when exactly one cell would otherwise be hidden, so a hidden cell cannot be recovered by subtraction. A hidden cell can therefore be larger than 9 after complementary suppression. Institution, field and national totals under 10 are hidden. Suppressed cells cannot be told apart from missing programs except by the suppression flag. The rule is simple, not an optimal secondary-suppression algorithm.</li>
+      <li><strong>Unit of count.</strong> Counts are awards (degrees), not students; first majors only (second majors excluded); CIP 2020; award levels 7 (master's), 17, 18, 19 (doctoral). Year 2023 means academic year 2022-23.</li>
+      <li><strong>Small-n warnings.</strong> A warning is shown when a percentage rests on fewer than 5 program cells, on fewer than 30 completions, or when a peer group has fewer than 10 institutions. Percentages across institutions mix new and closed programs with growth.</li>
+      <li><strong>SED benchmark.</strong> NSF Survey of Earned Doctorates, Table 1-12 (median years to research doctorate, by trend broad field), cycles nsf26326 (latest year 2025) and nsf25349 (latest year 2024). It is a separate, field-level, national source covering research doctorates only; it has no institution cohorts, and the extracted table has no respondent counts, so no n can be shown for it. The CIP-to-SED field mapping used elsewhere is an approximate analyst mapping, not an official crosswalk.</li>
+      <li><strong>Not a Tableau workbook.</strong> No Tableau workbook is built; the CSVs in <code>tableau_ready/</code> are the inputs this file embeds.</li>
+    </ul>
+  </aside>
+</main>
+<footer role="contentinfo">Built __BUILD_DATE__ from tableau_ready CSVs (IPEDS completions and enrollment 2020-2023; NSF SED Table 1-12). Works offline: plotly.js and all data are embedded in this file.</footer>
+
+<script type="application/json" id="dashdata">__DATA_JSON__</script>
+<script>/*__PLOTLY__*/</script>
+<script>
+"use strict";
+(function(){
+const D=JSON.parse(document.getElementById('dashdata').textContent);
+const Y=D.years, LK=D.levels, LL=D.levelLabels, ALL=4, LT='hidden';
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const fmt=n=>n==null?'n/a':Number(n).toLocaleString('en-US');
+const fpct=(v,nd=1,sign=true)=>v==null?'n/a':((sign&&v>0?'+':'')+v.toFixed(nd)+'%');
+const fshare=v=>v==null?'n/a':(v*100).toFixed(1)+'%';
+const fr=v=>v==null?'n/a':v.toFixed(3);
+const SMALL_CELLS=5, SMALL_COMP=30, SMALL_PEERS=10;
+const WARN='⚠ ';
+
+// ---------- data indexes
+const INST=new Map(), LABEL=new Map(), BYLABEL=new Map();
+D.inst.forEach(r=>{const o={u:r[0],name:r[1],state:r[2],control:r[3],carnegie:r[4],hasEnr:r[5],nYears:r[6]};
+  o.label=o.name+' ('+o.state+') - '+o.u;INST.set(o.u,o);BYLABEL.set(o.label.toLowerCase(),o);});
+const SK=['u','lv','y','tot','cs','nc','ns','enr','ratio','ratioP','prior','ncP','yoy','c20','nc20','pct20'];
+const ISUM=new Map();
+D.isum.forEach(r=>{const o={};SK.forEach((k,i)=>o[k]=r[i]);ISUM.set(o.u+'|'+o.lv+'|'+o.y,o);});
+const NAT=new Map();
+D.nat.forEach(r=>{const o={};D.natCols.forEach((c,i)=>o[c]=r[i]);NAT.set(LK.indexOf(o.level_key)+'|'+o.year,o);});
+const SUP=D.sup.map(r=>{const o={};D.supCols.forEach((c,i)=>o[c]=r[i]);return o;});
+const FS=D.fsum.map(r=>{const o={};D.fsumCols.forEach((c,i)=>o[c]=r[i]);return o;});
+const SED=D.sed.map(r=>{const o={};D.sedCols.forEach((c,i)=>o[c]=r[i]);return o;});
+const CIP2T=new Map(D.cip2.map(r=>[r[0],r[1]]));
+const lvName=l=>l===ALL?LL.all_masters_doctoral:LL[LK[l]];
+const lvShort=l=>l===ALL?'All master\'s and doctoral levels':LL[LK[l]];
+
+// ---------- palette (luminance-distinct) + patterns
+const COL={masters:'#0b1f3a',research_doctorate:'#b0500f',professional_doctorate:'#4a9fd8',other_doctorate:'#e6e6e6',all_masters_doctoral:'#555555'};
+const PAT={masters:'',research_doctorate:'/',professional_doctorate:'x',other_doctorate:'.',all_masters_doctoral:'-'};
+function mk(key,extra){return Object.assign({color:COL[key],line:{color:'#111',width:1.3},
+  pattern:{shape:PAT[key],bgcolor:COL[key],fgcolor:key==='other_doctorate'?'#222':'#fff',size:7,solidity:.35}},extra||{});}
+const FONT={family:'system-ui,"Segoe UI",Arial,sans-serif',size:13,color:'#111'};
+function layout(o){return Object.assign({font:FONT,paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'#fff',
+  margin:{l:70,r:30,t:20,b:80},legend:{orientation:'h',y:-0.3,font:{size:12}},hoverlabel:{font:{size:13}},autosize:true},o);}
+const AX={showline:true,linecolor:'#111',linewidth:1.5,gridcolor:'#d0d0d0',zeroline:false,ticks:'outside',automargin:true};
+const CFG={responsive:true,displaylogo:false,modeBarButtonsToRemove:['lasso2d','select2d']};
+function draw(id,traces,lay,aria,cap){const el=$(id);el.setAttribute('aria-label',aria);
+  Plotly.react(el,traces,lay,CFG);if(cap!==undefined)$(id+'-cap').innerHTML=cap;}
+function setH(id,t){$(id+'-h').textContent=t;}
+function table(id,caption,head,body,lefts){lefts=lefts||[0];
+  let h='<table><caption>'+esc(caption)+'</caption><thead><tr>'+head.map((x,i)=>'<th scope="col"'+(lefts.includes(i)?' class="l"':'')+'>'+x+'</th>').join('')+'</tr></thead><tbody>';
+  body.forEach(r=>{h+='<tr>'+r.map((x,i)=>(i===0?'<th scope="row" class="l" style="background:#f4f4f4;position:static">'+x+'</th>':'<td'+(lefts.includes(i)?' class="l"':'')+'>'+x+'</td>')).join('')+'</tr>';});
+  $(id).innerHTML=h+'</tbody></table>';}
+function warnBox(id,list){$(id).innerHTML=list.map(w=>'<div class="warn">'+WARN+w+'</div>').join('');}
+const cellStr=v=>v==null?'no record':(v===-1?LT:fmt(v));
+const median=a=>{if(!a.length)return null;const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2;};
+const quant=(a,q)=>{if(!a.length)return null;const s=[...a].sort((x,y)=>x-y),p=(s.length-1)*q,i=Math.floor(p);return s[i]+(s[Math.min(i+1,s.length-1)]-s[i])*(p-i);};
+
+// ---------- state
+const S={unit:D.defaultUnit,lvl:0,year:Y[Y.length-1],fam:null,prog:null,peer:'control',sed:"Since starting doctoral program",view:'pd'};
+const keyLevel=()=>S.lvl===ALL?'all_masters_doctoral':LK[S.lvl];
+
+// ---------- common controls
+D.inst.forEach(r=>{const o=document.createElement('option');o.value=INST.get(r[0]).label;$('inst-list').appendChild(o);});
+document.querySelectorAll('.sel-level').forEach(sel=>{
+  [0,1,2,3,ALL].forEach(l=>{const o=document.createElement('option');o.value=l;o.textContent=lvName(l);sel.appendChild(o);});
+  sel.value=S.lvl;sel.addEventListener('change',()=>{S.lvl=+sel.value;syncControls();render();});});
+document.querySelectorAll('.sel-year').forEach(sel=>{
+  Y.forEach(y=>{const o=document.createElement('option');o.value=y;o.textContent=y===2023?'2023 (enrollment provisional)':String(y);sel.appendChild(o);});
+  sel.value=S.year;sel.addEventListener('change',()=>{S.year=+sel.value;syncControls();render();});});
+function syncControls(){
+  document.querySelectorAll('.sel-level').forEach(s=>s.value=S.lvl);
+  document.querySelectorAll('.sel-year').forEach(s=>s.value=S.year);
+  document.querySelectorAll('input.inst').forEach(i=>{if(document.activeElement!==i)i.value=INST.get(S.unit).label;});}
+document.querySelectorAll('input.inst').forEach(inp=>{
+  const handler=()=>{const v=inp.value.trim().toLowerCase();let o=BYLABEL.get(v);
+    if(!o){const hits=D.inst.filter(r=>INST.get(r[0]).name.toLowerCase()===v);if(hits.length===1)o=INST.get(hits[0][0]);}
+    const msgs=['pd-msg','dean-msg','gd-msg'].map($);
+    if(!o){msgs.forEach(m=>m.textContent='Institution not found. Pick one from the suggestion list (type part of the name).');return;}
+    msgs.forEach(m=>m.textContent='');S.unit=o.u;S.fam=null;S.prog=null;syncControls();render();};
+  inp.addEventListener('change',handler);
+  inp.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();handler();}});
+  inp.addEventListener('focus',()=>inp.select());});
+$('gd-peer').addEventListener('change',e=>{S.peer=e.target.value;render();});
+(function(){const sel=$('pv-sed');[...new Set(SED.map(r=>r.measure))].forEach(m=>{const o=document.createElement('option');o.value=m;o.textContent=m;sel.appendChild(o);});
+  sel.value=S.sed;sel.addEventListener('change',()=>{S.sed=sel.value;render();});})();
+
+// ---------- tabs
+const TABS=['pd','dean','gd','prov'];
+function showView(v,focus){S.view=v;TABS.forEach(t=>{const on=t===v;const tb=$('tab-'+t);tb.setAttribute('aria-selected',on);tb.tabIndex=on?0:-1;$('view-'+t).hidden=!on;});
+  if(focus)$('tab-'+v).focus();render();}
+TABS.forEach((t,i)=>{const tb=$('tab-'+t);tb.addEventListener('click',()=>showView(t));
+  tb.addEventListener('keydown',e=>{let j=null;
+    if(e.key==='ArrowRight')j=(i+1)%4;else if(e.key==='ArrowLeft')j=(i+3)%4;else if(e.key==='Home')j=0;else if(e.key==='End')j=3;
+    if(j!==null){e.preventDefault();showView(TABS[j],true);}});});
+
+// ================= PROGRAM DIRECTOR
+function cellsFor(u,lvl){return (D.prog[String(u)]||[]).filter(r=>lvl===ALL||r[1]===lvl);}
+function renderPD(){
+  const inst=INST.get(S.unit),rows=cellsFor(S.unit,S.lvl),warns=[];
+  const fams=new Map();
+  rows.forEach(r=>{const f=D.cip[r[0]][2];const o=fams.get(f)||{f,rows:0,d23:0};o.rows++;if(r[5]>0)o.d23+=r[5];fams.set(f,o);});
+  const famList=[...fams.values()].sort((a,b)=>a.f<b.f?-1:1);
+  const fsel=$('pd-fam');fsel.innerHTML='';
+  const allOpt=document.createElement('option');allOpt.value='';allOpt.textContent='All fields ('+rows.length+' program rows)';fsel.appendChild(allOpt);
+  famList.forEach(o=>{const op=document.createElement('option');op.value=o.f;op.textContent=o.f+' '+CIP2T.get(o.f)+' ('+o.rows+' program rows)';fsel.appendChild(op);});
+  if(S.fam===null||(S.fam!==''&&!fams.has(S.fam))){const top=[...famList].sort((a,b)=>b.d23-a.d23)[0];S.fam=top?top.f:'';}
+  fsel.value=S.fam;
+  const frows=rows.filter(r=>S.fam===''||D.cip[r[0]][2]===S.fam);
+  const key=r=>r[0]+'|'+r[1];
+  const psel=$('pd-prog');psel.innerHTML='';
+  const sorted=[...frows].sort((a,b)=>(b[5]>0?b[5]:0)-(a[5]>0?a[5]:0)||(D.cip[a[0]][0]<D.cip[b[0]][0]?-1:1));
+  sorted.forEach(r=>{const op=document.createElement('option');op.value=key(r);op.textContent=D.cip[r[0]][0]+' '+D.cip[r[0]][1]+(S.lvl===ALL?' ['+lvName(r[1])+']':'');psel.appendChild(op);});
+  if(!sorted.some(r=>key(r)===S.prog))S.prog=sorted.length?key(sorted[0]):null;
+  if(S.prog)psel.value=S.prog;
+  const famName=S.fam===''?'All fields':S.fam+' '+CIP2T.get(S.fam);
+  if(!rows.length){$('pd-msg').textContent='This institution has no master\'s/doctoral program cells at this level in 2020-2023.';
+    ['pd1','pd2'].forEach(id=>{Plotly.purge(id);$(id).setAttribute('aria-label','No data');$(id+'-cap').textContent='';$(id+'-tbl').innerHTML='';});
+    setH('pd1','No data');setH('pd2','No data');$('pd3-tbl').innerHTML='';$('pd-warn').innerHTML='';return;}
+  $('pd-msg').textContent='';
+  // chart 1: family displayed sums
+  const agg=Y.map((y,i)=>{let disp=0,dc=0,hid=0,nr=0;frows.forEach(r=>{const v=r[2+i];if(v==null)nr++;else if(v===-1)hid++;else{disp+=v;dc++;}});return {y,disp,dc,hid,nr,tot:dc+hid};});
+  const lk=S.lvl===ALL?'all_masters_doctoral':LK[S.lvl];
+  setH('pd1',inst.name+': '+famName+', '+lvShort(S.lvl)+' - displayed completions by year');
+  const ticks=agg.map(a=>a.y+'<br>'+a.hid+' of '+a.tot+' cells hidden ('+LT+')');
+  const tr1=[{type:'bar',x:ticks,y:agg.map(a=>a.dc?a.disp:null),marker:mk(lk),text:agg.map(a=>a.dc?fmt(a.disp):''),textposition:'outside',cliponaxis:false,
+    name:'Displayed completions (cells with 10 or more)',hovertext:agg.map(a=>a.y+': '+(a.dc?fmt(a.disp)+' completions in '+a.dc+' displayed cells':'all cells hidden ('+LT+')')+'; '+a.hid+' cells hidden ('+LT+'); '+a.nr+' cells with no record'),hovertemplate:'%{hovertext}<extra></extra>'},
+    {type:'scatter',mode:'text+markers',x:ticks.filter((t,i)=>!agg[i].dc),y:agg.filter(a=>!a.dc).map(a=>0),text:agg.filter(a=>!a.dc).map(a=>a.hid?LT+' (all hidden)':'no record'),textposition:'top center',
+     marker:{symbol:'x',size:12,color:'#111',line:{width:2}},name:'All cells hidden',hoverinfo:'skip',showlegend:false}];
+  const ymax=Math.max(...agg.map(a=>a.disp),10);
+  draw('pd1',tr1,layout({xaxis:Object.assign({},AX,{title:{text:'Academic year ending (and hidden cells in the field)'}}),yaxis:Object.assign({},AX,{title:{text:'Completions in displayed cells'},range:[0,ymax*1.2]}),showlegend:false,margin:{l:70,r:20,t:20,b:90}}),
+    'Bar chart of displayed completions by year for '+inst.name+', '+famName+', '+lvShort(S.lvl)+'. '+agg.map(a=>a.y+': '+(a.dc?fmt(a.disp)+' in '+a.dc+' displayed cells':'all cells under 10')+', '+a.hid+' of '+a.tot+' cells hidden').join('; ')+'.',
+    'Bars sum only program cells with 10 or more completions. Hidden cells (under 10, or hidden by complementary suppression) are counted in the axis labels but not estimated, so the bar understates the true total. Cells with no record are not counted.');
+  table('pd1-tbl','Displayed completions by year, '+inst.name+', '+famName,['Year','Displayed completions','Displayed cells (n)','Hidden cells ('+LT+')','Cells with no record','Cells reported'],
+    agg.map(a=>[a.y,a.dc?fmt(a.disp):LT+' (all hidden)',a.dc,a.hid,a.nr,a.tot]));
+  // chart 2: selected program
+  const pr=sorted.find(r=>key(r)===S.prog);
+  if(pr){const vals=pr.slice(2),name=D.cip[pr[0]][0]+' '+D.cip[pr[0]][1],lkey=LK[pr[1]];
+    setH('pd2',inst.name+': '+name+(S.lvl===ALL?' ['+lvName(pr[1])+']':'')+' by year');
+    const bx=[],by=[],bt=[],hx=[];
+    vals.forEach((v,i)=>{if(v!==null&&v>=0){bx.push(String(Y[i]));by.push(v);bt.push(fmt(v));}else hx.push(i);});
+    const tr2=[{type:'bar',x:bx,y:by,marker:mk(lkey),text:bt,textposition:'outside',cliponaxis:false,hovertemplate:'%{x}: %{y:,} completions (single program cell)<extra></extra>',name:'Displayed'},
+      {type:'scatter',mode:'text+markers',x:hx.map(i=>String(Y[i])),y:hx.map(()=>0),text:hx.map(i=>vals[i]===-1?LT:'no record'),textposition:'top center',marker:{symbol:'x',size:12,color:'#111',line:{width:2}},hovertext:hx.map(i=>Y[i]+': '+(vals[i]===-1?'suppressed (under 10 or complementary)':'no record')),hovertemplate:'%{hovertext}<extra></extra>',name:LT}];
+    const mx=Math.max(10,...vals.filter(v=>v>0));
+    draw('pd2',tr2,layout({xaxis:Object.assign({},AX,{title:{text:'Academic year ending'},type:'category',categoryorder:'array',categoryarray:Y.map(String)}),yaxis:Object.assign({},AX,{title:{text:'Completions (program cell)'},range:[0,mx*1.25]}),showlegend:false}),
+      'Bar chart of completions by year for '+name+' at '+inst.name+'. '+vals.map((v,i)=>Y[i]+': '+(v===null?'no record':v===-1?'hidden (under 10 or complementary)':fmt(v))).join('; ')+'.',
+      'An x marker labelled "'+LT+'" means the cell is hidden; it is not zero. "No record" means the institution reported no row for that program-year.');
+    table('pd2-tbl','Completions by year: '+name,['Year','Completions'],vals.map((v,i)=>[Y[i],cellStr(v)]));
+    const hidAny=vals.some(v=>v===-1);if(hidAny)warns.push('Some years of this program are suppressed ('+LT+'); trends across those years cannot be read.');
+  }
+  // matrix
+  table('pd3-tbl','All programs in '+famName+' at '+inst.name+' ('+frows.length+' program rows)',['CIP code','Program'].concat(S.lvl===ALL?['Level']:[]).concat(Y.map(String)),
+    sorted.map(r=>[D.cip[r[0]][0],esc(D.cip[r[0]][1])].concat(S.lvl===ALL?[esc(lvName(r[1]))]:[]).concat(r.slice(2).map(cellStr))),[0,1,2]);
+  const hidShare=agg[3].tot?agg[3].hid/agg[3].tot:null;
+  if(agg[3].tot&&agg[3].tot<SMALL_CELLS)warns.push('Small n: only '+agg[3].tot+' program cells in this field in 2023; any share or trend here is unreliable.');
+  if(agg[3].tot&&agg[3].dc===0)warns.push('All 2023 program cells in this field are hidden ('+LT+'); no displayed completions exist.');
+  else if(hidShare!==null)warns.push('In 2023, '+(hidShare*100).toFixed(0)+'% of program cells in this selection are hidden (n='+agg[3].tot+' cells: '+agg[3].hid+' hidden, '+agg[3].dc+' displayed).');
+  warnBox('pd-warn',warns.map(w=>w));
+}
+
+// ================= DEAN
+function renderDean(){
+  const inst=INST.get(S.unit),warns=[],rows=cellsFor(S.unit,S.lvl),yi=Y.indexOf(S.year);
+  // d1 field mix
+  const f=new Map();
+  rows.forEach(r=>{const k=D.cip[r[0]][2];const o=f.get(k)||{k,disp:0,dc:0,hid:0};const v=r[2+yi];if(v===-1)o.hid++;else if(v!=null){o.disp+=v;o.dc++;}f.set(k,o);});
+  const fl=[...f.values()].filter(o=>o.dc+o.hid>0).sort((a,b)=>b.disp-a.disp);
+  const totD=fl.reduce((s,o)=>s+o.disp,0),totC=fl.reduce((s,o)=>s+o.dc,0),totH=fl.reduce((s,o)=>s+o.hid,0);
+  setH('d1',inst.name+': field mix of displayed completions, '+S.year+', '+lvShort(S.lvl));
+  if(!fl.length){Plotly.purge('d1');$('d1').setAttribute('aria-label','No data');$('d1-cap').textContent='No program cells for this selection.';$('d1-tbl').innerHTML='';}
+  else{const top=fl.filter(o=>o.dc>0).slice(0,12).reverse();const lk=S.lvl===ALL?'all_masters_doctoral':LK[S.lvl];
+    const tr=[{type:'bar',orientation:'h',y:top.map(o=>o.k+' '+CIP2T.get(o.k).slice(0,42)),x:top.map(o=>o.disp),marker:mk(lk),
+      text:top.map(o=>fmt(o.disp)+(o.hid?'  (+'+o.hid+' hidden cells)':'')),textposition:'outside',cliponaxis:false,
+      hovertext:top.map(o=>CIP2T.get(o.k)+': '+fmt(o.disp)+' completions in '+o.dc+' displayed cells = '+(totD?(o.disp/totD*100).toFixed(1):'n/a')+'% of displayed completions (n='+fmt(totD)+' in '+totC+' cells); '+o.hid+' cells hidden ('+LT+')'),hovertemplate:'%{hovertext}<extra></extra>'}];
+    draw('d1',tr,layout({xaxis:Object.assign({},AX,{title:{text:'Completions in displayed cells'},range:[0,Math.max(...top.map(o=>o.disp))*1.45]}),yaxis:Object.assign({},AX,{automargin:true,tickfont:{size:11}}),showlegend:false,margin:{l:240,r:20,t:20,b:60}}),
+      'Horizontal bar chart of displayed completions by field for '+inst.name+' in '+S.year+', '+lvShort(S.lvl)+'. Largest field: '+(top.length?CIP2T.get(top[top.length-1].k)+', '+fmt(top[top.length-1].disp):'none')+'. Shares are of displayed completions only.',
+      'Top 12 fields by displayed completions. Shares use displayed completions only (n='+fmt(totD)+' completions in '+totC+' cells); '+totH+' hidden cells are excluded and not estimated. Fields with only hidden cells appear in the table.');
+    table('d1-tbl','Field mix, '+inst.name+', '+S.year+', '+lvShort(S.lvl),['CIP family','Field','Displayed completions','Share of displayed (n)','Displayed cells','Hidden cells ('+LT+')'],
+      fl.map(o=>[o.k,esc(CIP2T.get(o.k)),o.dc?fmt(o.disp):LT+' (all hidden)',o.dc&&totD?(o.disp/totD*100).toFixed(1)+'% (n='+fmt(totD)+')':'n/a',o.dc,o.hid]),[0,1]);
+    if(totC<SMALL_CELLS)warns.push('Small n: field mix rests on only '+totC+' displayed program cells.');
+  }
+  // d2 yoy
+  const ys=[2021,2022,2023],rowsI=ys.map(y=>ISUM.get(S.unit+'|'+S.lvl+'|'+y)),r20=[...rowsI];
+  setH('d2',inst.name+': change in institution total, '+lvShort(S.lvl));
+  const small=r=>r&&((Math.min(r.nc,r.ncP||0)<SMALL_CELLS)||(r.tot!=null&&r.tot<SMALL_COMP));
+  const t1={type:'bar',x:ys.map(String),y:rowsI.map(r=>r&&r.yoy!=null?r.yoy:null),name:'Change vs prior year',marker:mk('masters'),
+    text:rowsI.map(r=>r&&r.yoy!=null?fpct(r.yoy)+(small(r)?' '+WARN:'')+'<br>n='+r.nc+'/'+r.ncP+' cells':''),textposition:'outside',cliponaxis:false,
+    hovertext:rowsI.map((r,i)=>ys[i]+': '+(r&&r.yoy!=null?fpct(r.yoy)+' vs prior year ('+fmt(r.tot)+' vs '+fmt(r.prior)+' completions; n='+r.nc+' and '+r.ncP+' program cells)':'not available (a total is suppressed, or no prior base)')),hovertemplate:'%{hovertext}<extra></extra>'};
+  const t2={type:'bar',x:ys.map(String),y:rowsI.map(r=>r&&r.pct20!=null?r.pct20:null),name:'Change vs 2020',marker:mk('research_doctorate'),
+    text:rowsI.map(r=>r&&r.pct20!=null?fpct(r.pct20)+'<br>n='+r.nc+'/'+r.nc20+' cells':''),textposition:'outside',cliponaxis:false,
+    hovertext:rowsI.map((r,i)=>ys[i]+': '+(r&&r.pct20!=null?fpct(r.pct20)+' vs 2020 ('+fmt(r.tot)+' vs '+fmt(r.c20)+' completions; n='+r.nc+' and '+r.nc20+' program cells)':'not available (a total is suppressed, or no 2020 base)')),hovertemplate:'%{hovertext}<extra></extra>'};
+  const vals=[...t1.y,...t2.y].filter(v=>v!=null);const lo=Math.min(0,...vals),hi=Math.max(0,...vals),pad=(hi-lo||10)*.35;
+  const miss=[];ys.forEach((y,i)=>{if(!rowsI[i]||(rowsI[i].yoy==null&&rowsI[i].pct20==null))miss.push(y);});
+  draw('d2',[t1,t2],layout({barmode:'group',xaxis:Object.assign({},AX,{title:{text:'Academic year ending'},type:'category'}),yaxis:Object.assign({},AX,{title:{text:'Percent change'},ticksuffix:'%',range:[lo-pad,hi+pad],zeroline:true,zerolinecolor:'#111',zerolinewidth:2})}),
+    'Grouped bars of percent change in total completions for '+inst.name+', '+lvShort(S.lvl)+': '+ys.map((y,i)=>y+': vs prior year '+fpct(rowsI[i]&&rowsI[i].yoy)+', vs 2020 '+fpct(rowsI[i]&&rowsI[i].pct20)).join('; ')+'.',
+    'Percentages compare institution totals; each label shows the number of program cells behind the current and comparison value (n=current/base). Totals mix new and closed programs with growth. A warning sign marks changes resting on fewer than 5 cells or fewer than 30 completions.');
+  table('d2-tbl','Change in institution completions total, '+inst.name+', '+lvShort(S.lvl),['Year','Completions','Prior year','2020','Change vs prior year','Cells now / prior','Change vs 2020','Cells now / 2020'],
+    rowsI.map((r,i)=>r?[ys[i],r.cs?LT:fmt(r.tot),fmt(r.prior),fmt(r.c20),fpct(r.yoy)+(small(r)&&r.yoy!=null?' '+WARN+'small n':''),r.nc+' / '+r.ncP,fpct(r.pct20),r.nc+' / '+r.nc20]:[ys[i],'no record','','','','','','']));
+  rowsI.forEach((r,i)=>{if(r&&r.yoy!=null&&small(r))warns.push(ys[i]+' change vs prior year: small n ('+r.nc+' current and '+r.ncP+' prior program cells, '+fmt(r.tot)+' completions).');});
+  if(miss.length)warns.push('Change not available for '+miss.join(', ')+' (a total is under 10 and hidden, or there is no base).');
+  // d3 ratio
+  const ra=Y.map(y=>ISUM.get(S.unit+'|'+ALL+'|'+y));
+  setH('d3',inst.name+': completions-to-enrollment ratio (all levels) - a ratio, not a completion rate');
+  const r1={type:'scatter',mode:'lines+markers+text',x:Y.map(String),y:ra.map(r=>r?r.ratio:null),line:{color:'#0b1f3a',width:3},marker:{symbol:'circle',size:10,color:'#0b1f3a'},
+    name:'Same-year fall enrollment',text:ra.map(r=>r&&r.ratio!=null?fr(r.ratio):'n/a'),textposition:'top center',connectgaps:false,
+    hovertext:ra.map((r,i)=>Y[i]+': ratio '+(r&&r.ratio!=null?fr(r.ratio):'n/a')+' = '+(r&&r.tot!=null?fmt(r.tot):LT)+' completions / '+fmt(r&&r.enr)+' fall graduate enrollment (n='+(r?r.nc:0)+' program cells'+(Y[i]===2023?'; enrollment provisional':'')+')'),hovertemplate:'%{hovertext}<extra></extra>'};
+  const r2={type:'scatter',mode:'lines+markers',x:Y.map(String),y:ra.map(r=>r?r.ratioP:null),line:{color:'#b0500f',width:3,dash:'dash'},marker:{symbol:'diamond',size:10,color:'#b0500f'},name:'Prior-fall enrollment',connectgaps:false,
+    hovertext:ra.map((r,i)=>Y[i]+': prior-fall ratio '+(r&&r.ratioP!=null?fr(r.ratioP):'n/a')),hovertemplate:'%{hovertext}<extra></extra>'};
+  const rv=[...r1.y,...r2.y].filter(v=>v!=null);
+  draw('d3',[r1,r2],layout({xaxis:Object.assign({},AX,{title:{text:'Year (completions: academic year ending; enrollment: fall)'},type:'category'}),yaxis:Object.assign({},AX,{title:{text:'Ratio (completions / graduate enrollment)'},range:[0,(rv.length?Math.max(...rv):1)*1.3]}),legend:{orientation:'h',y:-0.35}}),
+    'Line chart of the completions-to-enrollment ratio for '+inst.name+': '+Y.map((y,i)=>y+': '+(ra[i]&&ra[i].ratio!=null?fr(ra[i].ratio):'n/a')).join('; ')+'. This is a ratio, not a completion rate.',
+    'Ratio = master\'s and doctoral completions in the academic year / fall graduate enrollment (includes certificate students). Not a cohort rate. Ratio is shown for all levels combined because enrollment has no award-level detail. 2023 enrollment is provisional.');
+  table('d3-tbl','Completions-to-enrollment ratio (all levels), '+inst.name,['Year','Completions (all levels)','Fall graduate enrollment','Ratio (same fall)','Ratio (prior fall)','Program cells (n)','Cells hidden'],
+    ra.map((r,i)=>r?[Y[i],r.cs?LT:fmt(r.tot),fmt(r.enr),fr(r.ratio),fr(r.ratioP),r.nc,r.ns]:[Y[i],'no record','','','','','']));
+  if(!ra.some(r=>r&&r.ratio!=null))warns.push('No ratio is available for this institution (no graduate enrollment record, or completions under 10).');
+  const last=ra[3];if(last&&last.ratio!=null&&last.nc<SMALL_CELLS)warns.push('Ratio rests on only '+last.nc+' program cells in 2023.');
+  if(S.lvl!==ALL)warns.push('The ratio panel always uses all master\'s and doctoral levels combined, because enrollment has no award-level detail (the level selector affects the other two panels).');
+  warnBox('dean-warn',warns);
+}
+
+// ================= GRADUATE DEAN
+function peerUnits(){const me=INST.get(S.unit);
+  return D.inst.map(r=>INST.get(r[0])).filter(o=>S.peer==='all'||(S.peer==='control'&&o.control===me.control)||(S.peer==='carnegie'&&o.carnegie===me.carnegie)||(S.peer==='state'&&o.state===me.state));}
+function peerName(){const me=INST.get(S.unit);return S.peer==='all'?'all US institutions in the file':S.peer==='control'?'control: '+me.control:S.peer==='carnegie'?'Carnegie: '+me.carnegie:'state: '+me.state;}
+function renderGD(){
+  const me=INST.get(S.unit),warns=[],peers=peerUnits(),pn=peerName();
+  const ratioOf=(u,y)=>{const r=ISUM.get(u+'|'+ALL+'|'+y);return r&&r.ratio!=null?r.ratio:null;};
+  const pv=peers.map(o=>ratioOf(o.u,S.year)).filter(v=>v!=null),self=ratioOf(S.unit,S.year);
+  setH('g1',me.name+' versus peers ('+pn+'): ratio distribution, '+S.year);
+  const p98=quant(pv,.98)||1,xmax=Math.max(p98,self||0)*1.1,nOut=pv.filter(v=>v>xmax).length;
+  const tr=[{type:'box',orientation:'h',x:pv,y:pv.map(()=>'Peer group'),name:'Peers',boxpoints:'outliers',marker:{color:'#6b6b6b',size:4},line:{color:'#111',width:2},fillcolor:'#d9d9d9',hoverinfo:'x',showlegend:false}];
+  if(self!=null)tr.push({type:'scatter',mode:'markers+text',x:[self],y:['Peer group'],marker:{symbol:'diamond',size:18,color:'#0b1f3a',line:{color:'#fff',width:2}},text:['This institution '+fr(self)],textposition:'top center',textfont:{size:13,color:'#111'},
+    hovertext:['This institution: ratio '+fr(self)+' (n='+ISUM.get(S.unit+'|'+ALL+'|'+S.year).nc+' program cells)'],hovertemplate:'%{hovertext}<extra></extra>',showlegend:false});
+  draw('g1',tr,layout({xaxis:Object.assign({},AX,{title:{text:'Ratio of completions to fall graduate enrollment (x-axis clipped at 98th percentile'+(nOut?'; '+nOut+' peers beyond':'')+')'},range:[0,xmax]}),yaxis:Object.assign({},AX,{showticklabels:true}),showlegend:false,margin:{l:90,r:20,t:30,b:90}}),
+    'Box plot of the completions-to-enrollment ratio across '+pv.length+' peer institutions ('+pn+') in '+S.year+'; median '+fr(median(pv))+'. '+me.name+' ratio: '+(self!=null?fr(self):'not available')+'.',
+    'Peer group: '+esc(pn)+', n='+pv.length+' institutions with a ratio (of '+peers.length+' in the group; includes this institution). Box = middle 50 percent, line = median '+fr(median(pv))+'. A ratio, not a completion rate.');
+  const q=[quant(pv,.25),median(pv),quant(pv,.75)];
+  table('g1-tbl','Peer ratio summary, '+pn+', '+S.year,['Statistic','Value','n (institutions with a ratio)'],
+    [['Peer 25th percentile',fr(q[0]),pv.length],['Peer median',fr(q[1]),pv.length],['Peer 75th percentile',fr(q[2]),pv.length],['This institution',self!=null?fr(self):'n/a','1'],['Institutions in peer group (any)',String(peers.length),peers.length]]);
+  if(pv.length<SMALL_PEERS)warns.push('Small n: only '+pv.length+' peer institutions have a ratio in '+S.year+' for this peer basis; the median and quartiles are unreliable.');
+  if(self==null)warns.push('This institution has no ratio in '+S.year+' (completions under 10 or no graduate enrollment record).');
+  if(S.year===2023)warns.push('2023 enrollment is provisional; 2023 ratios may change.');
+  // g2 over time
+  const med=Y.map(y=>{const a=peers.map(o=>ratioOf(o.u,y)).filter(v=>v!=null);return {m:median(a),n:a.length};});
+  const sv=Y.map(y=>ratioOf(S.unit,y));
+  setH('g2',me.name+' versus peer median by year ('+pn+')');
+  draw('g2',[{type:'scatter',mode:'lines+markers+text',x:Y.map(String),y:sv,line:{color:'#0b1f3a',width:3},marker:{symbol:'circle',size:10,color:'#0b1f3a'},text:sv.map((v,i)=>i===3&&v!=null?'This institution':''),textposition:'middle right',name:'This institution',connectgaps:false,
+      hovertext:sv.map((v,i)=>Y[i]+': this institution '+(v!=null?fr(v):'n/a')),hovertemplate:'%{hovertext}<extra></extra>'},
+    {type:'scatter',mode:'lines+markers+text',x:Y.map(String),y:med.map(m=>m.m),line:{color:'#b0500f',width:3,dash:'dash'},marker:{symbol:'square',size:10,color:'#b0500f'},text:med.map((m,i)=>i===3?'Peer median':''),textposition:'middle right',name:'Peer median',
+      hovertext:med.map((m,i)=>Y[i]+': peer median '+(m.m!=null?fr(m.m):'n/a')+' (n='+m.n+' institutions)'),hovertemplate:'%{hovertext}<extra></extra>'}],
+    layout({xaxis:Object.assign({},AX,{title:{text:'Year'},type:'category'}),yaxis:Object.assign({},AX,{title:{text:'Ratio (completions / enrollment)'},rangemode:'tozero'}),margin:{l:70,r:130,t:20,b:80},showlegend:true}),
+    'Line chart of completions-to-enrollment ratio over time for '+me.name+' and the peer median. '+Y.map((y,i)=>y+': institution '+(sv[i]!=null?fr(sv[i]):'n/a')+', peer median '+(med[i].m!=null?fr(med[i].m):'n/a')+' (n='+med[i].n+')').join('; ')+'.',
+    'Peer median uses institutions with a ratio in each year (n in hover and table). Ratio, not a cohort rate.');
+  table('g2-tbl','Ratio by year, '+me.name+' versus peer median ('+pn+')',['Year','This institution','Peer median','n peers with ratio'],Y.map((y,i)=>[y,sv[i]!=null?fr(sv[i]):'n/a',med[i].m!=null?fr(med[i].m):'n/a',med[i].n]));
+  // g3 suppression share
+  const lv=S.lvl,y=S.year,own=ISUM.get(S.unit+'|'+lv+'|'+y);
+  const prs=peers.map(o=>ISUM.get(o.u+'|'+lv+'|'+y)).filter(r=>r&&r.nc>0);
+  const pc=prs.reduce((s,r)=>s+r.nc,0),ps=prs.reduce((s,r)=>s+r.ns,0),pooled=pc?ps/pc:null,pmed=median(prs.map(r=>r.ns/r.nc));
+  const ownShare=own&&own.nc>0?own.ns/own.nc:null;
+  setH('g3',me.name+': share of own programs suppressed, '+lvShort(lv)+', '+y);
+  const cats=['This institution<br>n='+(own?own.nc:0)+' cells','Peers pooled<br>n='+fmt(pc)+' cells, '+prs.length+' inst.','Peer median institution<br>n='+prs.length+' inst.'];
+  const vals=[ownShare,pooled,pmed].map(v=>v==null?null:v*100);
+  draw('g3',[{type:'bar',x:cats,y:vals,text:vals.map(v=>v==null?'n/a':v.toFixed(1)+'%'),textposition:'outside',cliponaxis:false,
+    marker:{color:['#0b1f3a','#9a9a9a','#e6e6e6'],line:{color:'#111',width:1.5},pattern:{shape:['','/','x'],fgcolor:['#fff','#111','#111'],bgcolor:['#0b1f3a','#9a9a9a','#e6e6e6'],size:7,solidity:.35}},
+    hovertext:['This institution: '+fshare(ownShare)+' ('+(own?own.ns:0)+' of '+(own?own.nc:0)+' program cells hidden)',
+      'Peers pooled: '+fshare(pooled)+' ('+fmt(ps)+' of '+fmt(pc)+' cells hidden, '+prs.length+' institutions)',
+      'Peer median institution: '+fshare(pmed)+' (n='+prs.length+' institutions)'],hovertemplate:'%{hovertext}<extra></extra>'}],
+    layout({xaxis:Object.assign({},AX,{tickfont:{size:12}}),yaxis:Object.assign({},AX,{title:{text:'Percent of program cells suppressed'},range:[0,115],ticksuffix:'%'}),showlegend:false,margin:{l:70,r:20,t:20,b:110}}),
+    'Bar chart of the share of program cells that are suppressed: this institution '+fshare(ownShare)+' of '+(own?own.nc:0)+' cells; peers pooled '+fshare(pooled)+' of '+fmt(pc)+' cells; peer median institution '+fshare(pmed)+' ('+prs.length+' institutions).',
+    'Share = hidden program cells (under 10, plus complementary suppression) / all program cells at this level and year. n shown in each label. A high share means the program-level view of this institution is mostly hidden.');
+  table('g3-tbl','Suppression share of program cells, '+lvShort(lv)+', '+y,['Group','Hidden cells','Program cells (n)','Share hidden','Institutions (n)'],
+    [['This institution',own?own.ns:0,own?own.nc:0,fshare(ownShare),'1'],['Peers pooled',fmt(ps),fmt(pc),fshare(pooled),prs.length],['Peer median institution','','',fshare(pmed),prs.length]]);
+  if(own&&own.nc>0&&own.nc<SMALL_CELLS)warns.push('Small n: this institution has only '+own.nc+' program cells at this level; its suppression share is unreliable.');
+  if(prs.length<SMALL_PEERS)warns.push('Small n: only '+prs.length+' peer institutions have program cells at this level and year.');
+  if(!own||own.nc===0)warns.push('This institution has no program cells at this level in '+y+'.');
+  warnBox('gd-warn',warns);
+}
+
+// ================= PROVOST
+function renderProv(){
+  const warns=[],lv=S.lvl,y=S.year,lk=keyLevel();
+  // p1 totals by level, 4 subplots
+  setH('p1','National completions by award level, 2020-2023 (all institutions; separate axes per level)');
+  const L4=[0,1,2,3],tr=[],lay={font:FONT,paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'#fff',margin:{l:60,r:20,t:60,b:60},height:380,showlegend:false,annotations:[],hoverlabel:{font:{size:13}}};
+  L4.forEach((l,k)=>{const rows=Y.map(yy=>NAT.get(l+'|'+yy));const sfx=k?String(k+1):'';
+    tr.push({type:'bar',x:Y.map(String),y:rows.map(r=>r?r.completions_total:null),xaxis:'x'+sfx,yaxis:'y'+sfx,marker:mk(LK[l]),text:rows.map(r=>r&&r.completions_total!=null?(r.completions_total>=1e5?(r.completions_total/1e3).toFixed(0)+'k':fmt(r.completions_total)):''),textposition:'outside',cliponaxis:false,textfont:{size:11},
+      hovertext:rows.map((r,i)=>Y[i]+': '+fmt(r&&r.completions_total)+' completions in '+fmt(r&&r.n_institutions)+' institutions, '+fmt(r&&r.n_program_cells)+' program cells; change vs prior '+fpct(r&&r.yoy_pct_change)+(r&&r.yoy_pct_change!=null?' (n='+fmt(r.n_institutions)+' vs '+fmt(r.n_institutions_prior_year)+' institutions)':'')),hovertemplate:'%{hovertext}<extra></extra>'});
+    lay['xaxis'+sfx]=Object.assign({},AX,{domain:[k*.25+.03,(k+1)*.25-.02],anchor:'y'+sfx,type:'category',tickfont:{size:11}});
+    const mx=Math.max(...rows.map(r=>r&&r.completions_total||0));
+    lay['yaxis'+sfx]=Object.assign({},AX,{domain:[0,.88],anchor:'x'+sfx,range:[0,mx*1.2],tickformat:',d',tickfont:{size:10}});
+    lay.annotations.push({x:(k*.25+.03+(k+1)*.25-.02)/2,y:1,xref:'paper',yref:'paper',text:'<b>'+esc(lvName(l))+'</b>',showarrow:false,yanchor:'bottom',font:{size:12}});});
+  const rowsAll=L4.map(l=>Y.map(yy=>NAT.get(l+'|'+yy)));
+  draw('p1',tr,lay,'Four small bar charts of national completions 2020-2023: '+L4.map((l,k)=>lvName(l)+' '+rowsAll[k].map((r,i)=>Y[i]+' '+fmt(r&&r.completions_total)).join(', ')).join('; ')+'.',
+    'Each level has its own y-axis. Counts are degrees awarded (first majors), at institutions in the file (n institutions in hover and table). 2023 is the final/revised release.');
+  const body=[];L4.concat([ALL]).forEach(l=>Y.forEach(yy=>{const r=NAT.get(l+'|'+yy);if(r)body.push([esc(lvName(l)),yy,fmt(r.completions_total),fmt(r.n_institutions),fmt(r.n_program_cells),fpct(r.yoy_pct_change),r.yoy_pct_change!=null?fmt(r.n_institutions)+' / '+fmt(r.n_institutions_prior_year):'n/a']);}));
+  table('p1-tbl','National completions by level and year',['Level','Year','Completions','Institutions (n)','Program cells (n)','Change vs prior year','Institutions now / prior'],body,[0]);
+  // p2 suppression impact
+  const sp=[5,10,20].map(t=>SUP.find(r=>r.threshold===t&&r.level_key===lk&&r.year===y));
+  setH('p2','Suppression impact at thresholds 5, 10 and 20: '+lvShort(lv)+', '+y);
+  const cats=sp.map((r,i)=>'Threshold '+[5,10,20][i]+'<br>n='+fmt(r&&r.n_cells)+' cells');
+  const pct=k=>sp.map(r=>r&&r[k]!=null?r[k]*100:null);
+  const sers=[['share_cells_primary_suppressed','Cells under threshold','masters',null],['share_cells_suppressed_total','Cells hidden incl. complementary','research_doctorate',null],['share_completions_in_suppressed_total','Completions inside hidden cells','professional_doctorate',null]];
+  draw('p2',sers.map(s=>({type:'bar',x:cats,y:pct(s[0]),name:s[1],marker:mk(s[2]),text:pct(s[0]).map(v=>v==null?'':v.toFixed(1)+'%'),textposition:'outside',cliponaxis:false,textfont:{size:11},
+      hovertext:sp.map((r,i)=>s[1]+' at threshold '+[5,10,20][i]+': '+fshare(r&&r[s[0]])+' (n='+(s[0].includes('completions')?fmt(r&&r.completions_total_all_cells)+' completions':fmt(r&&r.n_cells)+' program cells')+')'),hovertemplate:'%{hovertext}<extra></extra>'})),
+    layout({barmode:'group',xaxis:Object.assign({},AX,{tickfont:{size:12}}),yaxis:Object.assign({},AX,{title:{text:'Percent'},ticksuffix:'%',range:[0,Math.max(10,...sers.flatMap(s=>pct(s[0]).filter(v=>v!=null)))*1.2]}),legend:{orientation:'h',y:-0.35},margin:{l:70,r:20,t:20,b:130}}),
+    'Grouped bar chart for '+lvShort(lv)+' in '+y+': '+sp.map((r,i)=>'threshold '+[5,10,20][i]+' hides '+fshare(r&&r.share_cells_suppressed_total)+' of '+fmt(r&&r.n_cells)+' program cells').join('; ')+'.',
+    'Primary threshold: a cell under the threshold is hidden. The published dashboards use 10. Higher thresholds hide more cells but a much smaller share of completions. n (program cells; completions) is in the axis labels, hover and table.');
+  table('p2-tbl','Suppression impact, '+lvShort(lv)+', '+y,['Threshold','Program cells (n)','Cells under threshold','Share under threshold','Cells hidden incl. complementary','Share hidden incl. complementary','Completions (n)','Completions in hidden cells','Share of completions hidden','Institutions with every cell hidden (of n)'],
+    sp.map((r,i)=>r?[String([5,10,20][i]),fmt(r.n_cells),fmt(r.n_cells_primary_suppressed),fshare(r.share_cells_primary_suppressed),fmt(r.n_cells_suppressed_total),fshare(r.share_cells_suppressed_total),fmt(r.completions_total_all_cells),fmt(r.completions_in_suppressed_total),fshare(r.share_completions_in_suppressed_total),fshare(r.share_institutions_all_cells_suppressed_total)+' ('+fmt(r.n_institutions_all_cells_suppressed_total)+' of '+fmt(r.n_institutions)+')']:[String([5,10,20][i]),'n/a','','','','','','','','']));
+  // p4 national ratio
+  const nr=Y.map(yy=>NAT.get(ALL+'|'+yy));
+  setH('p4','National completions-to-enrollment ratio (matched institutions) - a ratio, not a completion rate');
+  draw('p4',[{type:'scatter',mode:'lines+markers+text',x:Y.map(String),y:nr.map(r=>r&&r.ratio_completions_to_grad_enrollment_matched),line:{color:'#0b1f3a',width:3},marker:{symbol:'circle',size:10,color:'#0b1f3a'},text:nr.map(r=>r?fr(r.ratio_completions_to_grad_enrollment_matched):''),textposition:'top center',name:'Same-year fall enrollment',
+      hovertext:nr.map((r,i)=>Y[i]+': '+fr(r&&r.ratio_completions_to_grad_enrollment_matched)+' (n='+fmt(r&&r.n_matched_institutions)+' institutions; '+fmt(r&&r.matched_completions)+' completions / '+fmt(r&&r.matched_enrollment)+' enrollment)'),hovertemplate:'%{hovertext}<extra></extra>'},
+    {type:'scatter',mode:'lines+markers+text',x:Y.map(String),y:nr.map(r=>r&&r.ratio_completions_to_prior_fall_grad_enrollment_matched),line:{color:'#b0500f',width:3,dash:'dash'},marker:{symbol:'diamond',size:10,color:'#b0500f'},text:nr.map(r=>r&&r.ratio_completions_to_prior_fall_grad_enrollment_matched!=null?fr(r.ratio_completions_to_prior_fall_grad_enrollment_matched):''),textposition:'bottom center',name:'Prior-fall enrollment',
+      hovertext:nr.map((r,i)=>Y[i]+': '+fr(r&&r.ratio_completions_to_prior_fall_grad_enrollment_matched)+' (n='+fmt(r&&r.n_matched_institutions_prior_fall)+' institutions)'),hovertemplate:'%{hovertext}<extra></extra>'}],
+    layout({xaxis:Object.assign({},AX,{title:{text:'Year'},type:'category'}),yaxis:Object.assign({},AX,{title:{text:'Ratio'},range:[0,Math.max(...nr.map(r=>r.ratio_completions_to_grad_enrollment_matched||0))*1.4]}),legend:{orientation:'h',y:-0.35}}),
+    'Line chart of the national completions-to-enrollment ratio: '+nr.map((r,i)=>Y[i]+' '+fr(r&&r.ratio_completions_to_grad_enrollment_matched)).join(', ')+'. A ratio, not a completion rate.',
+    'All master\'s and doctoral levels; institutions with graduate enrollment (n institutions in hover and table). 2023 enrollment is provisional. Not a cohort rate.');
+  table('p4-tbl','National ratio (matched institutions), all master\'s and doctoral levels',['Year','Ratio (same fall)','Institutions (n)','Completions','Fall graduate enrollment','Ratio (prior fall)','Institutions (n, prior fall)'],
+    nr.map((r,i)=>[Y[i],fr(r.ratio_completions_to_grad_enrollment_matched),fmt(r.n_matched_institutions),fmt(r.matched_completions),fmt(r.matched_enrollment),fr(r.ratio_completions_to_prior_fall_grad_enrollment_matched),fmt(r.n_matched_institutions_prior_fall)]));
+  // p5 fields
+  const fr5=FS.filter(r=>r.year===y&&r.level_key===lk&&r.completions_total!=null).sort((a,b)=>b.completions_total-a.completions_total);
+  const top=fr5.slice(0,12).reverse();
+  setH('p5','Largest fields nationally, '+lvShort(lv)+', '+y+' (share of program cells under 10 shown with n)');
+  draw('p5',[{type:'bar',orientation:'h',y:top.map(r=>r.cip2+' '+r.cip2_title.slice(0,40)),x:top.map(r=>r.completions_total),marker:mk(lk),text:top.map(r=>fmt(r.completions_total)+'  |  '+(r.share_program_cells_lt10*100).toFixed(0)+'% of '+fmt(r.n_program_cells)+' cells '+LT),textposition:'outside',cliponaxis:false,textfont:{size:10},
+      hovertext:top.map(r=>r.cip2_title+': '+fmt(r.completions_total)+' completions; '+fmt(r.n_institutions)+' institutions; '+(r.share_program_cells_lt10*100).toFixed(1)+'% of '+fmt(r.n_program_cells)+' program cells are under 10; change vs prior '+fpct(r.yoy_pct_change)),hovertemplate:'%{hovertext}<extra></extra>'}],
+    layout({xaxis:Object.assign({},AX,{title:{text:'Completions'},range:[0,Math.max(...top.map(r=>r.completions_total),1)*1.9]}),yaxis:Object.assign({},AX,{tickfont:{size:10}}),showlegend:false,margin:{l:230,r:10,t:20,b:60}}),
+    'Horizontal bars of the largest fields by completions, '+lvShort(lv)+', '+y+': '+top.slice().reverse().slice(0,3).map(r=>r.cip2_title+' '+fmt(r.completions_total)).join('; ')+'.',
+    'Labels give completions, then the share of that field\'s program cells with fewer than 10 completions and the number of cells (n). Fields below 10 completions are omitted.');
+  table('p5-tbl','National fields, '+lvShort(lv)+', '+y,['CIP family','Field','Completions','Institutions (n)','Program cells (n)','Share of cells under 10','Change vs prior year','Institutions now / prior'],
+    fr5.map(r=>[r.cip2,esc(r.cip2_title),fmt(r.completions_total),fmt(r.n_institutions),fmt(r.n_program_cells),fshare(r.share_program_cells_lt10),fpct(r.yoy_pct_change),r.yoy_pct_change!=null?fmt(r.n_institutions)+' / '+fmt(r.n_institutions_prior_year):'n/a']),[0,1]);
+  // p3 SED
+  const sed=SED.filter(r=>r.measure===S.sed&&(r.field_type==='broad_field'||r.field_type==='total')&&r.median_years!=null);
+  const newest=sed.filter(r=>r.cycle==='nsf26326'),old=sed.filter(r=>r.cycle==='nsf25349');
+  const order=[...newest].sort((a,b)=>a.median_years-b.median_years).map(r=>r.field);
+  const get=(arr,f)=>{const r=arr.find(x=>x.field===f);return r?r.median_years:null;};
+  setH('p3','SED benchmark (separate source): median years to research doctorate, '+S.sed.toLowerCase());
+  draw('p3',[{type:'bar',orientation:'h',y:order,x:order.map(f=>get(old,f)),name:'nsf25349 (latest year 2024)',marker:mk('other_doctorate'),text:order.map(f=>get(old,f)==null?'':get(old,f).toFixed(1)),textposition:'outside',cliponaxis:false,textfont:{size:10},hovertemplate:'%{y}: %{x} median years (nsf25349, 2024)<extra></extra>'},
+    {type:'bar',orientation:'h',y:order,x:order.map(f=>get(newest,f)),name:'nsf26326 (latest year 2025)',marker:mk('masters'),text:order.map(f=>get(newest,f)==null?'':get(newest,f).toFixed(1)),textposition:'outside',cliponaxis:false,textfont:{size:10},hovertemplate:'%{y}: %{x} median years (nsf26326, 2025)<extra></extra>'}],
+    layout({barmode:'group',xaxis:Object.assign({},AX,{title:{text:'Median years (NSF SED Table 1-12, research doctorates)'},range:[0,Math.max(...sed.map(r=>r.median_years),1)*1.2]}),yaxis:Object.assign({},AX,{tickfont:{size:11}}),legend:{orientation:'h',y:-0.2},margin:{l:240,r:20,t:20,b:110}}),
+    'Grouped horizontal bars of NSF SED median years to research doctorate, '+S.sed+', by broad field, for two publication cycles. Examples: '+order.slice(-3).map(f=>f+' '+get(newest,f)).join('; ')+'. Separate field-level source, not institution data.',
+    '<strong>Source:</strong> NSF Survey of Earned Doctorates, Table 1-12, cycles nsf26326 and nsf25349. This is a separate national, field-level source (research doctorates only), not institution cohort data, and does not match IPEDS completions by field or year. The extracted table has no respondent counts, so no n is available for these medians.');
+  table('p3-tbl','NSF SED Table 1-12 median years, '+S.sed,['Field','Type','nsf26326 (2025)','nsf25349 (2024)','Footnote marker'],
+    [...new Set(SED.filter(r=>r.measure===S.sed).map(r=>r.field))].map(f=>{const a=SED.find(r=>r.field===f&&r.cycle==='nsf26326'&&r.measure===S.sed),b=SED.find(r=>r.field===f&&r.cycle==='nsf25349'&&r.measure===S.sed);
+      return [esc(f),esc((a||b).field_type),a?esc(a.median_years!=null?a.median_years:a.value_raw):'n/a',b?esc(b.median_years!=null?b.median_years:b.value_raw):'n/a',esc([a&&a.footnote_marker,b&&b.footnote_marker].filter(Boolean).join(', '))];}),[0,1]);
+  if(lv!==ALL&&lv!==1)warns.push('SED covers research doctorates only; it is not a benchmark for the '+lvShort(lv)+' level selected above.');
+  const sr=sp[1];if(sr&&sr.share_cells_suppressed_total>.5)warns.push('At threshold 10, '+fshare(sr.share_cells_suppressed_total)+' of '+fmt(sr.n_cells)+' program cells are hidden at this level; program-level views are largely suppressed (this is why institution and national totals are shown).');
+  warnBox('prov-warn',warns);
+}
+
+function render(){syncControls();({pd:renderPD,dean:renderDean,gd:renderGD,prov:renderProv})[S.view]();}
+syncControls();render();
+window.addEventListener('resize',()=>{document.querySelectorAll('.panel:not([hidden]) .chart').forEach(c=>{try{Plotly.Plots.resize(c);}catch(e){}});});
+})();
+</script>
+</body>
+</html>

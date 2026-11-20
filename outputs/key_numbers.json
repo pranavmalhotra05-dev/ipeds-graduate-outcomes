@@ -1,0 +1,2032 @@
+{
+  "_meta": {
+    "generated": "2026-11-20T11:15:18",
+    "note": "Every value was computed by the named script from data/ipeds.duckdb. 03_reconcile.py appends reconciliation keys (prefix recon_)."
+  },
+  "numbers": {
+    "supp_masters_2023_t5_n_cells": {
+      "value": 42382,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 5: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_masters_2023_t5_share_cells_lt_threshold": {
+      "value": 0.41661554433485914,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 5: share of cells with count < threshold"
+    },
+    "supp_masters_2023_t5_n_cells_lt_threshold": {
+      "value": 17657,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 5: cells with count < threshold"
+    },
+    "supp_masters_2023_t5_share_completions_in_lt_threshold_cells": {
+      "value": 0.022587704489051712,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 5: share of completions that sit in cells below threshold"
+    },
+    "supp_masters_2023_t5_n_institutions_with_suppressed": {
+      "value": 1684,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 5: institutions with at least one cell below threshold"
+    },
+    "supp_masters_2023_t5_n_institutions": {
+      "value": 2021,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 5: institutions with at least one cell"
+    },
+    "supp_masters_2023_t5_share_institutions_all_cells_suppressed": {
+      "value": 0.09401286491835725,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 5: share of institutions whose every program cell is below threshold"
+    },
+    "supp_masters_2023_t5_n_complementary_cells": {
+      "value": 2279,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 5: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_masters_2023_t5_n_complementary_family_pass": {
+      "value": 2207,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 5: extra cells from pass 1 (family)"
+    },
+    "supp_masters_2023_t5_n_complementary_institution_pass": {
+      "value": 72,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 5: extra cells from pass 2 (institution)"
+    },
+    "supp_masters_2023_t5_share_cells_suppressed_total": {
+      "value": 0.47038837242225473,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 5: share of cells hidden incl. complementary"
+    },
+    "supp_research_doctorate_2023_t5_n_cells": {
+      "value": 12326,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 5: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_research_doctorate_2023_t5_share_cells_lt_threshold": {
+      "value": 0.569608956676943,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 5: share of cells with count < threshold"
+    },
+    "supp_research_doctorate_2023_t5_n_cells_lt_threshold": {
+      "value": 7021,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 5: cells with count < threshold"
+    },
+    "supp_research_doctorate_2023_t5_share_completions_in_lt_threshold_cells": {
+      "value": 0.1349620320725879,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 5: share of completions that sit in cells below threshold"
+    },
+    "supp_research_doctorate_2023_t5_n_institutions_with_suppressed": {
+      "value": 655,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 5: institutions with at least one cell below threshold"
+    },
+    "supp_research_doctorate_2023_t5_n_institutions": {
+      "value": 837,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 5: institutions with at least one cell"
+    },
+    "supp_research_doctorate_2023_t5_share_institutions_all_cells_suppressed": {
+      "value": 0.21505376344086022,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 5: share of institutions whose every program cell is below threshold"
+    },
+    "supp_research_doctorate_2023_t5_n_complementary_cells": {
+      "value": 660,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 5: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_research_doctorate_2023_t5_n_complementary_family_pass": {
+      "value": 605,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 5: extra cells from pass 1 (family)"
+    },
+    "supp_research_doctorate_2023_t5_n_complementary_institution_pass": {
+      "value": 55,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 5: extra cells from pass 2 (institution)"
+    },
+    "supp_research_doctorate_2023_t5_share_cells_suppressed_total": {
+      "value": 0.6231543079668992,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 5: share of cells hidden incl. complementary"
+    },
+    "supp_research_doctorate_2023_t10_n_cells": {
+      "value": 12326,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 10: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_research_doctorate_2023_t10_share_cells_lt_threshold": {
+      "value": 0.8052896316728866,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 10: share of cells with count < threshold"
+    },
+    "supp_research_doctorate_2023_t10_n_cells_lt_threshold": {
+      "value": 9926,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 10: cells with count < threshold"
+    },
+    "supp_research_doctorate_2023_t10_share_completions_in_lt_threshold_cells": {
+      "value": 0.3683616778670031,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 10: share of completions that sit in cells below threshold"
+    },
+    "supp_research_doctorate_2023_t10_n_institutions_with_suppressed": {
+      "value": 753,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 10: institutions with at least one cell below threshold"
+    },
+    "supp_research_doctorate_2023_t10_n_institutions": {
+      "value": 837,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 10: institutions with at least one cell"
+    },
+    "supp_research_doctorate_2023_t10_share_institutions_all_cells_suppressed": {
+      "value": 0.3942652329749104,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 10: share of institutions whose every program cell is below threshold"
+    },
+    "supp_research_doctorate_2023_t10_n_complementary_cells": {
+      "value": 350,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 10: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_research_doctorate_2023_t10_n_complementary_family_pass": {
+      "value": 306,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 10: extra cells from pass 1 (family)"
+    },
+    "supp_research_doctorate_2023_t10_n_complementary_institution_pass": {
+      "value": 44,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 10: extra cells from pass 2 (institution)"
+    },
+    "supp_research_doctorate_2023_t10_share_cells_suppressed_total": {
+      "value": 0.8336848937205906,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 10: share of cells hidden incl. complementary"
+    },
+    "supp_masters_2023_t10_n_cells": {
+      "value": 42382,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 10: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_masters_2023_t10_share_cells_lt_threshold": {
+      "value": 0.588339389363409,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 10: share of cells with count < threshold"
+    },
+    "supp_masters_2023_t10_n_cells_lt_threshold": {
+      "value": 24935,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 10: cells with count < threshold"
+    },
+    "supp_masters_2023_t10_share_completions_in_lt_threshold_cells": {
+      "value": 0.0748305420964665,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 10: share of completions that sit in cells below threshold"
+    },
+    "supp_masters_2023_t10_n_institutions_with_suppressed": {
+      "value": 1837,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 10: institutions with at least one cell below threshold"
+    },
+    "supp_masters_2023_t10_n_institutions": {
+      "value": 2021,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 10: institutions with at least one cell"
+    },
+    "supp_masters_2023_t10_share_institutions_all_cells_suppressed": {
+      "value": 0.165264720435428,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 10: share of institutions whose every program cell is below threshold"
+    },
+    "supp_masters_2023_t10_n_complementary_cells": {
+      "value": 1876,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 10: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_masters_2023_t10_n_complementary_family_pass": {
+      "value": 1812,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 10: extra cells from pass 1 (family)"
+    },
+    "supp_masters_2023_t10_n_complementary_institution_pass": {
+      "value": 64,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 10: extra cells from pass 2 (institution)"
+    },
+    "supp_masters_2023_t10_share_cells_suppressed_total": {
+      "value": 0.6326034637346043,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 10: share of cells hidden incl. complementary"
+    },
+    "supp_professional_doctorate_2023_t20_n_cells": {
+      "value": 2252,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 20: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_professional_doctorate_2023_t20_share_cells_lt_threshold": {
+      "value": 0.488898756660746,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 20: share of cells with count < threshold"
+    },
+    "supp_professional_doctorate_2023_t20_n_cells_lt_threshold": {
+      "value": 1101,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 20: cells with count < threshold"
+    },
+    "supp_professional_doctorate_2023_t20_share_completions_in_lt_threshold_cells": {
+      "value": 0.043191342202693356,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 20: share of completions that sit in cells below threshold"
+    },
+    "supp_professional_doctorate_2023_t20_n_institutions_with_suppressed": {
+      "value": 551,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 20: institutions with at least one cell below threshold"
+    },
+    "supp_professional_doctorate_2023_t20_n_institutions": {
+      "value": 846,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 20: institutions with at least one cell"
+    },
+    "supp_professional_doctorate_2023_t20_share_institutions_all_cells_suppressed": {
+      "value": 0.3262411347517731,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 20: share of institutions whose every program cell is below threshold"
+    },
+    "supp_professional_doctorate_2023_t20_n_complementary_cells": {
+      "value": 181,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 20: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_professional_doctorate_2023_t20_n_complementary_family_pass": {
+      "value": 142,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 20: extra cells from pass 1 (family)"
+    },
+    "supp_professional_doctorate_2023_t20_n_complementary_institution_pass": {
+      "value": 39,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 20: extra cells from pass 2 (institution)"
+    },
+    "supp_professional_doctorate_2023_t20_share_cells_suppressed_total": {
+      "value": 0.5692717584369449,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 20: share of cells hidden incl. complementary"
+    },
+    "supp_other_doctorate_2023_t20_n_cells": {
+      "value": 222,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 20: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_other_doctorate_2023_t20_share_cells_lt_threshold": {
+      "value": 0.8333333333333334,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 20: share of cells with count < threshold"
+    },
+    "supp_other_doctorate_2023_t20_n_cells_lt_threshold": {
+      "value": 185,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 20: cells with count < threshold"
+    },
+    "supp_other_doctorate_2023_t20_share_completions_in_lt_threshold_cells": {
+      "value": 0.2793089263677499,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 20: share of completions that sit in cells below threshold"
+    },
+    "supp_other_doctorate_2023_t20_n_institutions_with_suppressed": {
+      "value": 113,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 20: institutions with at least one cell below threshold"
+    },
+    "supp_other_doctorate_2023_t20_n_institutions": {
+      "value": 129,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 20: institutions with at least one cell"
+    },
+    "supp_other_doctorate_2023_t20_share_institutions_all_cells_suppressed": {
+      "value": 0.7751937984496124,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 20: share of institutions whose every program cell is below threshold"
+    },
+    "supp_other_doctorate_2023_t20_n_complementary_cells": {
+      "value": 5,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 20: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_other_doctorate_2023_t20_n_complementary_family_pass": {
+      "value": 4,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 20: extra cells from pass 1 (family)"
+    },
+    "supp_other_doctorate_2023_t20_n_complementary_institution_pass": {
+      "value": 1,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 20: extra cells from pass 2 (institution)"
+    },
+    "supp_other_doctorate_2023_t20_share_cells_suppressed_total": {
+      "value": 0.8558558558558559,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 20: share of cells hidden incl. complementary"
+    },
+    "supp_all_masters_doctoral_2023_t20_n_cells": {
+      "value": 57182,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 20: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_all_masters_doctoral_2023_t20_share_cells_lt_threshold": {
+      "value": 0.7830960791857577,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 20: share of cells with count < threshold"
+    },
+    "supp_all_masters_doctoral_2023_t20_n_cells_lt_threshold": {
+      "value": 44779,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 20: cells with count < threshold"
+    },
+    "supp_all_masters_doctoral_2023_t20_share_completions_in_lt_threshold_cells": {
+      "value": 0.19511342354598735,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 20: share of completions that sit in cells below threshold"
+    },
+    "supp_all_masters_doctoral_2023_t20_n_institutions_with_suppressed": {
+      "value": 1961,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 20: institutions with at least one cell below threshold"
+    },
+    "supp_all_masters_doctoral_2023_t20_n_institutions": {
+      "value": 2057,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 20: institutions with at least one cell"
+    },
+    "supp_all_masters_doctoral_2023_t20_share_institutions_all_cells_suppressed": {
+      "value": 0.27418570734078757,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 20: share of institutions whose every program cell is below threshold"
+    },
+    "supp_all_masters_doctoral_2023_t20_n_complementary_cells": {
+      "value": 1509,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 20: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_all_masters_doctoral_2023_t20_n_complementary_family_pass": {
+      "value": 1404,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 20: extra cells from pass 1 (family)"
+    },
+    "supp_all_masters_doctoral_2023_t20_n_complementary_institution_pass": {
+      "value": 105,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 20: extra cells from pass 2 (institution)"
+    },
+    "supp_all_masters_doctoral_2023_t20_share_cells_suppressed_total": {
+      "value": 0.8094855024308348,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 20: share of cells hidden incl. complementary"
+    },
+    "supp_professional_doctorate_2023_t5_n_cells": {
+      "value": 2252,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 5: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_professional_doctorate_2023_t5_share_cells_lt_threshold": {
+      "value": 0.28463587921847244,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 5: share of cells with count < threshold"
+    },
+    "supp_professional_doctorate_2023_t5_n_cells_lt_threshold": {
+      "value": 641,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 5: cells with count < threshold"
+    },
+    "supp_professional_doctorate_2023_t5_share_completions_in_lt_threshold_cells": {
+      "value": 0.004865942471215265,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 5: share of completions that sit in cells below threshold"
+    },
+    "supp_professional_doctorate_2023_t5_n_institutions_with_suppressed": {
+      "value": 350,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 5: institutions with at least one cell below threshold"
+    },
+    "supp_professional_doctorate_2023_t5_n_institutions": {
+      "value": 846,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 5: institutions with at least one cell"
+    },
+    "supp_professional_doctorate_2023_t5_share_institutions_all_cells_suppressed": {
+      "value": 0.14775413711583923,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 5: share of institutions whose every program cell is below threshold"
+    },
+    "supp_professional_doctorate_2023_t5_n_complementary_cells": {
+      "value": 174,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 5: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_professional_doctorate_2023_t5_n_complementary_family_pass": {
+      "value": 133,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 5: extra cells from pass 1 (family)"
+    },
+    "supp_professional_doctorate_2023_t5_n_complementary_institution_pass": {
+      "value": 41,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 5: extra cells from pass 2 (institution)"
+    },
+    "supp_professional_doctorate_2023_t5_share_cells_suppressed_total": {
+      "value": 0.36190053285968027,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 5: share of cells hidden incl. complementary"
+    },
+    "supp_other_doctorate_2023_t5_n_cells": {
+      "value": 222,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 5: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_other_doctorate_2023_t5_share_cells_lt_threshold": {
+      "value": 0.5765765765765766,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 5: share of cells with count < threshold"
+    },
+    "supp_other_doctorate_2023_t5_n_cells_lt_threshold": {
+      "value": 128,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 5: cells with count < threshold"
+    },
+    "supp_other_doctorate_2023_t5_share_completions_in_lt_threshold_cells": {
+      "value": 0.055944055944055944,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 5: share of completions that sit in cells below threshold"
+    },
+    "supp_other_doctorate_2023_t5_n_institutions_with_suppressed": {
+      "value": 80,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 5: institutions with at least one cell below threshold"
+    },
+    "supp_other_doctorate_2023_t5_n_institutions": {
+      "value": 129,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 5: institutions with at least one cell"
+    },
+    "supp_other_doctorate_2023_t5_share_institutions_all_cells_suppressed": {
+      "value": 0.43410852713178294,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 5: share of institutions whose every program cell is below threshold"
+    },
+    "supp_other_doctorate_2023_t5_n_complementary_cells": {
+      "value": 14,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 5: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_other_doctorate_2023_t5_n_complementary_family_pass": {
+      "value": 11,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 5: extra cells from pass 1 (family)"
+    },
+    "supp_other_doctorate_2023_t5_n_complementary_institution_pass": {
+      "value": 3,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 5: extra cells from pass 2 (institution)"
+    },
+    "supp_other_doctorate_2023_t5_share_cells_suppressed_total": {
+      "value": 0.6396396396396397,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 5: share of cells hidden incl. complementary"
+    },
+    "supp_professional_doctorate_2023_t10_n_cells": {
+      "value": 2252,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 10: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_professional_doctorate_2023_t10_share_cells_lt_threshold": {
+      "value": 0.38410301953818826,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 10: share of cells with count < threshold"
+    },
+    "supp_professional_doctorate_2023_t10_n_cells_lt_threshold": {
+      "value": 865,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 10: cells with count < threshold"
+    },
+    "supp_professional_doctorate_2023_t10_share_completions_in_lt_threshold_cells": {
+      "value": 0.017266772448024735,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 10: share of completions that sit in cells below threshold"
+    },
+    "supp_professional_doctorate_2023_t10_n_institutions_with_suppressed": {
+      "value": 452,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 10: institutions with at least one cell below threshold"
+    },
+    "supp_professional_doctorate_2023_t10_n_institutions": {
+      "value": 846,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 10: institutions with at least one cell"
+    },
+    "supp_professional_doctorate_2023_t10_share_institutions_all_cells_suppressed": {
+      "value": 0.2293144208037825,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 10: share of institutions whose every program cell is below threshold"
+    },
+    "supp_professional_doctorate_2023_t10_n_complementary_cells": {
+      "value": 183,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 10: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_professional_doctorate_2023_t10_n_complementary_family_pass": {
+      "value": 144,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 10: extra cells from pass 1 (family)"
+    },
+    "supp_professional_doctorate_2023_t10_n_complementary_institution_pass": {
+      "value": 39,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 10: extra cells from pass 2 (institution)"
+    },
+    "supp_professional_doctorate_2023_t10_share_cells_suppressed_total": {
+      "value": 0.46536412078152756,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "professional_doctorate program cells in 2023 (final), threshold 10: share of cells hidden incl. complementary"
+    },
+    "supp_other_doctorate_2023_t10_n_cells": {
+      "value": 222,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 10: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_other_doctorate_2023_t10_share_cells_lt_threshold": {
+      "value": 0.7252252252252253,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 10: share of cells with count < threshold"
+    },
+    "supp_other_doctorate_2023_t10_n_cells_lt_threshold": {
+      "value": 161,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 10: cells with count < threshold"
+    },
+    "supp_other_doctorate_2023_t10_share_completions_in_lt_threshold_cells": {
+      "value": 0.1443850267379679,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 10: share of completions that sit in cells below threshold"
+    },
+    "supp_other_doctorate_2023_t10_n_institutions_with_suppressed": {
+      "value": 95,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 10: institutions with at least one cell below threshold"
+    },
+    "supp_other_doctorate_2023_t10_n_institutions": {
+      "value": 129,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 10: institutions with at least one cell"
+    },
+    "supp_other_doctorate_2023_t10_share_institutions_all_cells_suppressed": {
+      "value": 0.6201550387596899,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 10: share of institutions whose every program cell is below threshold"
+    },
+    "supp_other_doctorate_2023_t10_n_complementary_cells": {
+      "value": 7,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 10: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_other_doctorate_2023_t10_n_complementary_family_pass": {
+      "value": 5,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 10: extra cells from pass 1 (family)"
+    },
+    "supp_other_doctorate_2023_t10_n_complementary_institution_pass": {
+      "value": 2,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 10: extra cells from pass 2 (institution)"
+    },
+    "supp_other_doctorate_2023_t10_share_cells_suppressed_total": {
+      "value": 0.7567567567567568,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "other_doctorate program cells in 2023 (final), threshold 10: share of cells hidden incl. complementary"
+    },
+    "supp_masters_2023_t20_n_cells": {
+      "value": 42382,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 20: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_masters_2023_t20_share_cells_lt_threshold": {
+      "value": 0.7535746307394648,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 20: share of cells with count < threshold"
+    },
+    "supp_masters_2023_t20_n_cells_lt_threshold": {
+      "value": 31938,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 20: cells with count < threshold"
+    },
+    "supp_masters_2023_t20_share_completions_in_lt_threshold_cells": {
+      "value": 0.17679756216973647,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 20: share of completions that sit in cells below threshold"
+    },
+    "supp_masters_2023_t20_n_institutions_with_suppressed": {
+      "value": 1921,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 20: institutions with at least one cell below threshold"
+    },
+    "supp_masters_2023_t20_n_institutions": {
+      "value": 2021,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 20: institutions with at least one cell"
+    },
+    "supp_masters_2023_t20_share_institutions_all_cells_suppressed": {
+      "value": 0.2993567540821376,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 20: share of institutions whose every program cell is below threshold"
+    },
+    "supp_masters_2023_t20_n_complementary_cells": {
+      "value": 1197,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 20: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_masters_2023_t20_n_complementary_family_pass": {
+      "value": 1159,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 20: extra cells from pass 1 (family)"
+    },
+    "supp_masters_2023_t20_n_complementary_institution_pass": {
+      "value": 38,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 20: extra cells from pass 2 (institution)"
+    },
+    "supp_masters_2023_t20_share_cells_suppressed_total": {
+      "value": 0.7818177528195932,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "masters program cells in 2023 (final), threshold 20: share of cells hidden incl. complementary"
+    },
+    "supp_research_doctorate_2023_t20_n_cells": {
+      "value": 12326,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 20: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_research_doctorate_2023_t20_share_cells_lt_threshold": {
+      "value": 0.9374492941749148,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 20: share of cells with count < threshold"
+    },
+    "supp_research_doctorate_2023_t20_n_cells_lt_threshold": {
+      "value": 11555,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 20: cells with count < threshold"
+    },
+    "supp_research_doctorate_2023_t20_share_completions_in_lt_threshold_cells": {
+      "value": 0.6296732089570344,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 20: share of completions that sit in cells below threshold"
+    },
+    "supp_research_doctorate_2023_t20_n_institutions_with_suppressed": {
+      "value": 804,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 20: institutions with at least one cell below threshold"
+    },
+    "supp_research_doctorate_2023_t20_n_institutions": {
+      "value": 837,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 20: institutions with at least one cell"
+    },
+    "supp_research_doctorate_2023_t20_share_institutions_all_cells_suppressed": {
+      "value": 0.6559139784946236,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 20: share of institutions whose every program cell is below threshold"
+    },
+    "supp_research_doctorate_2023_t20_n_complementary_cells": {
+      "value": 126,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 20: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_research_doctorate_2023_t20_n_complementary_family_pass": {
+      "value": 99,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 20: extra cells from pass 1 (family)"
+    },
+    "supp_research_doctorate_2023_t20_n_complementary_institution_pass": {
+      "value": 27,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 20: extra cells from pass 2 (institution)"
+    },
+    "supp_research_doctorate_2023_t20_share_cells_suppressed_total": {
+      "value": 0.9476715885120882,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "research_doctorate program cells in 2023 (final), threshold 20: share of cells hidden incl. complementary"
+    },
+    "supp_all_masters_doctoral_2023_t5_n_cells": {
+      "value": 57182,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 5: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_all_masters_doctoral_2023_t5_share_cells_lt_threshold": {
+      "value": 0.4450176629009129,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 5: share of cells with count < threshold"
+    },
+    "supp_all_masters_doctoral_2023_t5_n_cells_lt_threshold": {
+      "value": 25447,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 5: cells with count < threshold"
+    },
+    "supp_all_masters_doctoral_2023_t5_share_completions_in_lt_threshold_cells": {
+      "value": 0.02879033346834076,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 5: share of completions that sit in cells below threshold"
+    },
+    "supp_all_masters_doctoral_2023_t5_n_institutions_with_suppressed": {
+      "value": 1747,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 5: institutions with at least one cell below threshold"
+    },
+    "supp_all_masters_doctoral_2023_t5_n_institutions": {
+      "value": 2057,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 5: institutions with at least one cell"
+    },
+    "supp_all_masters_doctoral_2023_t5_share_institutions_all_cells_suppressed": {
+      "value": 0.08945065629557608,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 5: share of institutions whose every program cell is below threshold"
+    },
+    "supp_all_masters_doctoral_2023_t5_n_complementary_cells": {
+      "value": 3127,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 5: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_all_masters_doctoral_2023_t5_n_complementary_family_pass": {
+      "value": 2956,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 5: extra cells from pass 1 (family)"
+    },
+    "supp_all_masters_doctoral_2023_t5_n_complementary_institution_pass": {
+      "value": 171,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 5: extra cells from pass 2 (institution)"
+    },
+    "supp_all_masters_doctoral_2023_t5_share_cells_suppressed_total": {
+      "value": 0.4997027036480011,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 5: share of cells hidden incl. complementary"
+    },
+    "supp_all_masters_doctoral_2023_t10_n_cells": {
+      "value": 57182,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 10: number of program cells (MAJORNUM 1, CIP<>99)"
+    },
+    "supp_all_masters_doctoral_2023_t10_share_cells_lt_threshold": {
+      "value": 0.6275925990696373,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 10: share of cells with count < threshold"
+    },
+    "supp_all_masters_doctoral_2023_t10_n_cells_lt_threshold": {
+      "value": 35887,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 10: cells with count < threshold"
+    },
+    "supp_all_masters_doctoral_2023_t10_share_completions_in_lt_threshold_cells": {
+      "value": 0.08979638110865329,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 10: share of completions that sit in cells below threshold"
+    },
+    "supp_all_masters_doctoral_2023_t10_n_institutions_with_suppressed": {
+      "value": 1883,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 10: institutions with at least one cell below threshold"
+    },
+    "supp_all_masters_doctoral_2023_t10_n_institutions": {
+      "value": 2057,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 10: institutions with at least one cell"
+    },
+    "supp_all_masters_doctoral_2023_t10_share_institutions_all_cells_suppressed": {
+      "value": 0.15264948954788526,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 10: share of institutions whose every program cell is below threshold"
+    },
+    "supp_all_masters_doctoral_2023_t10_n_complementary_cells": {
+      "value": 2416,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 10: extra cells hidden by complementary suppression (pass 1 + pass 2)"
+    },
+    "supp_all_masters_doctoral_2023_t10_n_complementary_family_pass": {
+      "value": 2267,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 10: extra cells from pass 1 (family)"
+    },
+    "supp_all_masters_doctoral_2023_t10_n_complementary_institution_pass": {
+      "value": 149,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 10: extra cells from pass 2 (institution)"
+    },
+    "supp_all_masters_doctoral_2023_t10_share_cells_suppressed_total": {
+      "value": 0.66984365709489,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/suppression_impact.csv",
+      "definition": "all_masters_doctoral program cells in 2023 (final), threshold 10: share of cells hidden incl. complementary"
+    },
+    "national_professional_doctorate_2022_completions": {
+      "value": 123650,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate completions in 2022 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_professional_doctorate_2022_n_program_cells": {
+      "value": 2134,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate program cells in 2022"
+    },
+    "national_professional_doctorate_2022_n_institutions": {
+      "value": 838,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate institutions with at least one cell in 2022"
+    },
+    "national_professional_doctorate_2022_yoy_pct": {
+      "value": 2.72151793576686,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate percent change in completions 2021->2022; cells 2027 -> 2134"
+    },
+    "national_professional_doctorate_2022_pct_vs_2020": {
+      "value": 7.119342989812184,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate percent change in completions 2020->2022; cells 1942 -> 2134"
+    },
+    "national_other_doctorate_2022_completions": {
+      "value": 2563,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate completions in 2022 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_other_doctorate_2022_n_program_cells": {
+      "value": 238,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate program cells in 2022"
+    },
+    "national_other_doctorate_2022_n_institutions": {
+      "value": 137,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate institutions with at least one cell in 2022"
+    },
+    "national_other_doctorate_2022_yoy_pct": {
+      "value": 0.43103448275862066,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate percent change in completions 2021->2022; cells 238 -> 238"
+    },
+    "national_other_doctorate_2022_pct_vs_2020": {
+      "value": 5.213464696223317,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate percent change in completions 2020->2022; cells 222 -> 238"
+    },
+    "national_professional_doctorate_2020_completions": {
+      "value": 115432,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate completions in 2020 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_professional_doctorate_2020_n_program_cells": {
+      "value": 1942,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate program cells in 2020"
+    },
+    "national_professional_doctorate_2020_n_institutions": {
+      "value": 792,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate institutions with at least one cell in 2020"
+    },
+    "national_other_doctorate_2020_completions": {
+      "value": 2436,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate completions in 2020 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_other_doctorate_2020_n_program_cells": {
+      "value": 222,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate program cells in 2020"
+    },
+    "national_other_doctorate_2020_n_institutions": {
+      "value": 141,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate institutions with at least one cell in 2020"
+    },
+    "national_masters_2021_completions": {
+      "value": 880522,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters completions in 2021 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_masters_2021_n_program_cells": {
+      "value": 41301,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters program cells in 2021"
+    },
+    "national_masters_2021_n_institutions": {
+      "value": 2007,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters institutions with at least one cell in 2021"
+    },
+    "national_masters_2021_yoy_pct": {
+      "value": 2.9152154094298606,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters percent change in completions 2020->2021; cells 40562 -> 41301"
+    },
+    "national_masters_2021_pct_vs_2020": {
+      "value": 2.9152154094298606,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters percent change in completions 2020->2021; cells 40562 -> 41301"
+    },
+    "national_research_doctorate_2021_completions": {
+      "value": 73372,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate completions in 2021 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_research_doctorate_2021_n_program_cells": {
+      "value": 12231,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate program cells in 2021"
+    },
+    "national_research_doctorate_2021_n_institutions": {
+      "value": 812,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate institutions with at least one cell in 2021"
+    },
+    "national_research_doctorate_2021_yoy_pct": {
+      "value": -1.0598991342808597,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate percent change in completions 2020->2021; cells 12051 -> 12231"
+    },
+    "national_research_doctorate_2021_pct_vs_2020": {
+      "value": -1.0598991342808597,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate percent change in completions 2020->2021; cells 12051 -> 12231"
+    },
+    "national_professional_doctorate_2023_completions": {
+      "value": 122895,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate completions in 2023 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_professional_doctorate_2023_n_program_cells": {
+      "value": 2252,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate program cells in 2023"
+    },
+    "national_professional_doctorate_2023_n_institutions": {
+      "value": 846,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate institutions with at least one cell in 2023"
+    },
+    "national_professional_doctorate_2023_yoy_pct": {
+      "value": -0.6105944197331177,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate percent change in completions 2022->2023; cells 2134 -> 2252"
+    },
+    "national_professional_doctorate_2023_pct_vs_2020": {
+      "value": 6.465278259061612,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate percent change in completions 2020->2023; cells 1942 -> 2252"
+    },
+    "national_other_doctorate_2023_completions": {
+      "value": 2431,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate completions in 2023 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_other_doctorate_2023_n_program_cells": {
+      "value": 222,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate program cells in 2023"
+    },
+    "national_other_doctorate_2023_n_institutions": {
+      "value": 129,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate institutions with at least one cell in 2023"
+    },
+    "national_other_doctorate_2023_yoy_pct": {
+      "value": -5.150214592274678,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate percent change in completions 2022->2023; cells 238 -> 222"
+    },
+    "national_other_doctorate_2023_pct_vs_2020": {
+      "value": -0.20525451559934318,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate percent change in completions 2020->2023; cells 222 -> 222"
+    },
+    "national_masters_2023_completions": {
+      "value": 947728,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters completions in 2023 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_masters_2023_n_program_cells": {
+      "value": 42382,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters program cells in 2023"
+    },
+    "national_masters_2023_n_institutions": {
+      "value": 2021,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters institutions with at least one cell in 2023"
+    },
+    "national_masters_2023_yoy_pct": {
+      "value": 5.977007124190827,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters percent change in completions 2022->2023; cells 41904 -> 42382"
+    },
+    "national_masters_2023_pct_vs_2020": {
+      "value": 10.770237733467356,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters percent change in completions 2020->2023; cells 40562 -> 42382"
+    },
+    "national_research_doctorate_2023_completions": {
+      "value": 82438,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate completions in 2023 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_research_doctorate_2023_n_program_cells": {
+      "value": 12326,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate program cells in 2023"
+    },
+    "national_research_doctorate_2023_n_institutions": {
+      "value": 837,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate institutions with at least one cell in 2023"
+    },
+    "national_research_doctorate_2023_yoy_pct": {
+      "value": 2.653566936879724,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate percent change in completions 2022->2023; cells 12399 -> 12326"
+    },
+    "national_research_doctorate_2023_pct_vs_2020": {
+      "value": 11.165349658836538,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate percent change in completions 2020->2023; cells 12051 -> 12326"
+    },
+    "national_research_doctorate_2022_completions": {
+      "value": 80307,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate completions in 2022 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_research_doctorate_2022_n_program_cells": {
+      "value": 12399,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate program cells in 2022"
+    },
+    "national_research_doctorate_2022_n_institutions": {
+      "value": 831,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate institutions with at least one cell in 2022"
+    },
+    "national_research_doctorate_2022_yoy_pct": {
+      "value": 9.451834487270348,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate percent change in completions 2021->2022; cells 12231 -> 12399"
+    },
+    "national_research_doctorate_2022_pct_vs_2020": {
+      "value": 8.29175544108525,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate percent change in completions 2020->2022; cells 12051 -> 12399"
+    },
+    "national_masters_2022_completions": {
+      "value": 894277,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters completions in 2022 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_masters_2022_n_program_cells": {
+      "value": 41904,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters program cells in 2022"
+    },
+    "national_masters_2022_n_institutions": {
+      "value": 2020,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters institutions with at least one cell in 2022"
+    },
+    "national_masters_2022_yoy_pct": {
+      "value": 1.5621415478545682,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters percent change in completions 2021->2022; cells 41301 -> 41904"
+    },
+    "national_masters_2022_pct_vs_2020": {
+      "value": 4.522896748404591,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters percent change in completions 2020->2022; cells 40562 -> 41904"
+    },
+    "national_masters_2020_completions": {
+      "value": 855580,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters completions in 2020 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_masters_2020_n_program_cells": {
+      "value": 40562,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters program cells in 2020"
+    },
+    "national_masters_2020_n_institutions": {
+      "value": 2014,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "masters institutions with at least one cell in 2020"
+    },
+    "national_research_doctorate_2020_completions": {
+      "value": 74158,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate completions in 2020 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_research_doctorate_2020_n_program_cells": {
+      "value": 12051,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate program cells in 2020"
+    },
+    "national_research_doctorate_2020_n_institutions": {
+      "value": 792,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "research_doctorate institutions with at least one cell in 2020"
+    },
+    "national_professional_doctorate_2021_completions": {
+      "value": 120374,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate completions in 2021 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_professional_doctorate_2021_n_program_cells": {
+      "value": 2027,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate program cells in 2021"
+    },
+    "national_professional_doctorate_2021_n_institutions": {
+      "value": 814,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate institutions with at least one cell in 2021"
+    },
+    "national_professional_doctorate_2021_yoy_pct": {
+      "value": 4.2813084759858615,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate percent change in completions 2020->2021; cells 1942 -> 2027"
+    },
+    "national_professional_doctorate_2021_pct_vs_2020": {
+      "value": 4.2813084759858615,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "professional_doctorate percent change in completions 2020->2021; cells 1942 -> 2027"
+    },
+    "national_other_doctorate_2021_completions": {
+      "value": 2552,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate completions in 2021 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_other_doctorate_2021_n_program_cells": {
+      "value": 238,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate program cells in 2021"
+    },
+    "national_other_doctorate_2021_n_institutions": {
+      "value": 145,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate institutions with at least one cell in 2021"
+    },
+    "national_other_doctorate_2021_yoy_pct": {
+      "value": 4.761904761904762,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate percent change in completions 2020->2021; cells 222 -> 238"
+    },
+    "national_other_doctorate_2021_pct_vs_2020": {
+      "value": 4.761904761904762,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "other_doctorate percent change in completions 2020->2021; cells 222 -> 238"
+    },
+    "national_all_masters_doctoral_2020_completions": {
+      "value": 1047606,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral completions in 2020 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_all_masters_doctoral_2020_n_program_cells": {
+      "value": 54777,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral program cells in 2020"
+    },
+    "national_all_masters_doctoral_2020_n_institutions": {
+      "value": 2056,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral institutions with at least one cell in 2020"
+    },
+    "national_all_masters_doctoral_2020_grad_enrollment_total": {
+      "value": 3199650,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "fall 2020 graduate enrollment EFALEVEL 12, 2049 institutions"
+    },
+    "national_all_masters_doctoral_2020_ratio_matched": {
+      "value": 0.327309862016158,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "ratio (NOT a completion rate) of master's+doctoral completions to graduate enrollment in 2020, matched institutions (2049)"
+    },
+    "national_all_masters_doctoral_2020_ratio_all": {
+      "value": 0.32741268576250526,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "ratio of all master's+doctoral completions to all graduate enrollment in 2020"
+    },
+    "national_all_masters_doctoral_2021_completions": {
+      "value": 1076820,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral completions in 2021 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_all_masters_doctoral_2021_n_program_cells": {
+      "value": 55797,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral program cells in 2021"
+    },
+    "national_all_masters_doctoral_2021_n_institutions": {
+      "value": 2048,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral institutions with at least one cell in 2021"
+    },
+    "national_all_masters_doctoral_2021_yoy_pct": {
+      "value": 2.788643822200331,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral percent change in completions 2020->2021; cells 54777 -> 55797"
+    },
+    "national_all_masters_doctoral_2021_pct_vs_2020": {
+      "value": 2.788643822200331,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral percent change in completions 2020->2021; cells 54777 -> 55797"
+    },
+    "national_all_masters_doctoral_2021_grad_enrollment_total": {
+      "value": 3273887,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "fall 2021 graduate enrollment EFALEVEL 12, 2059 institutions"
+    },
+    "national_all_masters_doctoral_2021_ratio_matched": {
+      "value": 0.32886015919303263,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "ratio (NOT a completion rate) of master's+doctoral completions to graduate enrollment in 2021, matched institutions (2059)"
+    },
+    "national_all_masters_doctoral_2021_ratio_all": {
+      "value": 0.3289117797895896,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "ratio of all master's+doctoral completions to all graduate enrollment in 2021"
+    },
+    "national_all_masters_doctoral_2021_ratio_prior_fall_matched": {
+      "value": 0.3364572298594215,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "ratio of year-2021 completions to fall-2020 graduate enrollment, 2029 institutions"
+    },
+    "national_all_masters_doctoral_2022_completions": {
+      "value": 1100797,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral completions in 2022 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_all_masters_doctoral_2022_n_program_cells": {
+      "value": 56675,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral program cells in 2022"
+    },
+    "national_all_masters_doctoral_2022_n_institutions": {
+      "value": 2059,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral institutions with at least one cell in 2022"
+    },
+    "national_all_masters_doctoral_2022_yoy_pct": {
+      "value": 2.226648836388626,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral percent change in completions 2021->2022; cells 55797 -> 56675"
+    },
+    "national_all_masters_doctoral_2022_pct_vs_2020": {
+      "value": 5.077385963807004,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral percent change in completions 2020->2022; cells 54777 -> 56675"
+    },
+    "national_all_masters_doctoral_2022_grad_enrollment_total": {
+      "value": 3242049,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "fall 2022 graduate enrollment EFALEVEL 12, 2048 institutions"
+    },
+    "national_all_masters_doctoral_2022_ratio_matched": {
+      "value": 0.33931165136615765,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "ratio (NOT a completion rate) of master's+doctoral completions to graduate enrollment in 2022, matched institutions (2048)"
+    },
+    "national_all_masters_doctoral_2022_ratio_all": {
+      "value": 0.339537434505154,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "ratio of all master's+doctoral completions to all graduate enrollment in 2022"
+    },
+    "national_all_masters_doctoral_2022_ratio_prior_fall_matched": {
+      "value": 0.33640508177291445,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "ratio of year-2022 completions to fall-2021 graduate enrollment, 2031 institutions"
+    },
+    "national_all_masters_doctoral_2023_completions": {
+      "value": 1155492,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral completions in 2023 (MAJORNUM 1, CIP<>99, IPEDS final)"
+    },
+    "national_all_masters_doctoral_2023_n_program_cells": {
+      "value": 57182,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral program cells in 2023"
+    },
+    "national_all_masters_doctoral_2023_n_institutions": {
+      "value": 2057,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral institutions with at least one cell in 2023"
+    },
+    "national_all_masters_doctoral_2023_yoy_pct": {
+      "value": 4.968672698054228,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral percent change in completions 2022->2023; cells 56675 -> 57182"
+    },
+    "national_all_masters_doctoral_2023_pct_vs_2020": {
+      "value": 10.298337352019749,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "all_masters_doctoral percent change in completions 2020->2023; cells 54777 -> 57182"
+    },
+    "national_all_masters_doctoral_2023_grad_enrollment_total": {
+      "value": 3274596,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "fall 2023 graduate enrollment EFALEVEL 12, 2048 institutions"
+    },
+    "national_all_masters_doctoral_2023_ratio_matched": {
+      "value": 0.35277359405557207,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "ratio (NOT a completion rate) of master's+doctoral completions to graduate enrollment in 2023, matched institutions (2048)"
+    },
+    "national_all_masters_doctoral_2023_ratio_all": {
+      "value": 0.352865513791625,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "ratio of all master's+doctoral completions to all graduate enrollment in 2023"
+    },
+    "national_all_masters_doctoral_2023_ratio_prior_fall_matched": {
+      "value": 0.3568583133298165,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/national_totals.csv",
+      "definition": "ratio of year-2023 completions to fall-2022 graduate enrollment, 2029 institutions"
+    },
+    "institution_ratio_2023_n_institutions": {
+      "value": 1811,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/institution_summary.csv",
+      "definition": "institutions with 2023 completions total >= 10 and graduate enrollment > 0 [computed on the unsuppressed institution table, not the published institution_summary.csv, which displays fewer ratios]"
+    },
+    "institution_ratio_2023_p10": {
+      "value": 0.21238938053097345,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/institution_summary.csv",
+      "definition": "10th percentile of institution ratio (completions/fall-2023 grad enrollment), those institutions"
+    },
+    "institution_ratio_2023_median": {
+      "value": 0.3501577287066246,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/institution_summary.csv",
+      "definition": "median institution ratio, same institutions"
+    },
+    "institution_ratio_2023_p90": {
+      "value": 0.5559228650137741,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/institution_summary.csv",
+      "definition": "90th percentile institution ratio, same institutions"
+    },
+    "institution_ratio_2023_n_above_1": {
+      "value": 28,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/institution_summary.csv",
+      "definition": "institutions where 2023 completions exceed fall-2023 graduate enrollment (ratio > 1)"
+    },
+    "top5_cip2_masters_2023": {
+      "value": [
+        {
+          "cip2": "52",
+          "title": "Business, Management, Marketing, and Related Support Services",
+          "completions": 211299
+        },
+        {
+          "cip2": "51",
+          "title": "Health Professions and Related Programs",
+          "completions": 149848
+        },
+        {
+          "cip2": "13",
+          "title": "Education",
+          "completions": 148825
+        },
+        {
+          "cip2": "11",
+          "title": "Computer and Information Sciences and Support Services",
+          "completions": 77725
+        },
+        {
+          "cip2": "14",
+          "title": "Engineering",
+          "completions": 54261
+        }
+      ],
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/field_summary.csv",
+      "definition": "five CIP2 families with the most master's completions in 2023"
+    },
+    "sed_all_fields_nsf26326_2025_Since_earning_bachelors": {
+      "value": 8.6,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/sed_benchmark.csv",
+      "definition": "NSF SED Table 1-12 All fields median years, Since earning bachelor's, cycle nsf26326, year 2025"
+    },
+    "sed_all_fields_nsf26326_2025_Since_starting_graduate_school": {
+      "value": 7.0,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/sed_benchmark.csv",
+      "definition": "NSF SED Table 1-12 All fields median years, Since starting graduate school, cycle nsf26326, year 2025"
+    },
+    "sed_all_fields_nsf26326_2025_Since_starting_doctoral_program": {
+      "value": 5.8,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/sed_benchmark.csv",
+      "definition": "NSF SED Table 1-12 All fields median years, Since starting doctoral program, cycle nsf26326, year 2025"
+    },
+    "sed_all_fields_nsf25349_2024_Since_earning_bachelors": {
+      "value": 8.6,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/sed_benchmark.csv",
+      "definition": "NSF SED Table 1-12 All fields median years, Since earning bachelor's, cycle nsf25349, year 2024"
+    },
+    "sed_all_fields_nsf25349_2024_Since_starting_graduate_school": {
+      "value": 7.3,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/sed_benchmark.csv",
+      "definition": "NSF SED Table 1-12 All fields median years, Since starting graduate school, cycle nsf25349, year 2024"
+    },
+    "sed_all_fields_nsf25349_2024_Since_starting_doctoral_program": {
+      "value": 5.7,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/sed_benchmark.csv",
+      "definition": "NSF SED Table 1-12 All fields median years, Since starting doctoral program, cycle nsf25349, year 2024"
+    },
+    "masters_2024_provisional_n_cells": {
+      "value": 42946,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "PROVISIONAL 2024 master's cells (context only, not final)"
+    },
+    "masters_2024_provisional_share_lt10": {
+      "value": 0.5946304661668141,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "PROVISIONAL 2024 master's share of cells below 10 (context only)"
+    },
+    "check_program_cells_rows": {
+      "value": 224431,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "build check: program_cells_rows"
+    },
+    "check_duplicate_program_cell_keys": {
+      "value": 0,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "build check: duplicate_program_cell_keys"
+    },
+    "check_hd_join_misses": {
+      "value": 0,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "build check: hd_join_misses"
+    },
+    "check_cip_program_title_misses": {
+      "value": 0,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "build check: cip_program_title_misses"
+    },
+    "check_cip2_family_title_misses": {
+      "value": 0,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "build check: cip2_family_title_misses"
+    },
+    "check_carnegie_label_misses_where_code_present": {
+      "value": 0,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "build check: carnegie_label_misses_where_code_present"
+    },
+    "check_zero_count_cells": {
+      "value": 44684,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "build check: zero_count_cells"
+    },
+    "check_zero_count_cells_2023_masters": {
+      "value": 8556,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "build check: zero_count_cells_2023_masters"
+    },
+    "check_ft_plus_pt_ne_total_rows": {
+      "value": 0,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "build check: ft_plus_pt_ne_total_rows"
+    },
+    "check_supp_rows_expected": {
+      "value": 673293,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "build check: supp_rows_expected"
+    },
+    "check_completions_cells_with_no_enrollment_row_2023": {
+      "value": 118,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "build check: completions_cells_with_no_enrollment_row_2023"
+    },
+    "check_institutions_with_completions_but_no_graduate_enrollment_2023": {
+      "value": 42,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "build check: institutions_with_completions_but_no_graduate_enrollment_2023"
+    },
+    "check_enrollment_only_institutions_2023": {
+      "value": 33,
+      "script": "src/02_build_measures.py",
+      "output_file": "outputs/measures_log.md",
+      "definition": "build check: enrollment_only_institutions_2023"
+    },
+    "rows_program_completions_by_year": {
+      "value": 224431,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/",
+      "definition": "row count of program_completions_by_year"
+    },
+    "rows_institution_summary": {
+      "value": 23529,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/",
+      "definition": "row count of institution_summary"
+    },
+    "rows_field_summary": {
+      "value": 602,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/",
+      "definition": "row count of field_summary"
+    },
+    "rows_suppression_impact": {
+      "value": 60,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/",
+      "definition": "row count of suppression_impact"
+    },
+    "rows_sed_benchmark": {
+      "value": 102,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/",
+      "definition": "row count of sed_benchmark"
+    },
+    "rows_national_totals": {
+      "value": 20,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/",
+      "definition": "row count of national_totals"
+    },
+    "rows_institution_dim": {
+      "value": 2196,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/",
+      "definition": "row count of institution_dim"
+    },
+    "rows_unsuppressed_program_cells_local_only_git_ignored_outputs": {
+      "value": 224431,
+      "script": "src/02_build_measures.py",
+      "output_file": "tableau_ready/",
+      "definition": "row count of unsuppressed program cells, local only, git-ignored (outputs)"
+    },
+    "recon_a_all_exact_match": {
+      "value": true,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "raw-CSV (pandas) vs DuckDB award-level totals, all years x levels, exact match"
+    },
+    "recon_masters_2020_original_file_rows": {
+      "value": 40566,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "master's rows in the ORIGINAL 2020 file (MAJORNUM 1, CIP<>99)"
+    },
+    "recon_masters_2020_original_file_share_lt10": {
+      "value": 0.5849479859981265,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "share of master's cells under 10 in the ORIGINAL 2020 file"
+    },
+    "recon_masters_2020_revised_file_rows": {
+      "value": 40562,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "master's rows in the REVISED 2020 file"
+    },
+    "recon_masters_2021_original_file_rows": {
+      "value": 41321,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "master's rows in the ORIGINAL 2021 file (MAJORNUM 1, CIP<>99)"
+    },
+    "recon_masters_2021_original_file_share_lt10": {
+      "value": 0.5878608939764285,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "share of master's cells under 10 in the ORIGINAL 2021 file"
+    },
+    "recon_masters_2021_revised_file_rows": {
+      "value": 41301,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "master's rows in the REVISED 2021 file"
+    },
+    "recon_masters_2022_original_file_rows": {
+      "value": 41889,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "master's rows in the ORIGINAL 2022 file (MAJORNUM 1, CIP<>99)"
+    },
+    "recon_masters_2022_original_file_share_lt10": {
+      "value": 0.5882928692496837,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "share of master's cells under 10 in the ORIGINAL 2022 file"
+    },
+    "recon_masters_2022_revised_file_rows": {
+      "value": 41904,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "master's rows in the REVISED 2022 file"
+    },
+    "recon_masters_2023_original_file_rows": {
+      "value": 42371,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "master's rows in the ORIGINAL 2023 file (MAJORNUM 1, CIP<>99)"
+    },
+    "recon_masters_2023_original_file_share_lt10": {
+      "value": 0.5882797196195511,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "share of master's cells under 10 in the ORIGINAL 2023 file"
+    },
+    "recon_masters_2023_revised_file_rows": {
+      "value": 42382,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "master's rows in the REVISED 2023 file"
+    },
+    "recon_b_2020_total_row_mismatches": {
+      "value": 0,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "institution x level combos where detail sum differs from CIPCODE 99 row, 2020; compared 3739"
+    },
+    "recon_b_2021_total_row_mismatches": {
+      "value": 0,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "institution x level combos where detail sum differs from CIPCODE 99 row, 2021; compared 3778"
+    },
+    "recon_b_2022_total_row_mismatches": {
+      "value": 0,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "institution x level combos where detail sum differs from CIPCODE 99 row, 2022; compared 3826"
+    },
+    "recon_b_2023_total_row_mismatches": {
+      "value": 0,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "institution x level combos where detail sum differs from CIPCODE 99 row, 2023; compared 3833"
+    },
+    "recon_digest_2020_masters_diff_pct": {
+      "value": 1.4284003788835264,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "IPEDS first-major master's vs Digest 318.10 master's (Digest projected: False)"
+    },
+    "recon_digest_2020_doctors_diff_pct": {
+      "value": 0.9956188562742923,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "IPEDS 17+18+19 vs Digest 318.10 doctor's"
+    },
+    "recon_digest_2021_masters_diff_pct": {
+      "value": 1.5675969972270027,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "IPEDS first-major master's vs Digest 318.10 master's (Digest projected: False)"
+    },
+    "recon_digest_2021_doctors_diff_pct": {
+      "value": 1.1574217220126564,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "IPEDS 17+18+19 vs Digest 318.10 doctor's"
+    },
+    "recon_digest_2022_masters_diff_pct": {
+      "value": 1.5936399814143498,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "IPEDS first-major master's vs Digest 318.10 master's (Digest projected: False)"
+    },
+    "recon_digest_2022_doctors_diff_pct": {
+      "value": 1.29289203664829,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "IPEDS 17+18+19 vs Digest 318.10 doctor's"
+    },
+    "recon_digest_2023_masters_diff_pct": {
+      "value": 7.503346264661176,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "IPEDS first-major master's vs Digest 318.10 master's (Digest projected: True)"
+    },
+    "recon_digest_2023_doctors_diff_pct": {
+      "value": 2.722265621137359,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "IPEDS 17+18+19 vs Digest 318.10 doctor's"
+    },
+    "recon_sed_2023_total": {
+      "value": 57862,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "NSF SED 2023 research doctorates, https://ncses.nsf.gov/surveys/earned-doctorates/2023"
+    },
+    "recon_ipeds_over_sed_2023_ratio": {
+      "value": 1.4247347136289792,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "IPEDS AWLEVEL 17 2023 / SED 2023 total"
+    },
+    "recon_masters_2023_top10_gain_share": {
+      "value": 0.37136816897719405,
+      "script": "src/03_reconcile.py",
+      "output_file": "outputs/reconciliation.json",
+      "definition": "share of 2023 master's growth from 10 largest-gaining institutions"
+    }
+  }
+}

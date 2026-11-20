@@ -1,0 +1,13 @@
+# downloaded source data and the local database (rebuilt by src/01_ingest.py)
+data_raw/
+data/*.duckdb
+*.duckdb
+*.duckdb.wal
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# large intermediate file written by src/02_build_measures.py
+outputs/INTERNAL_*

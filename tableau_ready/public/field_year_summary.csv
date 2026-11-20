@@ -1,0 +1,603 @@
+Year,Year Label,CIP 2-digit Code,Field (CIP 2-digit family),Award Level,Award Level Sort,Completions Displayed,Completions Display Label,Completions Suppressed,Institutions,Programs,Programs With Fewer Than 10 Completions,Share of Programs With Fewer Than 10 Completions,Programs Hidden Incl. Complementary Suppression,Share of Completions in Programs With Fewer Than 10,Share of Completions Display Label,Approximate SED Broad Field
+2020,2020 (academic year 2019-20),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,All master's and doctoral levels,0,7425,"7,425",No,113,766,602,0.7859,607,0.254,25.4%,Agricultural sciences and natural resources
+2020,2020 (academic year 2019-20),03,03 Natural Resources and Conservation,All master's and doctoral levels,0,4972,"4,972",No,259,595,456,0.7664,479,0.2671,26.7%,Agricultural sciences and natural resources
+2020,2020 (academic year 2019-20),04,04 Architecture and Related Services,All master's and doctoral levels,0,7087,"7,087",No,179,464,275,0.5927,314,0.1167,11.7%,Not mapped
+2020,2020 (academic year 2019-20),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",All master's and doctoral levels,0,1862,"1,862",No,173,520,487,0.9365,495,0.6992,69.9%,Not mapped
+2020,2020 (academic year 2019-20),09,"09 Communication, Journalism, and Related Programs",All master's and doctoral levels,0,11331,"11,331",No,404,846,537,0.6348,596,0.1687,16.9%,Not mapped
+2020,2020 (academic year 2019-20),10,10 Communications Technologies/Technicians and Support Services,All master's and doctoral levels,0,552,552,No,36,39,25,0.641,27,0.1848,18.5%,Not mapped
+2020,2020 (academic year 2019-20),11,11 Computer and Information Sciences and Support Services,All master's and doctoral levels,0,54192,"54,192",No,643,1536,747,0.4863,871,0.042,4.2%,Computer and information sciences
+2020,2020 (academic year 2019-20),12,"12 Culinary, Entertainment, and Personal Services",All master's and doctoral levels,0,20,20,No,3,4,3,0.75,3,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),13,13 Education,All master's and doctoral levels,0,164147,"164,147",No,1253,9479,5783,0.6101,6028,0.0926,9.3%,Education
+2020,2020 (academic year 2019-20),14,14 Engineering,All master's and doctoral levels,0,59370,"59,370",No,366,3575,2074,0.5801,2118,0.123,12.3%,Engineering
+2020,2020 (academic year 2019-20),15,15 Engineering/Engineering-Related Technologies/Technicians,All master's and doctoral levels,0,6488,"6,488",No,227,358,183,0.5112,220,0.0789,7.9%,Engineering
+2020,2020 (academic year 2019-20),16,"16 Foreign Languages, Literatures, and Linguistics",All master's and doctoral levels,0,4132,"4,132",No,255,1259,1177,0.9349,1189,0.6902,69.0%,Humanities and arts
+2020,2020 (academic year 2019-20),19,19 Family and Consumer Sciences/Human Sciences,All master's and doctoral levels,0,3562,"3,562",No,195,385,277,0.7195,298,0.2274,22.7%,Not mapped
+2020,2020 (academic year 2019-20),22,22 Legal Professions and Studies,All master's and doctoral levels,0,45030,"45,030",No,231,729,312,0.428,367,0.0177,1.8%,Not mapped
+2020,2020 (academic year 2019-20),23,23 English Language and Literature/Letters,All master's and doctoral levels,0,9197,"9,197",No,530,967,647,0.6691,712,0.2965,29.7%,Humanities and arts
+2020,2020 (academic year 2019-20),24,"24 Liberal Arts and Sciences, General Studies and Humanities",All master's and doctoral levels,0,2104,"2,104",No,225,278,212,0.7626,217,0.222,22.2%,Not mapped
+2020,2020 (academic year 2019-20),25,25 Library Science,All master's and doctoral levels,0,4989,"4,989",No,66,88,25,0.2841,29,0.0088,0.9%,Not mapped
+2020,2020 (academic year 2019-20),26,26 Biological and Biomedical Sciences,All master's and doctoral levels,0,26976,"26,976",No,588,4066,3365,0.8276,3429,0.3319,33.2%,Biological and biomedical sciences
+2020,2020 (academic year 2019-20),27,27 Mathematics and Statistics,All master's and doctoral levels,0,14105,"14,105",No,410,1101,757,0.6876,848,0.203,20.3%,Mathematics and statistics
+2020,2020 (academic year 2019-20),29,29 Military Technologies and Applied Sciences,All master's and doctoral levels,0,972,972,No,22,29,15,0.5172,15,0.0432,4.3%,Not mapped
+2020,2020 (academic year 2019-20),30,30 Multi/Interdisciplinary Studies,All master's and doctoral levels,0,12587,"12,587",No,503,1249,926,0.7414,995,0.1872,18.7%,Not mapped
+2020,2020 (academic year 2019-20),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",All master's and doctoral levels,0,9502,"9,502",No,391,621,336,0.5411,398,0.1184,11.8%,Not mapped
+2020,2020 (academic year 2019-20),38,38 Philosophy and Religious Studies,All master's and doctoral levels,0,2904,"2,904",No,320,589,528,0.8964,545,0.5165,51.7%,Humanities and arts
+2020,2020 (academic year 2019-20),39,39 Theology and Religious Vocations,All master's and doctoral levels,0,15589,"15,589",No,416,1343,923,0.6873,1001,0.1577,15.8%,Not mapped
+2020,2020 (academic year 2019-20),40,40 Physical Sciences,All master's and doctoral levels,0,12953,"12,953",No,366,1902,1487,0.7818,1534,0.3934,39.3%,Physical sciences
+2020,2020 (academic year 2019-20),41,41 Science Technologies/Technicians,All master's and doctoral levels,0,65,65,No,14,15,12,0.8,12,0.3538,35.4%,Not mapped
+2020,2020 (academic year 2019-20),42,42 Psychology,All master's and doctoral levels,0,36746,"36,746",No,759,2302,1356,0.5891,1532,0.1266,12.7%,Psychology
+2020,2020 (academic year 2019-20),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",All master's and doctoral levels,0,11157,"11,157",No,414,633,363,0.5735,401,0.1083,10.8%,Not mapped
+2020,2020 (academic year 2019-20),44,44 Public Administration and Social Service Professions,All master's and doctoral levels,0,51280,"51,280",No,609,1153,454,0.3938,565,0.0283,2.8%,Not mapped
+2020,2020 (academic year 2019-20),45,45 Social Sciences,All master's and doctoral levels,0,20311,"20,311",No,469,2258,1719,0.7613,1764,0.2805,28.1%,Social sciences
+2020,2020 (academic year 2019-20),47,47 Mechanic and Repair Technologies/Technicians,All master's and doctoral levels,0,22,22,No,1,1,0,0,0,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),48,48 Precision Production,All master's and doctoral levels,0,11,11,No,2,2,2,1,2,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),49,49 Transportation and Materials Moving,All master's and doctoral levels,0,651,651,No,22,30,20,0.6667,21,0.0722,7.2%,Not mapped
+2020,2020 (academic year 2019-20),50,50 Visual and Performing Arts,All master's and doctoral levels,0,18344,"18,344",No,513,2468,1923,0.7792,1969,0.2847,28.5%,Humanities and arts
+2020,2020 (academic year 2019-20),51,51 Health Professions and Related Programs,All master's and doctoral levels,0,219638,"219,638",No,1290,7646,3798,0.4967,4186,0.0454,4.5%,Health sciences
+2020,2020 (academic year 2019-20),52,"52 Business, Management, Marketing, and Related Support Services",All master's and doctoral levels,0,203283,"203,283",No,1311,4875,2200,0.4513,2512,0.0271,2.7%,Business
+2020,2020 (academic year 2019-20),54,54 History,All master's and doctoral levels,0,4050,"4,050",No,383,606,496,0.8185,509,0.4427,44.3%,Humanities and arts
+2020,2020 (academic year 2019-20),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,Master's degree,1,3130,"3,130",No,109,445,334,0.7506,336,0.3581,35.8%,Agricultural sciences and natural resources
+2020,2020 (academic year 2019-20),03,03 Natural Resources and Conservation,Master's degree,1,4371,"4,371",No,250,417,287,0.6882,309,0.1942,19.4%,Agricultural sciences and natural resources
+2020,2020 (academic year 2019-20),04,04 Architecture and Related Services,Master's degree,1,6835,"6,835",No,179,391,205,0.5243,243,0.0907,9.1%,Not mapped
+2020,2020 (academic year 2019-20),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",Master's degree,1,1528,"1,528",No,168,378,347,0.918,354,0.6473,64.7%,Not mapped
+2020,2020 (academic year 2019-20),09,"09 Communication, Journalism, and Related Programs",Master's degree,1,10729,"10,729",No,402,726,433,0.5964,488,0.1414,14.1%,Not mapped
+2020,2020 (academic year 2019-20),10,10 Communications Technologies/Technicians and Support Services,Master's degree,1,551,551,No,35,38,24,0.6316,26,0.1833,18.3%,Not mapped
+2020,2020 (academic year 2019-20),11,11 Computer and Information Sciences and Support Services,Master's degree,1,51772,"51,772",No,642,1247,544,0.4362,652,0.0307,3.1%,Computer and information sciences
+2020,2020 (academic year 2019-20),12,"12 Culinary, Entertainment, and Personal Services",Master's degree,1,20,20,No,3,3,2,0.6667,2,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),13,13 Education,Master's degree,1,150855,"150,855",No,1242,8002,4708,0.5884,4874,0.0791,7.9%,Education
+2020,2020 (academic year 2019-20),14,14 Engineering,Master's degree,1,48184,"48,184",No,365,2213,1110,0.5016,1144,0.0799,8.0%,Engineering
+2020,2020 (academic year 2019-20),15,15 Engineering/Engineering-Related Technologies/Technicians,Master's degree,1,6345,"6,345",No,224,319,146,0.4577,183,0.0665,6.7%,Engineering
+2020,2020 (academic year 2019-20),16,"16 Foreign Languages, Literatures, and Linguistics",Master's degree,1,2958,"2,958",No,250,815,742,0.9104,753,0.6018,60.2%,Humanities and arts
+2020,2020 (academic year 2019-20),19,19 Family and Consumer Sciences/Human Sciences,Master's degree,1,3281,"3,281",No,193,308,204,0.6623,224,0.1759,17.6%,Not mapped
+2020,2020 (academic year 2019-20),22,22 Legal Professions and Studies,Master's degree,1,10055,"10,055",No,183,435,233,0.5356,275,0.0603,6.0%,Not mapped
+2020,2020 (academic year 2019-20),23,23 English Language and Literature/Letters,Master's degree,1,7894,"7,894",No,530,777,505,0.6499,562,0.2673,26.7%,Humanities and arts
+2020,2020 (academic year 2019-20),24,"24 Liberal Arts and Sciences, General Studies and Humanities",Master's degree,1,1990,"1,990",No,219,247,183,0.7409,188,0.196,19.6%,Not mapped
+2020,2020 (academic year 2019-20),25,25 Library Science,Master's degree,1,4960,"4,960",No,66,74,12,0.1622,16,0.0065,0.6%,Not mapped
+2020,2020 (academic year 2019-20),26,26 Biological and Biomedical Sciences,Master's degree,1,18999,"18,999",No,584,2238,1737,0.7761,1789,0.2153,21.5%,Biological and biomedical sciences
+2020,2020 (academic year 2019-20),27,27 Mathematics and Statistics,Master's degree,1,12077,"12,077",No,409,754,471,0.6247,543,0.1447,14.5%,Mathematics and statistics
+2020,2020 (academic year 2019-20),29,29 Military Technologies and Applied Sciences,Master's degree,1,972,972,No,22,28,14,0.5,14,0.0432,4.3%,Not mapped
+2020,2020 (academic year 2019-20),30,30 Multi/Interdisciplinary Studies,Master's degree,1,11597,"11,597",No,491,949,647,0.6818,711,0.1487,14.9%,Not mapped
+2020,2020 (academic year 2019-20),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",Master's degree,1,9153,"9,153",No,388,540,267,0.4944,327,0.1015,10.1%,Not mapped
+2020,2020 (academic year 2019-20),38,38 Philosophy and Religious Studies,Master's degree,1,2198,"2,198",No,305,399,351,0.8797,361,0.4308,43.1%,Humanities and arts
+2020,2020 (academic year 2019-20),39,39 Theology and Religious Vocations,Master's degree,1,13414,"13,414",No,410,1035,680,0.657,740,0.137,13.7%,Not mapped
+2020,2020 (academic year 2019-20),40,40 Physical Sciences,Master's degree,1,6965,"6,965",No,364,1090,881,0.8083,904,0.449,44.9%,Physical sciences
+2020,2020 (academic year 2019-20),41,41 Science Technologies/Technicians,Master's degree,1,65,65,No,13,13,10,0.7692,10,0.3538,35.4%,Not mapped
+2020,2020 (academic year 2019-20),42,42 Psychology,Master's degree,1,30227,"30,227",No,747,1512,762,0.504,896,0.0864,8.6%,Psychology
+2020,2020 (academic year 2019-20),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",Master's degree,1,10894,"10,894",No,412,585,322,0.5504,359,0.0999,10.0%,Not mapped
+2020,2020 (academic year 2019-20),44,44 Public Administration and Social Service Professions,Master's degree,1,49869,"49,869",No,602,942,275,0.2919,378,0.0171,1.7%,Not mapped
+2020,2020 (academic year 2019-20),45,45 Social Sciences,Master's degree,1,16710,"16,710",No,466,1547,1119,0.7233,1157,0.2208,22.1%,Social sciences
+2020,2020 (academic year 2019-20),47,47 Mechanic and Repair Technologies/Technicians,Master's degree,1,22,22,No,1,1,0,0,0,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),48,48 Precision Production,Master's degree,1,11,11,No,2,2,2,1,2,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),49,49 Transportation and Materials Moving,Master's degree,1,631,631,No,20,23,13,0.5652,14,0.0428,4.3%,Not mapped
+2020,2020 (academic year 2019-20),50,50 Visual and Performing Arts,Master's degree,1,16628,"16,628",No,513,2069,1568,0.7579,1606,0.2634,26.3%,Humanities and arts
+2020,2020 (academic year 2019-20),51,51 Health Professions and Related Programs,Master's degree,1,136719,"136,719",No,1247,5158,2411,0.4674,2638,0.047,4.7%,Health sciences
+2020,2020 (academic year 2019-20),52,"52 Business, Management, Marketing, and Related Support Services",Master's degree,1,199793,"199,793",No,1306,4414,1835,0.4157,2124,0.0228,2.3%,Business
+2020,2020 (academic year 2019-20),54,54 History,Master's degree,1,3178,"3,178",No,381,428,340,0.7944,349,0.3899,39.0%,Humanities and arts
+2020,2020 (academic year 2019-20),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,Doctorate: research/scholarship,2,1014,"1,014",No,59,285,263,0.9228,263,0.7525,75.2%,Agricultural sciences and natural resources
+2020,2020 (academic year 2019-20),03,03 Natural Resources and Conservation,Doctorate: research/scholarship,2,601,601,No,109,178,169,0.9494,170,0.797,79.7%,Agricultural sciences and natural resources
+2020,2020 (academic year 2019-20),04,04 Architecture and Related Services,Doctorate: research/scholarship,2,231,231,No,45,70,68,0.9714,68,0.8658,86.6%,Not mapped
+2020,2020 (academic year 2019-20),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",Doctorate: research/scholarship,2,334,334,No,71,142,140,0.9859,141,0.9371,93.7%,Not mapped
+2020,2020 (academic year 2019-20),09,"09 Communication, Journalism, and Related Programs",Doctorate: research/scholarship,2,602,602,No,85,120,104,0.8667,108,0.6545,65.4%,Not mapped
+2020,2020 (academic year 2019-20),10,10 Communications Technologies/Technicians and Support Services,Doctorate: research/scholarship,2,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),11,11 Computer and Information Sciences and Support Services,Doctorate: research/scholarship,2,2373,"2,373",No,201,288,203,0.7049,218,0.2895,29.0%,Computer and information sciences
+2020,2020 (academic year 2019-20),12,"12 Culinary, Entertainment, and Personal Services",Doctorate: research/scholarship,2,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),13,13 Education,Doctorate: research/scholarship,2,12408,"12,408",No,469,1367,995,0.7279,1064,0.2474,24.7%,Education
+2020,2020 (academic year 2019-20),14,14 Engineering,Doctorate: research/scholarship,2,11184,"11,184",No,231,1356,958,0.7065,968,0.3088,30.9%,Engineering
+2020,2020 (academic year 2019-20),15,15 Engineering/Engineering-Related Technologies/Technicians,Doctorate: research/scholarship,2,113,113,No,31,36,35,0.9722,35,0.7788,77.9%,Engineering
+2020,2020 (academic year 2019-20),16,"16 Foreign Languages, Literatures, and Linguistics",Doctorate: research/scholarship,2,1174,"1,174",No,111,444,435,0.9797,436,0.9131,91.3%,Humanities and arts
+2020,2020 (academic year 2019-20),19,19 Family and Consumer Sciences/Human Sciences,Doctorate: research/scholarship,2,281,281,No,56,77,73,0.9481,74,0.8292,82.9%,Not mapped
+2020,2020 (academic year 2019-20),22,22 Legal Professions and Studies,Doctorate: research/scholarship,2,187,187,No,53,64,62,0.9688,62,0.861,86.1%,Not mapped
+2020,2020 (academic year 2019-20),23,23 English Language and Literature/Letters,Doctorate: research/scholarship,2,1276,"1,276",No,158,188,142,0.7553,149,0.4835,48.4%,Humanities and arts
+2020,2020 (academic year 2019-20),24,"24 Liberal Arts and Sciences, General Studies and Humanities",Doctorate: research/scholarship,2,114,114,No,29,31,29,0.9355,29,0.6754,67.5%,Not mapped
+2020,2020 (academic year 2019-20),25,25 Library Science,Doctorate: research/scholarship,2,29,29,No,13,14,13,0.9286,13,0.4138,41.4%,Not mapped
+2020,2020 (academic year 2019-20),26,26 Biological and Biomedical Sciences,Doctorate: research/scholarship,2,7969,"7,969",No,295,1817,1617,0.8899,1629,0.609,60.9%,Biological and biomedical sciences
+2020,2020 (academic year 2019-20),27,27 Mathematics and Statistics,Doctorate: research/scholarship,2,2028,"2,028",No,194,347,286,0.8242,305,0.5503,55.0%,Mathematics and statistics
+2020,2020 (academic year 2019-20),29,29 Military Technologies and Applied Sciences,Doctorate: research/scholarship,2,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),30,30 Multi/Interdisciplinary Studies,Doctorate: research/scholarship,2,940,940,No,177,293,274,0.9352,279,0.6691,66.9%,Not mapped
+2020,2020 (academic year 2019-20),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",Doctorate: research/scholarship,2,334,334,No,63,79,68,0.8608,70,0.5719,57.2%,Not mapped
+2020,2020 (academic year 2019-20),38,38 Philosophy and Religious Studies,Doctorate: research/scholarship,2,685,685,No,139,187,176,0.9412,183,0.8073,80.7%,Humanities and arts
+2020,2020 (academic year 2019-20),39,39 Theology and Religious Vocations,Doctorate: research/scholarship,2,987,987,No,100,161,131,0.8137,138,0.3333,33.3%,Not mapped
+2020,2020 (academic year 2019-20),40,40 Physical Sciences,Doctorate: research/scholarship,2,5988,"5,988",No,234,810,604,0.7457,628,0.3288,32.9%,Physical sciences
+2020,2020 (academic year 2019-20),41,41 Science Technologies/Technicians,Doctorate: research/scholarship,2,,Withheld,Yes,2,2,2,1,2,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),42,42 Psychology,Doctorate: research/scholarship,2,4989,"4,989",No,313,680,530,0.7794,558,0.374,37.4%,Psychology
+2020,2020 (academic year 2019-20),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",Doctorate: research/scholarship,2,247,247,No,41,46,40,0.8696,41,0.4858,48.6%,Not mapped
+2020,2020 (academic year 2019-20),44,44 Public Administration and Social Service Professions,Doctorate: research/scholarship,2,1230,"1,230",No,152,203,174,0.8571,182,0.4772,47.7%,Not mapped
+2020,2020 (academic year 2019-20),45,45 Social Sciences,Doctorate: research/scholarship,2,3600,"3,600",No,199,708,597,0.8432,604,0.5578,55.8%,Social sciences
+2020,2020 (academic year 2019-20),49,49 Transportation and Materials Moving,Doctorate: research/scholarship,2,20,20,No,7,7,7,1,7,1,100.0%,Not mapped
+2020,2020 (academic year 2019-20),50,50 Visual and Performing Arts,Doctorate: research/scholarship,2,1626,"1,626",No,126,377,336,0.8912,344,0.4982,49.8%,Humanities and arts
+2020,2020 (academic year 2019-20),51,51 Health Professions and Related Programs,Doctorate: research/scholarship,2,7534,"7,534",No,316,1054,870,0.8254,895,0.2947,29.5%,Health sciences
+2020,2020 (academic year 2019-20),52,"52 Business, Management, Marketing, and Related Support Services",Doctorate: research/scholarship,2,3212,"3,212",No,261,440,352,0.8,374,0.2899,29.0%,Business
+2020,2020 (academic year 2019-20),54,54 History,Doctorate: research/scholarship,2,847,847,No,155,177,156,0.8814,160,0.6541,65.4%,Humanities and arts
+2020,2020 (academic year 2019-20),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,Doctorate: professional practice,3,3281,"3,281",No,34,36,5,0.1389,8,,Withheld,Agricultural sciences and natural resources
+2020,2020 (academic year 2019-20),04,04 Architecture and Related Services,Doctorate: professional practice,3,14,14,No,2,2,1,0.5,2,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),11,11 Computer and Information Sciences and Support Services,Doctorate: professional practice,3,47,47,No,1,1,0,0,1,,Withheld,Computer and information sciences
+2020,2020 (academic year 2019-20),13,13 Education,Doctorate: professional practice,3,276,276,No,47,63,52,0.8254,58,0.3623,36.2%,Education
+2020,2020 (academic year 2019-20),14,14 Engineering,Doctorate: professional practice,3,,Withheld,Yes,2,4,4,1,4,,Withheld,Engineering
+2020,2020 (academic year 2019-20),15,15 Engineering/Engineering-Related Technologies/Technicians,Doctorate: professional practice,3,28,28,No,2,2,1,0.5,1,,Withheld,Engineering
+2020,2020 (academic year 2019-20),22,22 Legal Professions and Studies,Doctorate: professional practice,3,34768,"34,768",No,213,229,17,0.0742,30,0.0009,0.1%,Not mapped
+2020,2020 (academic year 2019-20),26,26 Biological and Biomedical Sciences,Doctorate: professional practice,3,,Withheld,Yes,5,11,11,1,11,,Withheld,Biological and biomedical sciences
+2020,2020 (academic year 2019-20),30,30 Multi/Interdisciplinary Studies,Doctorate: professional practice,3,37,37,No,3,3,2,0.6667,2,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),38,38 Philosophy and Religious Studies,Doctorate: professional practice,3,,Withheld,Yes,1,1,1,1,1,,Withheld,Humanities and arts
+2020,2020 (academic year 2019-20),39,39 Theology and Religious Vocations,Doctorate: professional practice,3,755,755,No,71,83,62,0.747,69,0.2185,21.9%,Not mapped
+2020,2020 (academic year 2019-20),42,42 Psychology,Doctorate: professional practice,3,1467,"1,467",No,83,107,62,0.5794,76,0.12,12.0%,Psychology
+2020,2020 (academic year 2019-20),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",Doctorate: professional practice,3,16,16,No,1,1,0,0,0,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),44,44 Public Administration and Social Service Professions,Doctorate: professional practice,3,35,35,No,7,7,5,0.7143,5,0.3429,34.3%,Not mapped
+2020,2020 (academic year 2019-20),45,45 Social Sciences,Doctorate: professional practice,3,,Withheld,Yes,2,2,2,1,2,,Withheld,Social sciences
+2020,2020 (academic year 2019-20),50,50 Visual and Performing Arts,Doctorate: professional practice,3,64,64,No,5,9,7,0.7778,7,0.2969,29.7%,Humanities and arts
+2020,2020 (academic year 2019-20),51,51 Health Professions and Related Programs,Doctorate: professional practice,3,74373,"74,373",No,610,1363,469,0.3441,602,0.0164,1.6%,Health sciences
+2020,2020 (academic year 2019-20),52,"52 Business, Management, Marketing, and Related Support Services",Doctorate: professional practice,3,261,261,No,16,18,11,0.6111,11,0.0498,5.0%,Business
+2020,2020 (academic year 2019-20),04,04 Architecture and Related Services,Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),13,13 Education,Doctorate: other,4,608,608,No,30,47,28,0.5957,32,0.1694,16.9%,Education
+2020,2020 (academic year 2019-20),14,14 Engineering,Doctorate: other,4,,Withheld,Yes,2,2,2,1,2,,Withheld,Engineering
+2020,2020 (academic year 2019-20),15,15 Engineering/Engineering-Related Technologies/Technicians,Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Engineering
+2020,2020 (academic year 2019-20),22,22 Legal Professions and Studies,Doctorate: other,4,20,20,No,1,1,0,0,0,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),23,23 English Language and Literature/Letters,Doctorate: other,4,27,27,No,2,2,0,0,1,,Withheld,Humanities and arts
+2020,2020 (academic year 2019-20),30,30 Multi/Interdisciplinary Studies,Doctorate: other,4,13,13,No,4,4,3,0.75,3,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",Doctorate: other,4,15,15,No,2,2,1,0.5,1,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),38,38 Philosophy and Religious Studies,Doctorate: other,4,21,21,No,2,2,0,0,0,,Withheld,Humanities and arts
+2020,2020 (academic year 2019-20),39,39 Theology and Religious Vocations,Doctorate: other,4,433,433,No,51,64,50,0.7812,54,0.2933,29.3%,Not mapped
+2020,2020 (academic year 2019-20),40,40 Physical Sciences,Doctorate: other,4,,Withheld,Yes,2,2,2,1,2,,Withheld,Physical sciences
+2020,2020 (academic year 2019-20),42,42 Psychology,Doctorate: other,4,63,63,No,3,3,2,0.6667,2,,Withheld,Psychology
+2020,2020 (academic year 2019-20),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),44,44 Public Administration and Social Service Professions,Doctorate: other,4,146,146,No,1,1,0,0,0,,Withheld,Not mapped
+2020,2020 (academic year 2019-20),45,45 Social Sciences,Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Social sciences
+2020,2020 (academic year 2019-20),50,50 Visual and Performing Arts,Doctorate: other,4,26,26,No,4,13,12,0.9231,12,0.5769,57.7%,Humanities and arts
+2020,2020 (academic year 2019-20),51,51 Health Professions and Related Programs,Doctorate: other,4,1012,"1,012",No,49,71,48,0.6761,51,0.1126,11.3%,Health sciences
+2020,2020 (academic year 2019-20),52,"52 Business, Management, Marketing, and Related Support Services",Doctorate: other,4,17,17,No,3,3,2,0.6667,3,,Withheld,Business
+2020,2020 (academic year 2019-20),54,54 History,Doctorate: other,4,25,25,No,1,1,0,0,0,,Withheld,Humanities and arts
+2021,2021 (academic year 2020-21),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,All master's and doctoral levels,0,7211,"7,211",No,112,753,607,0.8061,616,0.2578,25.8%,Agricultural sciences and natural resources
+2021,2021 (academic year 2020-21),03,03 Natural Resources and Conservation,All master's and doctoral levels,0,5114,"5,114",No,265,602,453,0.7525,479,0.2622,26.2%,Agricultural sciences and natural resources
+2021,2021 (academic year 2020-21),04,04 Architecture and Related Services,All master's and doctoral levels,0,6601,"6,601",No,181,455,272,0.5978,312,0.1254,12.5%,Not mapped
+2021,2021 (academic year 2020-21),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",All master's and doctoral levels,0,2272,"2,272",No,174,530,492,0.9283,499,0.5009,50.1%,Not mapped
+2021,2021 (academic year 2020-21),09,"09 Communication, Journalism, and Related Programs",All master's and doctoral levels,0,11534,"11,534",No,407,870,568,0.6529,634,0.1609,16.1%,Not mapped
+2021,2021 (academic year 2020-21),10,10 Communications Technologies/Technicians and Support Services,All master's and doctoral levels,0,531,531,No,35,38,23,0.6053,24,0.1582,15.8%,Not mapped
+2021,2021 (academic year 2020-21),11,11 Computer and Information Sciences and Support Services,All master's and doctoral levels,0,57041,"57,041",No,654,1598,754,0.4718,879,0.04,4.0%,Computer and information sciences
+2021,2021 (academic year 2020-21),12,"12 Culinary, Entertainment, and Personal Services",All master's and doctoral levels,0,22,22,No,6,7,6,0.8571,6,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),13,13 Education,All master's and doctoral levels,0,172112,"172,112",No,1249,9505,5816,0.6119,6040,0.0879,8.8%,Education
+2021,2021 (academic year 2020-21),14,14 Engineering,All master's and doctoral levels,0,58970,"58,970",No,372,3652,2162,0.592,2211,0.1256,12.6%,Engineering
+2021,2021 (academic year 2020-21),15,15 Engineering/Engineering-Related Technologies/Technicians,All master's and doctoral levels,0,6740,"6,740",No,231,365,193,0.5288,226,0.0844,8.4%,Engineering
+2021,2021 (academic year 2020-21),16,"16 Foreign Languages, Literatures, and Linguistics",All master's and doctoral levels,0,3900,"3,900",No,255,1269,1187,0.9354,1199,0.6649,66.5%,Humanities and arts
+2021,2021 (academic year 2020-21),19,19 Family and Consumer Sciences/Human Sciences,All master's and doctoral levels,0,3375,"3,375",No,198,391,285,0.7289,304,0.2216,22.2%,Not mapped
+2021,2021 (academic year 2020-21),22,22 Legal Professions and Studies,All master's and doctoral levels,0,43485,"43,485",No,229,738,345,0.4675,398,0.0192,1.9%,Not mapped
+2021,2021 (academic year 2020-21),23,23 English Language and Literature/Letters,All master's and doctoral levels,0,8985,"8,985",No,533,975,677,0.6944,749,0.3111,31.1%,Humanities and arts
+2021,2021 (academic year 2020-21),24,"24 Liberal Arts and Sciences, General Studies and Humanities",All master's and doctoral levels,0,2134,"2,134",No,221,276,220,0.7971,225,0.2418,24.2%,Not mapped
+2021,2021 (academic year 2020-21),25,25 Library Science,All master's and doctoral levels,0,5493,"5,493",No,70,91,27,0.2967,31,0.0096,1.0%,Not mapped
+2021,2021 (academic year 2020-21),26,26 Biological and Biomedical Sciences,All master's and doctoral levels,0,27172,"27,172",No,603,4097,3379,0.8247,3430,0.3199,32.0%,Biological and biomedical sciences
+2021,2021 (academic year 2020-21),27,27 Mathematics and Statistics,All master's and doctoral levels,0,14564,"14,564",No,413,1110,739,0.6658,826,0.1815,18.2%,Mathematics and statistics
+2021,2021 (academic year 2020-21),29,29 Military Technologies and Applied Sciences,All master's and doctoral levels,0,1033,"1,033",No,27,38,20,0.5263,21,0.0387,3.9%,Not mapped
+2021,2021 (academic year 2020-21),30,30 Multi/Interdisciplinary Studies,All master's and doctoral levels,0,13464,"13,464",No,525,1331,988,0.7423,1064,0.1857,18.6%,Not mapped
+2021,2021 (academic year 2020-21),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",All master's and doctoral levels,0,10217,"10,217",No,404,639,329,0.5149,388,0.1052,10.5%,Not mapped
+2021,2021 (academic year 2020-21),38,38 Philosophy and Religious Studies,All master's and doctoral levels,0,2713,"2,713",No,322,594,542,0.9125,552,0.5558,55.6%,Humanities and arts
+2021,2021 (academic year 2020-21),39,39 Theology and Religious Vocations,All master's and doctoral levels,0,16370,"16,370",No,414,1373,944,0.6875,1020,0.1579,15.8%,Not mapped
+2021,2021 (academic year 2020-21),40,40 Physical Sciences,All master's and doctoral levels,0,12480,"12,480",No,369,1917,1532,0.7992,1579,0.4018,40.2%,Physical sciences
+2021,2021 (academic year 2020-21),41,41 Science Technologies/Technicians,All master's and doctoral levels,0,66,66,No,13,14,10,0.7143,10,0.2879,28.8%,Not mapped
+2021,2021 (academic year 2020-21),42,42 Psychology,All master's and doctoral levels,0,38815,"38,815",No,772,2345,1381,0.5889,1544,0.1199,12.0%,Psychology
+2021,2021 (academic year 2020-21),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",All master's and doctoral levels,0,11810,"11,810",No,409,638,350,0.5486,394,0.0924,9.2%,Not mapped
+2021,2021 (academic year 2020-21),44,44 Public Administration and Social Service Professions,All master's and doctoral levels,0,51014,"51,014",No,608,1172,453,0.3865,558,0.0286,2.9%,Not mapped
+2021,2021 (academic year 2020-21),45,45 Social Sciences,All master's and doctoral levels,0,20157,"20,157",No,469,2272,1777,0.7821,1818,0.2838,28.4%,Social sciences
+2021,2021 (academic year 2020-21),47,47 Mechanic and Repair Technologies/Technicians,All master's and doctoral levels,0,29,29,No,2,3,2,0.6667,2,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),48,48 Precision Production,All master's and doctoral levels,0,,Withheld,Yes,2,2,2,1,2,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),49,49 Transportation and Materials Moving,All master's and doctoral levels,0,690,690,No,22,32,21,0.6562,22,0.0667,6.7%,Not mapped
+2021,2021 (academic year 2020-21),50,50 Visual and Performing Arts,All master's and doctoral levels,0,17492,"17,492",No,507,2479,1953,0.7878,1998,0.3005,30.1%,Humanities and arts
+2021,2021 (academic year 2020-21),51,51 Health Professions and Related Programs,All master's and doctoral levels,0,230299,"230,299",No,1305,7948,4019,0.5057,4416,0.0458,4.6%,Health sciences
+2021,2021 (academic year 2020-21),52,"52 Business, Management, Marketing, and Related Support Services",All master's and doctoral levels,0,208690,"208,690",No,1323,5073,2354,0.464,2663,0.027,2.7%,Business
+2021,2021 (academic year 2020-21),54,54 History,All master's and doctoral levels,0,4217,"4,217",No,381,605,487,0.805,502,0.3832,38.3%,Humanities and arts
+2021,2021 (academic year 2020-21),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,Master's degree,1,2943,"2,943",No,109,439,342,0.779,348,0.3891,38.9%,Agricultural sciences and natural resources
+2021,2021 (academic year 2020-21),03,03 Natural Resources and Conservation,Master's degree,1,4508,"4,508",No,255,423,286,0.6761,310,0.203,20.3%,Agricultural sciences and natural resources
+2021,2021 (academic year 2020-21),04,04 Architecture and Related Services,Master's degree,1,6346,"6,346",No,181,381,202,0.5302,241,0.1001,10.0%,Not mapped
+2021,2021 (academic year 2020-21),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",Master's degree,1,1932,"1,932",No,168,388,353,0.9098,360,0.4617,46.2%,Not mapped
+2021,2021 (academic year 2020-21),09,"09 Communication, Journalism, and Related Programs",Master's degree,1,11002,"11,002",No,404,743,452,0.6083,515,0.1332,13.3%,Not mapped
+2021,2021 (academic year 2020-21),10,10 Communications Technologies/Technicians and Support Services,Master's degree,1,531,531,No,34,37,22,0.5946,23,0.1582,15.8%,Not mapped
+2021,2021 (academic year 2020-21),11,11 Computer and Information Sciences and Support Services,Master's degree,1,54456,"54,456",No,653,1300,552,0.4246,658,0.03,3.0%,Computer and information sciences
+2021,2021 (academic year 2020-21),12,"12 Culinary, Entertainment, and Personal Services",Master's degree,1,22,22,No,6,6,5,0.8333,5,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),13,13 Education,Master's degree,1,158199,"158,199",No,1236,8000,4709,0.5886,4851,0.0752,7.5%,Education
+2021,2021 (academic year 2020-21),14,14 Engineering,Master's degree,1,48041,"48,041",No,371,2261,1157,0.5117,1196,0.0817,8.2%,Engineering
+2021,2021 (academic year 2020-21),15,15 Engineering/Engineering-Related Technologies/Technicians,Master's degree,1,6537,"6,537",No,228,327,160,0.4893,193,0.0756,7.6%,Engineering
+2021,2021 (academic year 2020-21),16,"16 Foreign Languages, Literatures, and Linguistics",Master's degree,1,2907,"2,907",No,250,824,750,0.9102,761,0.581,58.1%,Humanities and arts
+2021,2021 (academic year 2020-21),19,19 Family and Consumer Sciences/Human Sciences,Master's degree,1,3137,"3,137",No,196,310,208,0.671,227,0.1766,17.7%,Not mapped
+2021,2021 (academic year 2020-21),22,22 Legal Professions and Studies,Master's degree,1,7064,"7,064",No,182,441,264,0.5986,300,0.1008,10.1%,Not mapped
+2021,2021 (academic year 2020-21),23,23 English Language and Literature/Letters,Master's degree,1,7893,"7,893",No,533,784,517,0.6594,584,0.2718,27.2%,Humanities and arts
+2021,2021 (academic year 2020-21),24,"24 Liberal Arts and Sciences, General Studies and Humanities",Master's degree,1,2044,"2,044",No,215,245,192,0.7837,197,0.225,22.5%,Not mapped
+2021,2021 (academic year 2020-21),25,25 Library Science,Master's degree,1,5481,"5,481",No,70,78,14,0.1795,18,0.0075,0.7%,Not mapped
+2021,2021 (academic year 2020-21),26,26 Biological and Biomedical Sciences,Master's degree,1,19614,"19,614",No,597,2266,1741,0.7683,1784,0.2065,20.7%,Biological and biomedical sciences
+2021,2021 (academic year 2020-21),27,27 Mathematics and Statistics,Master's degree,1,12604,"12,604",No,412,763,460,0.6029,529,0.1318,13.2%,Mathematics and statistics
+2021,2021 (academic year 2020-21),29,29 Military Technologies and Applied Sciences,Master's degree,1,1033,"1,033",No,27,37,19,0.5135,20,0.0387,3.9%,Not mapped
+2021,2021 (academic year 2020-21),30,30 Multi/Interdisciplinary Studies,Master's degree,1,12407,"12,407",No,508,1005,685,0.6816,757,0.1444,14.4%,Not mapped
+2021,2021 (academic year 2020-21),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",Master's degree,1,9891,"9,891",No,400,556,255,0.4586,313,0.0906,9.1%,Not mapped
+2021,2021 (academic year 2020-21),38,38 Philosophy and Religious Studies,Master's degree,1,2085,"2,085",No,307,405,358,0.884,365,0.4523,45.2%,Humanities and arts
+2021,2021 (academic year 2020-21),39,39 Theology and Religious Vocations,Master's degree,1,14014,"14,014",No,410,1054,689,0.6537,751,0.1379,13.8%,Not mapped
+2021,2021 (academic year 2020-21),40,40 Physical Sciences,Master's degree,1,6755,"6,755",No,365,1105,919,0.8317,939,0.4561,45.6%,Physical sciences
+2021,2021 (academic year 2020-21),41,41 Science Technologies/Technicians,Master's degree,1,66,66,No,13,13,9,0.6923,9,0.2879,28.8%,Not mapped
+2021,2021 (academic year 2020-21),42,42 Psychology,Master's degree,1,32265,"32,265",No,760,1538,770,0.5007,898,0.0799,8.0%,Psychology
+2021,2021 (academic year 2020-21),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",Master's degree,1,11571,"11,571",No,407,588,307,0.5221,350,0.0868,8.7%,Not mapped
+2021,2021 (academic year 2020-21),44,44 Public Administration and Social Service Professions,Master's degree,1,49573,"49,573",No,603,952,263,0.2763,361,0.0174,1.7%,Not mapped
+2021,2021 (academic year 2020-21),45,45 Social Sciences,Master's degree,1,16686,"16,686",No,466,1557,1163,0.7469,1193,0.2298,23.0%,Social sciences
+2021,2021 (academic year 2020-21),47,47 Mechanic and Repair Technologies/Technicians,Master's degree,1,27,27,No,2,2,1,0.5,1,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),48,48 Precision Production,Master's degree,1,,Withheld,Yes,2,2,2,1,2,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),49,49 Transportation and Materials Moving,Master's degree,1,670,670,No,21,24,14,0.5833,15,0.0537,5.4%,Not mapped
+2021,2021 (academic year 2020-21),50,50 Visual and Performing Arts,Master's degree,1,15823,"15,823",No,507,2076,1590,0.7659,1630,0.2796,28.0%,Humanities and arts
+2021,2021 (academic year 2020-21),51,51 Health Professions and Related Programs,Master's degree,1,143930,"143,930",No,1266,5369,2562,0.4772,2795,0.0473,4.7%,Health sciences
+2021,2021 (academic year 2020-21),52,"52 Business, Management, Marketing, and Related Support Services",Master's degree,1,204956,"204,956",No,1317,4576,1947,0.4255,2235,0.0224,2.2%,Business
+2021,2021 (academic year 2020-21),54,54 History,Master's degree,1,3501,"3,501",No,380,426,330,0.7746,339,0.3365,33.6%,Humanities and arts
+2021,2021 (academic year 2020-21),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,Doctorate: research/scholarship,2,923,923,No,58,279,261,0.9355,261,0.7671,76.7%,Agricultural sciences and natural resources
+2021,2021 (academic year 2020-21),03,03 Natural Resources and Conservation,Doctorate: research/scholarship,2,606,606,No,110,179,167,0.933,169,0.703,70.3%,Agricultural sciences and natural resources
+2021,2021 (academic year 2020-21),04,04 Architecture and Related Services,Doctorate: research/scholarship,2,234,234,No,45,71,68,0.9577,69,0.8034,80.3%,Not mapped
+2021,2021 (academic year 2020-21),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",Doctorate: research/scholarship,2,340,340,No,72,142,139,0.9789,139,0.7235,72.4%,Not mapped
+2021,2021 (academic year 2020-21),09,"09 Communication, Journalism, and Related Programs",Doctorate: research/scholarship,2,532,532,No,90,127,116,0.9134,119,0.735,73.5%,Not mapped
+2021,2021 (academic year 2020-21),10,10 Communications Technologies/Technicians and Support Services,Doctorate: research/scholarship,2,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),11,11 Computer and Information Sciences and Support Services,Doctorate: research/scholarship,2,2515,"2,515",No,205,297,202,0.6801,220,0.2573,25.7%,Computer and information sciences
+2021,2021 (academic year 2020-21),12,"12 Culinary, Entertainment, and Personal Services",Doctorate: research/scholarship,2,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),13,13 Education,Doctorate: research/scholarship,2,13056,"13,056",No,478,1391,1027,0.7383,1103,0.2363,23.6%,Education
+2021,2021 (academic year 2020-21),14,14 Engineering,Doctorate: research/scholarship,2,10922,"10,922",No,234,1383,997,0.7209,1007,0.3184,31.8%,Engineering
+2021,2021 (academic year 2020-21),15,15 Engineering/Engineering-Related Technologies/Technicians,Doctorate: research/scholarship,2,150,150,No,31,35,31,0.8857,31,0.4733,47.3%,Engineering
+2021,2021 (academic year 2020-21),16,"16 Foreign Languages, Literatures, and Linguistics",Doctorate: research/scholarship,2,993,993,No,113,445,437,0.982,438,0.9104,91.0%,Humanities and arts
+2021,2021 (academic year 2020-21),19,19 Family and Consumer Sciences/Human Sciences,Doctorate: research/scholarship,2,238,238,No,56,81,77,0.9506,77,0.8151,81.5%,Not mapped
+2021,2021 (academic year 2020-21),22,22 Legal Professions and Studies,Doctorate: research/scholarship,2,158,158,No,55,68,64,0.9412,65,0.6076,60.8%,Not mapped
+2021,2021 (academic year 2020-21),23,23 English Language and Literature/Letters,Doctorate: research/scholarship,2,1063,"1,063",No,160,189,160,0.8466,165,0.6115,61.1%,Humanities and arts
+2021,2021 (academic year 2020-21),24,"24 Liberal Arts and Sciences, General Studies and Humanities",Doctorate: research/scholarship,2,90,90,No,28,30,27,0.9,27,0.6222,62.2%,Not mapped
+2021,2021 (academic year 2020-21),25,25 Library Science,Doctorate: research/scholarship,2,12,12,No,12,13,13,1,13,1,100.0%,Not mapped
+2021,2021 (academic year 2020-21),26,26 Biological and Biomedical Sciences,Doctorate: research/scholarship,2,7547,"7,547",No,301,1819,1626,0.8939,1634,0.6136,61.4%,Biological and biomedical sciences
+2021,2021 (academic year 2020-21),27,27 Mathematics and Statistics,Doctorate: research/scholarship,2,1960,"1,960",No,196,347,279,0.804,297,0.5015,50.2%,Mathematics and statistics
+2021,2021 (academic year 2020-21),29,29 Military Technologies and Applied Sciences,Doctorate: research/scholarship,2,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),30,30 Multi/Interdisciplinary Studies,Doctorate: research/scholarship,2,1015,"1,015",No,178,319,297,0.931,301,0.6916,69.2%,Not mapped
+2021,2021 (academic year 2020-21),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",Doctorate: research/scholarship,2,310,310,No,65,81,73,0.9012,74,0.5742,57.4%,Not mapped
+2021,2021 (academic year 2020-21),38,38 Philosophy and Religious Studies,Doctorate: research/scholarship,2,621,621,No,139,186,181,0.9731,184,0.8986,89.9%,Humanities and arts
+2021,2021 (academic year 2020-21),39,39 Theology and Religious Vocations,Doctorate: research/scholarship,2,1114,"1,114",No,98,167,139,0.8323,146,0.3142,31.4%,Not mapped
+2021,2021 (academic year 2020-21),40,40 Physical Sciences,Doctorate: research/scholarship,2,5725,"5,725",No,235,810,611,0.7543,638,0.3378,33.8%,Physical sciences
+2021,2021 (academic year 2020-21),41,41 Science Technologies/Technicians,Doctorate: research/scholarship,2,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),42,42 Psychology,Doctorate: research/scholarship,2,5057,"5,057",No,319,688,539,0.7834,567,0.3735,37.4%,Psychology
+2021,2021 (academic year 2020-21),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",Doctorate: research/scholarship,2,226,226,No,44,49,43,0.8776,44,0.385,38.5%,Not mapped
+2021,2021 (academic year 2020-21),44,44 Public Administration and Social Service Professions,Doctorate: research/scholarship,2,1202,"1,202",No,153,207,181,0.8744,188,0.49,49.0%,Not mapped
+2021,2021 (academic year 2020-21),45,45 Social Sciences,Doctorate: research/scholarship,2,3460,"3,460",No,204,711,611,0.8594,621,0.5448,54.5%,Social sciences
+2021,2021 (academic year 2020-21),47,47 Mechanic and Repair Technologies/Technicians,Doctorate: research/scholarship,2,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),49,49 Transportation and Materials Moving,Doctorate: research/scholarship,2,20,20,No,7,8,7,0.875,7,0.5,50.0%,Not mapped
+2021,2021 (academic year 2020-21),50,50 Visual and Performing Arts,Doctorate: research/scholarship,2,1578,"1,578",No,125,380,342,0.9,347,0.5044,50.4%,Humanities and arts
+2021,2021 (academic year 2020-21),51,51 Health Professions and Related Programs,Doctorate: research/scholarship,2,7559,"7,559",No,329,1072,898,0.8377,921,0.2974,29.7%,Health sciences
+2021,2021 (academic year 2020-21),52,"52 Business, Management, Marketing, and Related Support Services",Doctorate: research/scholarship,2,3442,"3,442",No,279,474,392,0.827,412,0.2908,29.1%,Business
+2021,2021 (academic year 2020-21),54,54 History,Doctorate: research/scholarship,2,702,702,No,156,178,157,0.882,163,0.6239,62.4%,Humanities and arts
+2021,2021 (academic year 2020-21),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,Doctorate: professional practice,3,3345,"3,345",No,33,35,4,0.1143,7,,Withheld,Agricultural sciences and natural resources
+2021,2021 (academic year 2020-21),04,04 Architecture and Related Services,Doctorate: professional practice,3,16,16,No,2,2,1,0.5,1,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),11,11 Computer and Information Sciences and Support Services,Doctorate: professional practice,3,70,70,No,1,1,0,0,1,,Withheld,Computer and information sciences
+2021,2021 (academic year 2020-21),13,13 Education,Doctorate: professional practice,3,300,300,No,48,64,52,0.8125,55,0.34,34.0%,Education
+2021,2021 (academic year 2020-21),14,14 Engineering,Doctorate: professional practice,3,,Withheld,Yes,3,6,6,1,6,,Withheld,Engineering
+2021,2021 (academic year 2020-21),15,15 Engineering/Engineering-Related Technologies/Technicians,Doctorate: professional practice,3,50,50,No,2,2,1,0.5,1,,Withheld,Engineering
+2021,2021 (academic year 2020-21),22,22 Legal Professions and Studies,Doctorate: professional practice,3,36249,"36,249",No,211,228,17,0.0746,33,0.0007,0.1%,Not mapped
+2021,2021 (academic year 2020-21),24,"24 Liberal Arts and Sciences, General Studies and Humanities",Doctorate: professional practice,3,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),26,26 Biological and Biomedical Sciences,Doctorate: professional practice,3,11,11,No,6,12,12,1,12,1,100.0%,Biological and biomedical sciences
+2021,2021 (academic year 2020-21),30,30 Multi/Interdisciplinary Studies,Doctorate: professional practice,3,36,36,No,3,3,2,0.6667,2,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),38,38 Philosophy and Religious Studies,Doctorate: professional practice,3,,Withheld,Yes,1,1,1,1,1,,Withheld,Humanities and arts
+2021,2021 (academic year 2020-21),39,39 Theology and Religious Vocations,Doctorate: professional practice,3,749,749,No,70,83,65,0.7831,70,0.251,25.1%,Not mapped
+2021,2021 (academic year 2020-21),42,42 Psychology,Doctorate: professional practice,3,1443,"1,443",No,88,116,70,0.6034,77,0.1303,13.0%,Psychology
+2021,2021 (academic year 2020-21),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",Doctorate: professional practice,3,13,13,No,1,1,0,0,0,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),44,44 Public Administration and Social Service Professions,Doctorate: professional practice,3,55,55,No,12,12,9,0.75,9,0.2,20.0%,Not mapped
+2021,2021 (academic year 2020-21),45,45 Social Sciences,Doctorate: professional practice,3,11,11,No,3,3,2,0.6667,3,,Withheld,Social sciences
+2021,2021 (academic year 2020-21),50,50 Visual and Performing Arts,Doctorate: professional practice,3,72,72,No,5,9,7,0.7778,7,0.25,25.0%,Humanities and arts
+2021,2021 (academic year 2020-21),51,51 Health Professions and Related Programs,Doctorate: professional practice,3,77672,"77,672",No,627,1429,510,0.3569,644,0.0177,1.8%,Health sciences
+2021,2021 (academic year 2020-21),52,"52 Business, Management, Marketing, and Related Support Services",Doctorate: professional practice,3,277,277,No,17,19,11,0.5789,12,,Withheld,Business
+2021,2021 (academic year 2020-21),04,04 Architecture and Related Services,Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),13,13 Education,Doctorate: other,4,557,557,No,31,50,28,0.56,31,0.0969,9.7%,Education
+2021,2021 (academic year 2020-21),14,14 Engineering,Doctorate: other,4,,Withheld,Yes,2,2,2,1,2,,Withheld,Engineering
+2021,2021 (academic year 2020-21),15,15 Engineering/Engineering-Related Technologies/Technicians,Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Engineering
+2021,2021 (academic year 2020-21),22,22 Legal Professions and Studies,Doctorate: other,4,14,14,No,1,1,0,0,0,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),23,23 English Language and Literature/Letters,Doctorate: other,4,29,29,No,2,2,0,0,0,,Withheld,Humanities and arts
+2021,2021 (academic year 2020-21),30,30 Multi/Interdisciplinary Studies,Doctorate: other,4,,Withheld,Yes,4,4,4,1,4,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",Doctorate: other,4,16,16,No,2,2,1,0.5,1,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),38,38 Philosophy and Religious Studies,Doctorate: other,4,,Withheld,Yes,2,2,2,1,2,,Withheld,Humanities and arts
+2021,2021 (academic year 2020-21),39,39 Theology and Religious Vocations,Doctorate: other,4,493,493,No,53,69,51,0.7391,53,0.2333,23.3%,Not mapped
+2021,2021 (academic year 2020-21),40,40 Physical Sciences,Doctorate: other,4,,Withheld,Yes,2,2,2,1,2,,Withheld,Physical sciences
+2021,2021 (academic year 2020-21),42,42 Psychology,Doctorate: other,4,50,50,No,3,3,2,0.6667,2,,Withheld,Psychology
+2021,2021 (academic year 2020-21),44,44 Public Administration and Social Service Professions,Doctorate: other,4,184,184,No,1,1,0,0,0,,Withheld,Not mapped
+2021,2021 (academic year 2020-21),45,45 Social Sciences,Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Social sciences
+2021,2021 (academic year 2020-21),50,50 Visual and Performing Arts,Doctorate: other,4,19,19,No,5,14,14,1,14,1,100.0%,Humanities and arts
+2021,2021 (academic year 2020-21),51,51 Health Professions and Related Programs,Doctorate: other,4,1138,"1,138",No,52,78,49,0.6282,56,0.1063,10.6%,Health sciences
+2021,2021 (academic year 2020-21),52,"52 Business, Management, Marketing, and Related Support Services",Doctorate: other,4,15,15,No,4,4,4,1,4,,Withheld,Business
+2021,2021 (academic year 2020-21),54,54 History,Doctorate: other,4,14,14,No,1,1,0,0,0,,Withheld,Humanities and arts
+2022,2022 (academic year 2021-22),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,All master's and doctoral levels,0,7410,"7,410",No,119,756,606,0.8016,616,0.254,25.4%,Agricultural sciences and natural resources
+2022,2022 (academic year 2021-22),03,03 Natural Resources and Conservation,All master's and doctoral levels,0,5706,"5,706",No,267,601,442,0.7354,472,0.2362,23.6%,Agricultural sciences and natural resources
+2022,2022 (academic year 2021-22),04,04 Architecture and Related Services,All master's and doctoral levels,0,7011,"7,011",No,182,451,270,0.5987,306,0.1091,10.9%,Not mapped
+2022,2022 (academic year 2021-22),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",All master's and doctoral levels,0,2249,"2,249",No,173,528,482,0.9129,494,0.5207,52.1%,Not mapped
+2022,2022 (academic year 2021-22),09,"09 Communication, Journalism, and Related Programs",All master's and doctoral levels,0,12874,"12,874",No,421,888,581,0.6543,631,0.1561,15.6%,Not mapped
+2022,2022 (academic year 2021-22),10,10 Communications Technologies/Technicians and Support Services,All master's and doctoral levels,0,589,589,No,37,41,24,0.5854,24,0.1273,12.7%,Not mapped
+2022,2022 (academic year 2021-22),11,11 Computer and Information Sciences and Support Services,All master's and doctoral levels,0,54548,"54,548",No,666,1687,822,0.4873,962,0.0433,4.3%,Computer and information sciences
+2022,2022 (academic year 2021-22),12,"12 Culinary, Entertainment, and Personal Services",All master's and doctoral levels,0,18,18,No,7,8,7,0.875,7,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),13,13 Education,All master's and doctoral levels,0,171905,"171,905",No,1259,9560,5841,0.611,6106,0.0875,8.8%,Education
+2022,2022 (academic year 2021-22),14,14 Engineering,All master's and doctoral levels,0,55815,"55,815",No,380,3701,2159,0.5834,2208,0.134,13.4%,Engineering
+2022,2022 (academic year 2021-22),15,15 Engineering/Engineering-Related Technologies/Technicians,All master's and doctoral levels,0,6607,"6,607",No,239,382,203,0.5314,245,0.0888,8.9%,Engineering
+2022,2022 (academic year 2021-22),16,"16 Foreign Languages, Literatures, and Linguistics",All master's and doctoral levels,0,3895,"3,895",No,253,1251,1171,0.9361,1182,0.6745,67.4%,Humanities and arts
+2022,2022 (academic year 2021-22),19,19 Family and Consumer Sciences/Human Sciences,All master's and doctoral levels,0,3228,"3,228",No,200,382,280,0.733,301,0.2385,23.9%,Not mapped
+2022,2022 (academic year 2021-22),22,22 Legal Professions and Studies,All master's and doctoral levels,0,48984,"48,984",No,230,754,333,0.4416,390,0.0155,1.5%,Not mapped
+2022,2022 (academic year 2021-22),23,23 English Language and Literature/Letters,All master's and doctoral levels,0,9362,"9,362",No,533,980,671,0.6847,753,0.2943,29.4%,Humanities and arts
+2022,2022 (academic year 2021-22),24,"24 Liberal Arts and Sciences, General Studies and Humanities",All master's and doctoral levels,0,1969,"1,969",No,214,267,212,0.794,221,0.2301,23.0%,Not mapped
+2022,2022 (academic year 2021-22),25,25 Library Science,All master's and doctoral levels,0,5873,"5,873",No,69,87,22,0.2529,24,0.0051,0.5%,Not mapped
+2022,2022 (academic year 2021-22),26,26 Biological and Biomedical Sciences,All master's and doctoral levels,0,29447,"29,447",No,614,4086,3310,0.8101,3380,0.3141,31.4%,Biological and biomedical sciences
+2022,2022 (academic year 2021-22),27,27 Mathematics and Statistics,All master's and doctoral levels,0,14003,"14,003",No,422,1131,763,0.6746,851,0.1982,19.8%,Mathematics and statistics
+2022,2022 (academic year 2021-22),29,29 Military Technologies and Applied Sciences,All master's and doctoral levels,0,978,978,No,30,46,28,0.6087,28,0.0675,6.7%,Not mapped
+2022,2022 (academic year 2021-22),30,30 Multi/Interdisciplinary Studies,All master's and doctoral levels,0,16253,"16,253",No,552,1452,1050,0.7231,1131,0.1632,16.3%,Not mapped
+2022,2022 (academic year 2021-22),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",All master's and doctoral levels,0,10468,"10,468",No,410,649,345,0.5316,392,0.1165,11.7%,Not mapped
+2022,2022 (academic year 2021-22),38,38 Philosophy and Religious Studies,All master's and doctoral levels,0,2892,"2,892",No,318,596,543,0.9111,556,0.5218,52.2%,Humanities and arts
+2022,2022 (academic year 2021-22),39,39 Theology and Religious Vocations,All master's and doctoral levels,0,16088,"16,088",No,419,1403,978,0.6971,1050,0.1594,15.9%,Not mapped
+2022,2022 (academic year 2021-22),40,40 Physical Sciences,All master's and doctoral levels,0,13422,"13,422",No,369,1926,1514,0.7861,1567,0.3789,37.9%,Physical sciences
+2022,2022 (academic year 2021-22),41,41 Science Technologies/Technicians,All master's and doctoral levels,0,76,76,No,12,13,9,0.6923,9,0.2105,21.1%,Not mapped
+2022,2022 (academic year 2021-22),42,42 Psychology,All master's and doctoral levels,0,40925,"40,925",No,778,2395,1399,0.5841,1559,0.1127,11.3%,Psychology
+2022,2022 (academic year 2021-22),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",All master's and doctoral levels,0,12056,"12,056",No,427,682,386,0.566,426,0.0971,9.7%,Not mapped
+2022,2022 (academic year 2021-22),44,44 Public Administration and Social Service Professions,All master's and doctoral levels,0,51763,"51,763",No,624,1199,478,0.3987,573,0.0299,3.0%,Not mapped
+2022,2022 (academic year 2021-22),45,45 Social Sciences,All master's and doctoral levels,0,21155,"21,155",No,468,2282,1742,0.7634,1777,0.2731,27.3%,Social sciences
+2022,2022 (academic year 2021-22),46,46 Construction Trades,All master's and doctoral levels,0,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),47,47 Mechanic and Repair Technologies/Technicians,All master's and doctoral levels,0,28,28,No,3,5,4,0.8,4,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),48,48 Precision Production,All master's and doctoral levels,0,11,11,No,2,2,2,1,2,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),49,49 Transportation and Materials Moving,All master's and doctoral levels,0,694,694,No,24,34,22,0.6471,23,0.0634,6.3%,Not mapped
+2022,2022 (academic year 2021-22),50,50 Visual and Performing Arts,All master's and doctoral levels,0,17537,"17,537",No,512,2490,1979,0.7948,2016,0.3073,30.7%,Humanities and arts
+2022,2022 (academic year 2021-22),51,51 Health Professions and Related Programs,All master's and doctoral levels,0,237569,"237,569",No,1326,8165,4019,0.4922,4430,0.0454,4.5%,Health sciences
+2022,2022 (academic year 2021-22),52,"52 Business, Management, Marketing, and Related Support Services",All master's and doctoral levels,0,213102,"213,102",No,1327,5187,2452,0.4727,2776,0.028,2.8%,Business
+2022,2022 (academic year 2021-22),54,54 History,All master's and doctoral levels,0,4287,"4,287",No,383,607,495,0.8155,506,0.3993,39.9%,Humanities and arts
+2022,2022 (academic year 2021-22),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,Master's degree,1,3073,"3,073",No,116,446,342,0.7668,347,0.368,36.8%,Agricultural sciences and natural resources
+2022,2022 (academic year 2021-22),03,03 Natural Resources and Conservation,Master's degree,1,5057,"5,057",No,256,424,279,0.658,308,0.1754,17.5%,Agricultural sciences and natural resources
+2022,2022 (academic year 2021-22),04,04 Architecture and Related Services,Master's degree,1,6759,"6,759",No,182,371,192,0.5175,227,0.0826,8.3%,Not mapped
+2022,2022 (academic year 2021-22),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",Master's degree,1,1833,"1,833",No,167,381,339,0.8898,350,0.455,45.5%,Not mapped
+2022,2022 (academic year 2021-22),09,"09 Communication, Journalism, and Related Programs",Master's degree,1,12273,"12,273",No,419,756,463,0.6124,509,0.1286,12.9%,Not mapped
+2022,2022 (academic year 2021-22),10,10 Communications Technologies/Technicians and Support Services,Master's degree,1,589,589,No,36,40,23,0.575,23,0.1273,12.7%,Not mapped
+2022,2022 (academic year 2021-22),11,11 Computer and Information Sciences and Support Services,Master's degree,1,51748,"51,748",No,666,1372,610,0.4446,731,0.0333,3.3%,Computer and information sciences
+2022,2022 (academic year 2021-22),12,"12 Culinary, Entertainment, and Personal Services",Master's degree,1,18,18,No,6,6,5,0.8333,5,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),13,13 Education,Master's degree,1,156769,"156,769",No,1242,8009,4724,0.5898,4899,0.0755,7.5%,Education
+2022,2022 (academic year 2021-22),14,14 Engineering,Master's degree,1,43694,"43,694",No,379,2295,1199,0.5224,1232,0.0945,9.5%,Engineering
+2022,2022 (academic year 2021-22),15,15 Engineering/Engineering-Related Technologies/Technicians,Master's degree,1,6440,"6,440",No,235,342,167,0.4883,209,0.0815,8.2%,Engineering
+2022,2022 (academic year 2021-22),16,"16 Foreign Languages, Literatures, and Linguistics",Master's degree,1,2861,"2,861",No,250,808,734,0.9084,745,0.5809,58.1%,Humanities and arts
+2022,2022 (academic year 2021-22),19,19 Family and Consumer Sciences/Human Sciences,Master's degree,1,2950,"2,950",No,198,306,209,0.683,229,0.1871,18.7%,Not mapped
+2022,2022 (academic year 2021-22),22,22 Legal Professions and Studies,Master's degree,1,12145,"12,145",No,185,458,255,0.5568,294,0.0526,5.3%,Not mapped
+2022,2022 (academic year 2021-22),23,23 English Language and Literature/Letters,Master's degree,1,8154,"8,154",No,533,788,521,0.6612,599,0.2583,25.8%,Humanities and arts
+2022,2022 (academic year 2021-22),24,"24 Liberal Arts and Sciences, General Studies and Humanities",Master's degree,1,1862,"1,862",No,208,236,185,0.7839,193,0.2137,21.4%,Not mapped
+2022,2022 (academic year 2021-22),25,25 Library Science,Master's degree,1,5856,"5,856",No,69,75,10,0.1333,12,0.0022,0.2%,Not mapped
+2022,2022 (academic year 2021-22),26,26 Biological and Biomedical Sciences,Master's degree,1,20808,"20,808",No,609,2266,1739,0.7674,1799,0.2167,21.7%,Biological and biomedical sciences
+2022,2022 (academic year 2021-22),27,27 Mathematics and Statistics,Master's degree,1,11788,"11,788",No,420,783,500,0.6386,565,0.1528,15.3%,Mathematics and statistics
+2022,2022 (academic year 2021-22),29,29 Military Technologies and Applied Sciences,Master's degree,1,975,975,No,30,41,23,0.561,23,0.0646,6.5%,Not mapped
+2022,2022 (academic year 2021-22),30,30 Multi/Interdisciplinary Studies,Master's degree,1,15102,"15,102",No,536,1119,741,0.6622,816,0.1261,12.6%,Not mapped
+2022,2022 (academic year 2021-22),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",Master's degree,1,10145,"10,145",No,406,569,272,0.478,318,0.1007,10.1%,Not mapped
+2022,2022 (academic year 2021-22),38,38 Philosophy and Religious Studies,Master's degree,1,2236,"2,236",No,302,405,359,0.8864,367,0.4191,41.9%,Humanities and arts
+2022,2022 (academic year 2021-22),39,39 Theology and Religious Vocations,Master's degree,1,13381,"13,381",No,416,1071,715,0.6676,771,0.1398,14.0%,Not mapped
+2022,2022 (academic year 2021-22),40,40 Physical Sciences,Master's degree,1,6874,"6,874",No,365,1110,915,0.8243,936,0.4479,44.8%,Physical sciences
+2022,2022 (academic year 2021-22),41,41 Science Technologies/Technicians,Master's degree,1,76,76,No,12,12,8,0.6667,8,0.2105,21.1%,Not mapped
+2022,2022 (academic year 2021-22),42,42 Psychology,Master's degree,1,34011,"34,011",No,765,1561,770,0.4933,891,0.0735,7.4%,Psychology
+2022,2022 (academic year 2021-22),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",Master's degree,1,11763,"11,763",No,425,624,337,0.5401,375,0.0886,8.9%,Not mapped
+2022,2022 (academic year 2021-22),44,44 Public Administration and Social Service Professions,Master's degree,1,50192,"50,192",No,617,972,285,0.2932,376,0.019,1.9%,Not mapped
+2022,2022 (academic year 2021-22),45,45 Social Sciences,Master's degree,1,17394,"17,394",No,464,1551,1127,0.7266,1156,0.2165,21.7%,Social sciences
+2022,2022 (academic year 2021-22),46,46 Construction Trades,Master's degree,1,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),47,47 Mechanic and Repair Technologies/Technicians,Master's degree,1,27,27,No,3,4,3,0.75,3,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),48,48 Precision Production,Master's degree,1,11,11,No,2,2,2,1,2,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),49,49 Transportation and Materials Moving,Master's degree,1,674,674,No,24,27,15,0.5556,16,0.0356,3.6%,Not mapped
+2022,2022 (academic year 2021-22),50,50 Visual and Performing Arts,Master's degree,1,15775,"15,775",No,512,2078,1613,0.7762,1643,0.2851,28.5%,Humanities and arts
+2022,2022 (academic year 2021-22),51,51 Health Professions and Related Programs,Master's degree,1,148836,"148,836",No,1283,5506,2590,0.4704,2831,0.0476,4.8%,Health sciences
+2022,2022 (academic year 2021-22),52,"52 Business, Management, Marketing, and Related Support Services",Master's degree,1,208593,"208,593",No,1322,4661,2043,0.4383,2337,0.0238,2.4%,Business
+2022,2022 (academic year 2021-22),54,54 History,Master's degree,1,3535,"3,535",No,380,428,335,0.7827,344,0.3448,34.5%,Humanities and arts
+2022,2022 (academic year 2021-22),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,Doctorate: research/scholarship,2,941,941,No,59,274,259,0.9453,260,0.7928,79.3%,Agricultural sciences and natural resources
+2022,2022 (academic year 2021-22),03,03 Natural Resources and Conservation,Doctorate: research/scholarship,2,649,649,No,107,177,163,0.9209,164,0.7103,71.0%,Agricultural sciences and natural resources
+2022,2022 (academic year 2021-22),04,04 Architecture and Related Services,Doctorate: research/scholarship,2,218,218,No,48,77,76,0.987,77,0.922,92.2%,Not mapped
+2022,2022 (academic year 2021-22),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",Doctorate: research/scholarship,2,389,389,No,73,146,143,0.9795,144,0.8663,86.6%,Not mapped
+2022,2022 (academic year 2021-22),09,"09 Communication, Journalism, and Related Programs",Doctorate: research/scholarship,2,601,601,No,92,132,118,0.8939,122,0.7171,71.7%,Not mapped
+2022,2022 (academic year 2021-22),10,10 Communications Technologies/Technicians and Support Services,Doctorate: research/scholarship,2,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),11,11 Computer and Information Sciences and Support Services,Doctorate: research/scholarship,2,2736,"2,736",No,212,313,211,0.6741,229,0.2325,23.2%,Computer and information sciences
+2022,2022 (academic year 2021-22),12,"12 Culinary, Entertainment, and Personal Services",Doctorate: research/scholarship,2,,Withheld,Yes,2,2,2,1,2,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),13,13 Education,Doctorate: research/scholarship,2,14359,"14,359",No,500,1430,1018,0.7119,1103,0.2129,21.3%,Education
+2022,2022 (academic year 2021-22),14,14 Engineering,Doctorate: research/scholarship,2,12114,"12,114",No,234,1398,952,0.681,968,0.2757,27.6%,Engineering
+2022,2022 (academic year 2021-22),15,15 Engineering/Engineering-Related Technologies/Technicians,Doctorate: research/scholarship,2,112,112,No,33,36,33,0.9167,33,0.5,50.0%,Engineering
+2022,2022 (academic year 2021-22),16,"16 Foreign Languages, Literatures, and Linguistics",Doctorate: research/scholarship,2,1034,"1,034",No,110,443,437,0.9865,437,0.9333,93.3%,Humanities and arts
+2022,2022 (academic year 2021-22),19,19 Family and Consumer Sciences/Human Sciences,Doctorate: research/scholarship,2,278,278,No,57,76,71,0.9342,72,0.7842,78.4%,Not mapped
+2022,2022 (academic year 2021-22),22,22 Legal Professions and Studies,Doctorate: research/scholarship,2,157,157,No,55,67,62,0.9254,62,0.5924,59.2%,Not mapped
+2022,2022 (academic year 2021-22),23,23 English Language and Literature/Letters,Doctorate: research/scholarship,2,1176,"1,176",No,159,190,150,0.7895,154,0.5519,55.2%,Humanities and arts
+2022,2022 (academic year 2021-22),24,"24 Liberal Arts and Sciences, General Studies and Humanities",Doctorate: research/scholarship,2,107,107,No,28,30,26,0.8667,27,0.514,51.4%,Not mapped
+2022,2022 (academic year 2021-22),25,25 Library Science,Doctorate: research/scholarship,2,17,17,No,11,12,12,1,12,1,100.0%,Not mapped
+2022,2022 (academic year 2021-22),26,26 Biological and Biomedical Sciences,Doctorate: research/scholarship,2,8635,"8,635",No,301,1810,1561,0.8624,1571,0.5485,54.8%,Biological and biomedical sciences
+2022,2022 (academic year 2021-22),27,27 Mathematics and Statistics,Doctorate: research/scholarship,2,2215,"2,215",No,193,348,263,0.7557,286,0.4402,44.0%,Mathematics and statistics
+2022,2022 (academic year 2021-22),29,29 Military Technologies and Applied Sciences,Doctorate: research/scholarship,2,,Withheld,Yes,3,4,4,1,4,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),30,30 Multi/Interdisciplinary Studies,Doctorate: research/scholarship,2,1103,"1,103",No,184,327,304,0.9297,310,0.6736,67.4%,Not mapped
+2022,2022 (academic year 2021-22),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",Doctorate: research/scholarship,2,306,306,No,63,77,71,0.9221,72,0.6438,64.4%,Not mapped
+2022,2022 (academic year 2021-22),38,38 Philosophy and Religious Studies,Doctorate: research/scholarship,2,649,649,No,141,187,180,0.9626,185,0.8706,87.1%,Humanities and arts
+2022,2022 (academic year 2021-22),39,39 Theology and Religious Vocations,Doctorate: research/scholarship,2,1461,"1,461",No,100,175,142,0.8114,153,0.2437,24.4%,Not mapped
+2022,2022 (academic year 2021-22),40,40 Physical Sciences,Doctorate: research/scholarship,2,6548,"6,548",No,234,815,598,0.7337,630,0.3065,30.7%,Physical sciences
+2022,2022 (academic year 2021-22),41,41 Science Technologies/Technicians,Doctorate: research/scholarship,2,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),42,42 Psychology,Doctorate: research/scholarship,2,5147,"5,147",No,315,700,549,0.7843,582,0.3734,37.3%,Psychology
+2022,2022 (academic year 2021-22),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",Doctorate: research/scholarship,2,279,279,No,48,57,49,0.8596,51,0.4624,46.2%,Not mapped
+2022,2022 (academic year 2021-22),44,44 Public Administration and Social Service Professions,Doctorate: research/scholarship,2,1326,"1,326",No,154,211,182,0.8626,186,0.4336,43.4%,Not mapped
+2022,2022 (academic year 2021-22),45,45 Social Sciences,Doctorate: research/scholarship,2,3744,"3,744",No,205,727,612,0.8418,617,0.5358,53.6%,Social sciences
+2022,2022 (academic year 2021-22),47,47 Mechanic and Repair Technologies/Technicians,Doctorate: research/scholarship,2,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),49,49 Transportation and Materials Moving,Doctorate: research/scholarship,2,20,20,No,7,7,7,1,7,1,100.0%,Not mapped
+2022,2022 (academic year 2021-22),50,50 Visual and Performing Arts,Doctorate: research/scholarship,2,1653,"1,653",No,123,389,345,0.8869,352,0.5039,50.4%,Humanities and arts
+2022,2022 (academic year 2021-22),51,51 Health Professions and Related Programs,Doctorate: research/scholarship,2,7604,"7,604",No,329,1082,899,0.8309,920,0.3064,30.6%,Health sciences
+2022,2022 (academic year 2021-22),52,"52 Business, Management, Marketing, and Related Support Services",Doctorate: research/scholarship,2,3994,"3,994",No,288,499,391,0.7836,419,0.2481,24.8%,Business
+2022,2022 (academic year 2021-22),54,54 History,Doctorate: research/scholarship,2,732,732,No,157,178,160,0.8989,162,0.6735,67.3%,Humanities and arts
+2022,2022 (academic year 2021-22),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,Doctorate: professional practice,3,3396,"3,396",No,34,36,5,0.1389,9,,Withheld,Agricultural sciences and natural resources
+2022,2022 (academic year 2021-22),04,04 Architecture and Related Services,Doctorate: professional practice,3,28,28,No,2,2,1,0.5,1,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),11,11 Computer and Information Sciences and Support Services,Doctorate: professional practice,3,64,64,No,2,2,1,0.5,2,,Withheld,Computer and information sciences
+2022,2022 (academic year 2021-22),13,13 Education,Doctorate: professional practice,3,354,354,No,53,72,58,0.8056,62,0.3927,39.3%,Education
+2022,2022 (academic year 2021-22),14,14 Engineering,Doctorate: professional practice,3,,Withheld,Yes,3,6,6,1,6,,Withheld,Engineering
+2022,2022 (academic year 2021-22),15,15 Engineering/Engineering-Related Technologies/Technicians,Doctorate: professional practice,3,54,54,No,3,3,2,0.6667,2,,Withheld,Engineering
+2022,2022 (academic year 2021-22),22,22 Legal Professions and Studies,Doctorate: professional practice,3,36667,"36,667",No,210,227,15,0.0661,33,0.0007,0.1%,Not mapped
+2022,2022 (academic year 2021-22),24,"24 Liberal Arts and Sciences, General Studies and Humanities",Doctorate: professional practice,3,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),26,26 Biological and Biomedical Sciences,Doctorate: professional practice,3,,Withheld,Yes,6,10,10,1,10,,Withheld,Biological and biomedical sciences
+2022,2022 (academic year 2021-22),29,29 Military Technologies and Applied Sciences,Doctorate: professional practice,3,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),30,30 Multi/Interdisciplinary Studies,Doctorate: professional practice,3,43,43,No,3,3,2,0.6667,2,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",Doctorate: professional practice,3,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),38,38 Philosophy and Religious Studies,Doctorate: professional practice,3,,Withheld,Yes,1,1,1,1,1,,Withheld,Humanities and arts
+2022,2022 (academic year 2021-22),39,39 Theology and Religious Vocations,Doctorate: professional practice,3,810,810,No,73,87,64,0.7356,69,0.2235,22.3%,Not mapped
+2022,2022 (academic year 2021-22),42,42 Psychology,Doctorate: professional practice,3,1714,"1,714",No,99,131,78,0.5954,84,0.1103,11.0%,Psychology
+2022,2022 (academic year 2021-22),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",Doctorate: professional practice,3,14,14,No,1,1,0,0,0,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),44,44 Public Administration and Social Service Professions,Doctorate: professional practice,3,133,133,No,15,15,11,0.7333,11,0.1429,14.3%,Not mapped
+2022,2022 (academic year 2021-22),45,45 Social Sciences,Doctorate: professional practice,3,13,13,No,3,3,2,0.6667,3,,Withheld,Social sciences
+2022,2022 (academic year 2021-22),50,50 Visual and Performing Arts,Doctorate: professional practice,3,84,84,No,5,9,7,0.7778,7,0.3929,39.3%,Humanities and arts
+2022,2022 (academic year 2021-22),51,51 Health Professions and Related Programs,Doctorate: professional practice,3,80032,"80,032",No,646,1501,486,0.3238,630,0.016,1.6%,Health sciences
+2022,2022 (academic year 2021-22),52,"52 Business, Management, Marketing, and Related Support Services",Doctorate: professional practice,3,229,229,No,19,22,14,0.6364,16,,Withheld,Business
+2022,2022 (academic year 2021-22),04,04 Architecture and Related Services,Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",Doctorate: other,4,27,27,No,1,1,0,0,0,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),13,13 Education,Doctorate: other,4,423,423,No,29,49,41,0.8367,42,0.052,5.2%,Education
+2022,2022 (academic year 2021-22),14,14 Engineering,Doctorate: other,4,,Withheld,Yes,2,2,2,1,2,,Withheld,Engineering
+2022,2022 (academic year 2021-22),15,15 Engineering/Engineering-Related Technologies/Technicians,Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Engineering
+2022,2022 (academic year 2021-22),22,22 Legal Professions and Studies,Doctorate: other,4,15,15,No,2,2,1,0.5,1,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),23,23 English Language and Literature/Letters,Doctorate: other,4,32,32,No,2,2,0,0,0,,Withheld,Humanities and arts
+2022,2022 (academic year 2021-22),30,30 Multi/Interdisciplinary Studies,Doctorate: other,4,,Withheld,Yes,3,3,3,1,3,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",Doctorate: other,4,17,17,No,2,2,1,0.5,1,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),38,38 Philosophy and Religious Studies,Doctorate: other,4,,Withheld,Yes,2,3,3,1,3,,Withheld,Humanities and arts
+2022,2022 (academic year 2021-22),39,39 Theology and Religious Vocations,Doctorate: other,4,436,436,No,53,70,57,0.8143,57,0.3601,36.0%,Not mapped
+2022,2022 (academic year 2021-22),40,40 Physical Sciences,Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Physical sciences
+2022,2022 (academic year 2021-22),42,42 Psychology,Doctorate: other,4,53,53,No,3,3,2,0.6667,2,,Withheld,Psychology
+2022,2022 (academic year 2021-22),44,44 Public Administration and Social Service Professions,Doctorate: other,4,112,112,No,1,1,0,0,0,,Withheld,Not mapped
+2022,2022 (academic year 2021-22),45,45 Social Sciences,Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Social sciences
+2022,2022 (academic year 2021-22),50,50 Visual and Performing Arts,Doctorate: other,4,25,25,No,5,14,14,1,14,1,100.0%,Humanities and arts
+2022,2022 (academic year 2021-22),51,51 Health Professions and Related Programs,Doctorate: other,4,1097,"1,097",No,46,76,44,0.5789,49,0.083,8.3%,Health sciences
+2022,2022 (academic year 2021-22),52,"52 Business, Management, Marketing, and Related Support Services",Doctorate: other,4,286,286,No,5,5,4,0.8,4,,Withheld,Business
+2022,2022 (academic year 2021-22),54,54 History,Doctorate: other,4,20,20,No,1,1,0,0,0,,Withheld,Humanities and arts
+2023,2023 (academic year 2022-23),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,All master's and doctoral levels,0,7578,"7,578",No,122,731,579,0.7921,590,0.2465,24.7%,Agricultural sciences and natural resources
+2023,2023 (academic year 2022-23),03,03 Natural Resources and Conservation,All master's and doctoral levels,0,5981,"5,981",No,269,600,443,0.7383,478,0.2159,21.6%,Agricultural sciences and natural resources
+2023,2023 (academic year 2022-23),04,04 Architecture and Related Services,All master's and doctoral levels,0,7681,"7,681",No,185,454,265,0.5837,310,0.0844,8.4%,Not mapped
+2023,2023 (academic year 2022-23),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",All master's and doctoral levels,0,2364,"2,364",No,168,530,488,0.9208,497,0.5186,51.9%,Not mapped
+2023,2023 (academic year 2022-23),09,"09 Communication, Journalism, and Related Programs",All master's and doctoral levels,0,13663,"13,663",No,430,908,588,0.6476,656,0.1448,14.5%,Not mapped
+2023,2023 (academic year 2022-23),10,10 Communications Technologies/Technicians and Support Services,All master's and doctoral levels,0,542,542,No,38,42,26,0.619,27,0.1531,15.3%,Not mapped
+2023,2023 (academic year 2022-23),11,11 Computer and Information Sciences and Support Services,All master's and doctoral levels,0,80610,"80,610",No,678,1754,823,0.4692,969,0.0287,2.9%,Computer and information sciences
+2023,2023 (academic year 2022-23),12,"12 Culinary, Entertainment, and Personal Services",All master's and doctoral levels,0,23,23,No,4,4,3,0.75,3,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),13,13 Education,All master's and doctoral levels,0,164127,"164,127",No,1254,9445,5851,0.6195,6088,0.0938,9.4%,Education
+2023,2023 (academic year 2022-23),14,14 Engineering,All master's and doctoral levels,0,66157,"66,157",No,386,3725,2148,0.5766,2208,0.1129,11.3%,Engineering
+2023,2023 (academic year 2022-23),15,15 Engineering/Engineering-Related Technologies/Technicians,All master's and doctoral levels,0,8748,"8,748",No,246,389,198,0.509,232,0.0688,6.9%,Engineering
+2023,2023 (academic year 2022-23),16,"16 Foreign Languages, Literatures, and Linguistics",All master's and doctoral levels,0,4061,"4,061",No,249,1239,1160,0.9362,1172,0.6754,67.5%,Humanities and arts
+2023,2023 (academic year 2022-23),19,19 Family and Consumer Sciences/Human Sciences,All master's and doctoral levels,0,3316,"3,316",No,203,371,269,0.7251,287,0.2289,22.9%,Not mapped
+2023,2023 (academic year 2022-23),22,22 Legal Professions and Studies,All master's and doctoral levels,0,46752,"46,752",No,233,755,341,0.4517,398,0.016,1.6%,Not mapped
+2023,2023 (academic year 2022-23),23,23 English Language and Literature/Letters,All master's and doctoral levels,0,9547,"9,547",No,531,965,668,0.6922,738,0.282,28.2%,Humanities and arts
+2023,2023 (academic year 2022-23),24,"24 Liberal Arts and Sciences, General Studies and Humanities",All master's and doctoral levels,0,1786,"1,786",No,207,254,199,0.7835,207,0.2217,22.2%,Not mapped
+2023,2023 (academic year 2022-23),25,25 Library Science,All master's and doctoral levels,0,5697,"5,697",No,68,86,23,0.2674,26,0.0056,0.6%,Not mapped
+2023,2023 (academic year 2022-23),26,26 Biological and Biomedical Sciences,All master's and doctoral levels,0,32388,"32,388",No,619,4130,3298,0.7985,3372,0.289,28.9%,Biological and biomedical sciences
+2023,2023 (academic year 2022-23),27,27 Mathematics and Statistics,All master's and doctoral levels,0,15228,"15,228",No,424,1127,762,0.6761,846,0.1892,18.9%,Mathematics and statistics
+2023,2023 (academic year 2022-23),29,29 Military Technologies and Applied Sciences,All master's and doctoral levels,0,1127,"1,127",No,33,49,29,0.5918,29,0.0497,5.0%,Not mapped
+2023,2023 (academic year 2022-23),30,30 Multi/Interdisciplinary Studies,All master's and doctoral levels,0,23026,"23,026",No,601,1617,1149,0.7106,1234,0.1315,13.2%,Not mapped
+2023,2023 (academic year 2022-23),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",All master's and doctoral levels,0,10144,"10,144",No,428,676,379,0.5607,444,0.1332,13.3%,Not mapped
+2023,2023 (academic year 2022-23),38,38 Philosophy and Religious Studies,All master's and doctoral levels,0,3071,"3,071",No,311,588,531,0.9031,544,0.4614,46.1%,Humanities and arts
+2023,2023 (academic year 2022-23),39,39 Theology and Religious Vocations,All master's and doctoral levels,0,15971,"15,971",No,418,1386,963,0.6948,1040,0.1602,16.0%,Not mapped
+2023,2023 (academic year 2022-23),40,40 Physical Sciences,All master's and doctoral levels,0,13743,"13,743",No,368,1921,1505,0.7834,1552,0.3814,38.1%,Physical sciences
+2023,2023 (academic year 2022-23),41,41 Science Technologies/Technicians,All master's and doctoral levels,0,93,93,No,14,14,10,0.7143,10,0.1398,14.0%,Not mapped
+2023,2023 (academic year 2022-23),42,42 Psychology,All master's and doctoral levels,0,45339,"45,339",No,787,2412,1366,0.5663,1551,0.0999,10.0%,Psychology
+2023,2023 (academic year 2022-23),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",All master's and doctoral levels,0,11695,"11,695",No,433,698,406,0.5817,445,0.1134,11.3%,Not mapped
+2023,2023 (academic year 2022-23),44,44 Public Administration and Social Service Professions,All master's and doctoral levels,0,53087,"53,087",No,643,1221,479,0.3923,566,0.03,3.0%,Not mapped
+2023,2023 (academic year 2022-23),45,45 Social Sciences,All master's and doctoral levels,0,22993,"22,993",No,475,2281,1728,0.7576,1769,0.2463,24.6%,Social sciences
+2023,2023 (academic year 2022-23),46,46 Construction Trades,All master's and doctoral levels,0,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),47,47 Mechanic and Repair Technologies/Technicians,All master's and doctoral levels,0,29,29,No,2,3,2,0.6667,2,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),48,48 Precision Production,All master's and doctoral levels,0,10,10,No,2,2,2,1,2,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),49,49 Transportation and Materials Moving,All master's and doctoral levels,0,757,757,No,27,41,26,0.6341,28,0.0793,7.9%,Not mapped
+2023,2023 (academic year 2022-23),50,50 Visual and Performing Arts,All master's and doctoral levels,0,18421,"18,421",No,507,2471,1933,0.7823,1975,0.2807,28.1%,Humanities and arts
+2023,2023 (academic year 2022-23),51,51 Health Professions and Related Programs,All master's and doctoral levels,0,239314,"239,314",No,1335,8413,4147,0.4929,4552,0.0469,4.7%,Health sciences
+2023,2023 (academic year 2022-23),52,"52 Business, Management, Marketing, and Related Support Services",All master's and doctoral levels,0,216013,"216,013",No,1333,5271,2612,0.4955,2954,0.0296,3.0%,Business
+2023,2023 (academic year 2022-23),54,54 History,All master's and doctoral levels,0,4410,"4,410",No,383,608,487,0.801,501,0.3721,37.2%,Humanities and arts
+2023,2023 (academic year 2022-23),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,Master's degree,1,3180,"3,180",No,118,433,326,0.7529,333,0.3519,35.2%,Agricultural sciences and natural resources
+2023,2023 (academic year 2022-23),03,03 Natural Resources and Conservation,Master's degree,1,5381,"5,381",No,259,426,281,0.6596,313,0.157,15.7%,Agricultural sciences and natural resources
+2023,2023 (academic year 2022-23),04,04 Architecture and Related Services,Master's degree,1,7437,"7,437",No,185,380,195,0.5132,238,0.0625,6.3%,Not mapped
+2023,2023 (academic year 2022-23),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",Master's degree,1,1920,"1,920",No,163,381,343,0.9003,352,0.4646,46.5%,Not mapped
+2023,2023 (academic year 2022-23),09,"09 Communication, Journalism, and Related Programs",Master's degree,1,12981,"12,981",No,428,774,474,0.6124,534,0.12,12.0%,Not mapped
+2023,2023 (academic year 2022-23),10,10 Communications Technologies/Technicians and Support Services,Master's degree,1,542,542,No,38,42,26,0.619,27,0.1531,15.3%,Not mapped
+2023,2023 (academic year 2022-23),11,11 Computer and Information Sciences and Support Services,Master's degree,1,77725,"77,725",No,676,1438,607,0.4221,732,0.0206,2.1%,Computer and information sciences
+2023,2023 (academic year 2022-23),12,"12 Culinary, Entertainment, and Personal Services",Master's degree,1,23,23,No,4,4,3,0.75,3,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),13,13 Education,Master's degree,1,148825,"148,825",No,1240,7929,4770,0.6016,4915,0.0816,8.2%,Education
+2023,2023 (academic year 2022-23),14,14 Engineering,Master's degree,1,54261,"54,261",No,385,2325,1185,0.5097,1231,0.0751,7.5%,Engineering
+2023,2023 (academic year 2022-23),15,15 Engineering/Engineering-Related Technologies/Technicians,Master's degree,1,8566,"8,566",No,243,352,166,0.4716,200,0.0625,6.2%,Engineering
+2023,2023 (academic year 2022-23),16,"16 Foreign Languages, Literatures, and Linguistics",Master's degree,1,2953,"2,953",No,245,801,730,0.9114,742,0.5838,58.4%,Humanities and arts
+2023,2023 (academic year 2022-23),19,19 Family and Consumer Sciences/Human Sciences,Master's degree,1,3059,"3,059",No,198,296,198,0.6689,216,0.1795,17.9%,Not mapped
+2023,2023 (academic year 2022-23),22,22 Legal Professions and Studies,Master's degree,1,10688,"10,688",No,186,453,252,0.5563,292,0.0551,5.5%,Not mapped
+2023,2023 (academic year 2022-23),23,23 English Language and Literature/Letters,Master's degree,1,8365,"8,365",No,531,775,518,0.6684,582,0.2506,25.1%,Humanities and arts
+2023,2023 (academic year 2022-23),24,"24 Liberal Arts and Sciences, General Studies and Humanities",Master's degree,1,1692,"1,692",No,202,227,176,0.7753,184,0.2045,20.4%,Not mapped
+2023,2023 (academic year 2022-23),25,25 Library Science,Master's degree,1,5686,"5,686",No,68,75,12,0.16,15,0.0037,0.4%,Not mapped
+2023,2023 (academic year 2022-23),26,26 Biological and Biomedical Sciences,Master's degree,1,23333,"23,333",No,614,2305,1741,0.7553,1801,0.1931,19.3%,Biological and biomedical sciences
+2023,2023 (academic year 2022-23),27,27 Mathematics and Statistics,Master's degree,1,13123,"13,123",No,421,782,491,0.6279,553,0.1407,14.1%,Mathematics and statistics
+2023,2023 (academic year 2022-23),29,29 Military Technologies and Applied Sciences,Master's degree,1,1121,"1,121",No,33,43,23,0.5349,23,0.0446,4.5%,Not mapped
+2023,2023 (academic year 2022-23),30,30 Multi/Interdisciplinary Studies,Master's degree,1,21771,"21,771",No,582,1253,810,0.6464,889,0.0999,10.0%,Not mapped
+2023,2023 (academic year 2022-23),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",Master's degree,1,9801,"9,801",No,423,595,305,0.5126,368,0.1157,11.6%,Not mapped
+2023,2023 (academic year 2022-23),38,38 Philosophy and Religious Studies,Master's degree,1,2418,"2,418",No,295,395,346,0.8759,355,0.3565,35.6%,Humanities and arts
+2023,2023 (academic year 2022-23),39,39 Theology and Religious Vocations,Master's degree,1,13295,"13,295",No,415,1056,696,0.6591,760,0.1403,14.0%,Not mapped
+2023,2023 (academic year 2022-23),40,40 Physical Sciences,Master's degree,1,7166,"7,166",No,364,1109,911,0.8215,927,0.445,44.5%,Physical sciences
+2023,2023 (academic year 2022-23),41,41 Science Technologies/Technicians,Master's degree,1,93,93,No,13,13,9,0.6923,9,0.1398,14.0%,Not mapped
+2023,2023 (academic year 2022-23),42,42 Psychology,Master's degree,1,38129,"38,129",No,774,1576,760,0.4822,901,0.0671,6.7%,Psychology
+2023,2023 (academic year 2022-23),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",Master's degree,1,11336,"11,336",No,430,638,356,0.558,395,0.1032,10.3%,Not mapped
+2023,2023 (academic year 2022-23),44,44 Public Administration and Social Service Professions,Master's degree,1,51395,"51,395",No,636,997,297,0.2979,380,0.0184,1.8%,Not mapped
+2023,2023 (academic year 2022-23),45,45 Social Sciences,Master's degree,1,19289,"19,289",No,467,1554,1107,0.7124,1140,0.1904,19.0%,Social sciences
+2023,2023 (academic year 2022-23),46,46 Construction Trades,Master's degree,1,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),47,47 Mechanic and Repair Technologies/Technicians,Master's degree,1,29,29,No,2,3,2,0.6667,2,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),48,48 Precision Production,Master's degree,1,10,10,No,2,2,2,1,2,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),49,49 Transportation and Materials Moving,Master's degree,1,726,726,No,27,32,18,0.5625,20,0.0537,5.4%,Not mapped
+2023,2023 (academic year 2022-23),50,50 Visual and Performing Arts,Master's degree,1,16649,"16,649",No,507,2065,1575,0.7627,1610,0.2594,25.9%,Humanities and arts
+2023,2023 (academic year 2022-23),51,51 Health Professions and Related Programs,Master's degree,1,149848,"149,848",No,1293,5693,2692,0.4729,2923,0.0495,5.0%,Health sciences
+2023,2023 (academic year 2022-23),52,"52 Business, Management, Marketing, and Related Support Services",Master's degree,1,211299,"211,299",No,1327,4732,2205,0.466,2510,0.0253,2.5%,Business
+2023,2023 (academic year 2022-23),54,54 History,Master's degree,1,3613,"3,613",No,381,427,326,0.7635,333,0.3197,32.0%,Humanities and arts
+2023,2023 (academic year 2022-23),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,Doctorate: research/scholarship,2,927,927,No,60,261,247,0.9464,248,0.8026,80.3%,Agricultural sciences and natural resources
+2023,2023 (academic year 2022-23),03,03 Natural Resources and Conservation,Doctorate: research/scholarship,2,600,600,No,109,173,161,0.9306,164,0.7433,74.3%,Agricultural sciences and natural resources
+2023,2023 (academic year 2022-23),04,04 Architecture and Related Services,Doctorate: research/scholarship,2,224,224,No,46,70,67,0.9571,68,0.7902,79.0%,Not mapped
+2023,2023 (academic year 2022-23),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",Doctorate: research/scholarship,2,392,392,No,72,142,139,0.9789,139,0.852,85.2%,Not mapped
+2023,2023 (academic year 2022-23),09,"09 Communication, Journalism, and Related Programs",Doctorate: research/scholarship,2,682,682,No,91,131,111,0.8473,119,0.6158,61.6%,Not mapped
+2023,2023 (academic year 2022-23),11,11 Computer and Information Sciences and Support Services,Doctorate: research/scholarship,2,2834,"2,834",No,212,312,213,0.6827,233,0.2498,25.0%,Computer and information sciences
+2023,2023 (academic year 2022-23),13,13 Education,Doctorate: research/scholarship,2,14517,"14,517",No,508,1416,1005,0.7097,1092,0.2132,21.3%,Education
+2023,2023 (academic year 2022-23),14,14 Engineering,Doctorate: research/scholarship,2,11885,"11,885",No,235,1391,954,0.6858,968,0.2843,28.4%,Engineering
+2023,2023 (academic year 2022-23),15,15 Engineering/Engineering-Related Technologies/Technicians,Doctorate: research/scholarship,2,124,124,No,30,33,29,0.8788,29,0.4839,48.4%,Engineering
+2023,2023 (academic year 2022-23),16,"16 Foreign Languages, Literatures, and Linguistics",Doctorate: research/scholarship,2,1108,"1,108",No,108,436,428,0.9817,428,0.9197,92.0%,Humanities and arts
+2023,2023 (academic year 2022-23),19,19 Family and Consumer Sciences/Human Sciences,Doctorate: research/scholarship,2,257,257,No,59,75,71,0.9467,71,0.8171,81.7%,Not mapped
+2023,2023 (academic year 2022-23),22,22 Legal Professions and Studies,Doctorate: research/scholarship,2,155,155,No,57,69,67,0.971,67,0.8129,81.3%,Not mapped
+2023,2023 (academic year 2022-23),23,23 English Language and Literature/Letters,Doctorate: research/scholarship,2,1140,"1,140",No,157,187,148,0.7914,154,0.5193,51.9%,Humanities and arts
+2023,2023 (academic year 2022-23),24,"24 Liberal Arts and Sciences, General Studies and Humanities",Doctorate: research/scholarship,2,94,94,No,25,25,21,0.84,21,0.5319,53.2%,Not mapped
+2023,2023 (academic year 2022-23),25,25 Library Science,Doctorate: research/scholarship,2,11,11,No,10,11,11,1,11,1,100.0%,Not mapped
+2023,2023 (academic year 2022-23),26,26 Biological and Biomedical Sciences,Doctorate: research/scholarship,2,9050,"9,050",No,301,1811,1543,0.852,1557,0.5358,53.6%,Biological and biomedical sciences
+2023,2023 (academic year 2022-23),27,27 Mathematics and Statistics,Doctorate: research/scholarship,2,2105,"2,105",No,194,344,270,0.7849,292,0.4917,49.2%,Mathematics and statistics
+2023,2023 (academic year 2022-23),29,29 Military Technologies and Applied Sciences,Doctorate: research/scholarship,2,,Withheld,Yes,4,6,6,1,6,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),30,30 Multi/Interdisciplinary Studies,Doctorate: research/scholarship,2,1200,"1,200",No,192,357,333,0.9328,339,0.7092,70.9%,Not mapped
+2023,2023 (academic year 2022-23),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",Doctorate: research/scholarship,2,325,325,No,64,75,69,0.92,71,0.6431,64.3%,Not mapped
+2023,2023 (academic year 2022-23),38,38 Philosophy and Religious Studies,Doctorate: research/scholarship,2,641,641,No,138,184,176,0.9565,180,0.8471,84.7%,Humanities and arts
+2023,2023 (academic year 2022-23),39,39 Theology and Religious Vocations,Doctorate: research/scholarship,2,1474,"1,474",No,100,170,141,0.8294,149,0.2483,24.8%,Not mapped
+2023,2023 (academic year 2022-23),40,40 Physical Sciences,Doctorate: research/scholarship,2,6577,"6,577",No,235,809,591,0.7305,622,0.3121,31.2%,Physical sciences
+2023,2023 (academic year 2022-23),41,41 Science Technologies/Technicians,Doctorate: research/scholarship,2,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),42,42 Psychology,Doctorate: research/scholarship,2,5218,"5,218",No,312,698,526,0.7536,561,0.3367,33.7%,Psychology
+2023,2023 (academic year 2022-23),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",Doctorate: research/scholarship,2,347,347,No,49,58,49,0.8448,49,0.4496,45.0%,Not mapped
+2023,2023 (academic year 2022-23),44,44 Public Administration and Social Service Professions,Doctorate: research/scholarship,2,1443,"1,443",No,155,209,175,0.8373,178,0.4394,43.9%,Not mapped
+2023,2023 (academic year 2022-23),45,45 Social Sciences,Doctorate: research/scholarship,2,3677,"3,677",No,206,717,612,0.8536,619,0.5404,54.0%,Social sciences
+2023,2023 (academic year 2022-23),49,49 Transportation and Materials Moving,Doctorate: research/scholarship,2,29,29,No,7,8,7,0.875,7,0.6552,65.5%,Not mapped
+2023,2023 (academic year 2022-23),50,50 Visual and Performing Arts,Doctorate: research/scholarship,2,1661,"1,661",No,124,381,335,0.8793,342,0.484,48.4%,Humanities and arts
+2023,2023 (academic year 2022-23),51,51 Health Professions and Related Programs,Doctorate: research/scholarship,2,8761,"8,761",No,336,1090,883,0.8101,914,0.2521,25.2%,Health sciences
+2023,2023 (academic year 2022-23),52,"52 Business, Management, Marketing, and Related Support Services",Doctorate: research/scholarship,2,4201,"4,201",No,301,497,377,0.7586,411,0.2457,24.6%,Business
+2023,2023 (academic year 2022-23),54,54 History,Doctorate: research/scholarship,2,773,773,No,156,179,160,0.8939,166,0.6287,62.9%,Humanities and arts
+2023,2023 (academic year 2022-23),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,Doctorate: professional practice,3,3471,"3,471",No,34,36,5,0.1389,8,,Withheld,Agricultural sciences and natural resources
+2023,2023 (academic year 2022-23),03,03 Natural Resources and Conservation,Doctorate: professional practice,3,,Withheld,Yes,1,1,1,1,1,,Withheld,Agricultural sciences and natural resources
+2023,2023 (academic year 2022-23),04,04 Architecture and Related Services,Doctorate: professional practice,3,14,14,No,2,3,2,0.6667,3,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",Doctorate: professional practice,3,,Withheld,Yes,2,6,6,1,6,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),09,"09 Communication, Journalism, and Related Programs",Doctorate: professional practice,3,,Withheld,Yes,1,3,3,1,3,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),11,11 Computer and Information Sciences and Support Services,Doctorate: professional practice,3,51,51,No,3,4,3,0.75,4,,Withheld,Computer and information sciences
+2023,2023 (academic year 2022-23),13,13 Education,Doctorate: professional practice,3,379,379,No,54,75,59,0.7867,63,0.3245,32.5%,Education
+2023,2023 (academic year 2022-23),14,14 Engineering,Doctorate: professional practice,3,,Withheld,Yes,3,6,6,1,6,,Withheld,Engineering
+2023,2023 (academic year 2022-23),15,15 Engineering/Engineering-Related Technologies/Technicians,Doctorate: professional practice,3,57,57,No,3,3,2,0.6667,2,,Withheld,Engineering
+2023,2023 (academic year 2022-23),16,"16 Foreign Languages, Literatures, and Linguistics",Doctorate: professional practice,3,,Withheld,Yes,2,2,2,1,2,,Withheld,Humanities and arts
+2023,2023 (academic year 2022-23),22,22 Legal Professions and Studies,Doctorate: professional practice,3,35888,"35,888",No,212,231,21,0.0909,38,0.001,0.1%,Not mapped
+2023,2023 (academic year 2022-23),23,23 English Language and Literature/Letters,Doctorate: professional practice,3,,Withheld,Yes,1,1,1,1,1,,Withheld,Humanities and arts
+2023,2023 (academic year 2022-23),24,"24 Liberal Arts and Sciences, General Studies and Humanities",Doctorate: professional practice,3,,Withheld,Yes,2,2,2,1,2,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),26,26 Biological and Biomedical Sciences,Doctorate: professional practice,3,,Withheld,Yes,8,14,14,1,14,,Withheld,Biological and biomedical sciences
+2023,2023 (academic year 2022-23),27,27 Mathematics and Statistics,Doctorate: professional practice,3,,Withheld,Yes,1,1,1,1,1,,Withheld,Mathematics and statistics
+2023,2023 (academic year 2022-23),30,30 Multi/Interdisciplinary Studies,Doctorate: professional practice,3,53,53,No,4,4,3,0.75,3,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",Doctorate: professional practice,3,,Withheld,Yes,3,4,4,1,4,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),38,38 Philosophy and Religious Studies,Doctorate: professional practice,3,,Withheld,Yes,3,4,4,1,4,,Withheld,Humanities and arts
+2023,2023 (academic year 2022-23),39,39 Theology and Religious Vocations,Doctorate: professional practice,3,749,749,No,72,88,69,0.7841,74,0.2563,25.6%,Not mapped
+2023,2023 (academic year 2022-23),40,40 Physical Sciences,Doctorate: professional practice,3,,Withheld,Yes,2,3,3,1,3,,Withheld,Physical sciences
+2023,2023 (academic year 2022-23),42,42 Psychology,Doctorate: professional practice,3,1932,"1,932",No,107,135,78,0.5778,87,0.1102,11.0%,Psychology
+2023,2023 (academic year 2022-23),43,"43 Homeland Security, Law Enforcement, Firefighting and Related Protective Services",Doctorate: professional practice,3,12,12,No,2,2,1,0.5,1,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),44,44 Public Administration and Social Service Professions,Doctorate: professional practice,3,228,228,No,13,14,7,0.5,8,0.057,5.7%,Not mapped
+2023,2023 (academic year 2022-23),45,45 Social Sciences,Doctorate: professional practice,3,23,23,No,4,9,8,0.8889,9,,Withheld,Social sciences
+2023,2023 (academic year 2022-23),49,49 Transportation and Materials Moving,Doctorate: professional practice,3,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),50,50 Visual and Performing Arts,Doctorate: professional practice,3,82,82,No,7,13,11,0.8462,11,0.2317,23.2%,Humanities and arts
+2023,2023 (academic year 2022-23),51,51 Health Professions and Related Programs,Doctorate: professional practice,3,79662,"79,662",No,657,1550,521,0.3361,660,0.0185,1.9%,Health sciences
+2023,2023 (academic year 2022-23),52,"52 Business, Management, Marketing, and Related Support Services",Doctorate: professional practice,3,271,271,No,24,36,26,0.7222,28,0.0554,5.5%,Business
+2023,2023 (academic year 2022-23),54,54 History,Doctorate: professional practice,3,,Withheld,Yes,1,1,1,1,1,,Withheld,Humanities and arts
+2023,2023 (academic year 2022-23),01,01 Agricultural/Animal/Plant/Veterinary Science and Related Fields,Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Agricultural sciences and natural resources
+2023,2023 (academic year 2022-23),04,04 Architecture and Related Services,Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),05,"05 Area, Ethnic, Cultural, Gender, and Group Studies",Doctorate: other,4,52,52,No,1,1,0,0,0,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),13,13 Education,Doctorate: other,4,406,406,No,15,25,17,0.68,18,0.0911,9.1%,Education
+2023,2023 (academic year 2022-23),14,14 Engineering,Doctorate: other,4,,Withheld,Yes,2,3,3,1,3,,Withheld,Engineering
+2023,2023 (academic year 2022-23),15,15 Engineering/Engineering-Related Technologies/Technicians,Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Engineering
+2023,2023 (academic year 2022-23),22,22 Legal Professions and Studies,Doctorate: other,4,21,21,No,2,2,1,0.5,1,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),23,23 English Language and Literature/Letters,Doctorate: other,4,42,42,No,2,2,1,0.5,1,,Withheld,Humanities and arts
+2023,2023 (academic year 2022-23),30,30 Multi/Interdisciplinary Studies,Doctorate: other,4,,Withheld,Yes,3,3,3,1,3,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),31,"31 Parks, Recreation, Leisure, Fitness, and Kinesiology",Doctorate: other,4,12,12,No,2,2,1,0.5,1,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),38,38 Philosophy and Religious Studies,Doctorate: other,4,10,10,No,4,5,5,1,5,1,100.0%,Humanities and arts
+2023,2023 (academic year 2022-23),39,39 Theology and Religious Vocations,Doctorate: other,4,453,453,No,54,72,57,0.7917,57,0.3002,30.0%,Not mapped
+2023,2023 (academic year 2022-23),42,42 Psychology,Doctorate: other,4,60,60,No,3,3,2,0.6667,2,,Withheld,Psychology
+2023,2023 (academic year 2022-23),44,44 Public Administration and Social Service Professions,Doctorate: other,4,21,21,No,1,1,0,0,0,,Withheld,Not mapped
+2023,2023 (academic year 2022-23),45,45 Social Sciences,Doctorate: other,4,,Withheld,Yes,1,1,1,1,1,,Withheld,Social sciences
+2023,2023 (academic year 2022-23),50,50 Visual and Performing Arts,Doctorate: other,4,29,29,No,4,12,12,1,12,1,100.0%,Humanities and arts
+2023,2023 (academic year 2022-23),51,51 Health Professions and Related Programs,Doctorate: other,4,1043,"1,043",No,49,80,51,0.6375,55,0.1055,10.5%,Health sciences
+2023,2023 (academic year 2022-23),52,"52 Business, Management, Marketing, and Related Support Services",Doctorate: other,4,242,242,No,5,6,4,0.6667,5,,Withheld,Business
+2023,2023 (academic year 2022-23),54,54 History,Doctorate: other,4,24,24,No,1,1,0,0,1,,Withheld,Humanities and arts

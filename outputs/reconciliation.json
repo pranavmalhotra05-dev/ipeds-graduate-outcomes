@@ -1,0 +1,663 @@
+{
+  "generated": "2026-11-20T11:15:20",
+  "a_award_level_totals": {
+    "2020": {
+      "masters": {
+        "pandas_from_raw": {
+          "rows": 40562,
+          "institutions": 2014,
+          "completions": 855580,
+          "cells_lt10": 23724,
+          "share_lt10": 0.5848824022484098
+        },
+        "duckdb": {
+          "rows": 40562,
+          "institutions": 2014,
+          "completions": 855580,
+          "cells_lt10": 23724
+        },
+        "suppression_impact_lt10_cells": 23724,
+        "exact_match": true
+      },
+      "research_doctorate": {
+        "pandas_from_raw": {
+          "rows": 12051,
+          "institutions": 792,
+          "completions": 74158,
+          "cells_lt10": 9912,
+          "share_lt10": 0.822504356484939
+        },
+        "duckdb": {
+          "rows": 12051,
+          "institutions": 792,
+          "completions": 74158,
+          "cells_lt10": 9912
+        },
+        "suppression_impact_lt10_cells": 9912,
+        "exact_match": true
+      },
+      "professional_doctorate": {
+        "pandas_from_raw": {
+          "rows": 1942,
+          "institutions": 792,
+          "completions": 115432,
+          "cells_lt10": 712,
+          "share_lt10": 0.3666323377960865
+        },
+        "duckdb": {
+          "rows": 1942,
+          "institutions": 792,
+          "completions": 115432,
+          "cells_lt10": 712
+        },
+        "suppression_impact_lt10_cells": 712,
+        "exact_match": true
+      },
+      "other_doctorate": {
+        "pandas_from_raw": {
+          "rows": 222,
+          "institutions": 141,
+          "completions": 2436,
+          "cells_lt10": 154,
+          "share_lt10": 0.6936936936936937
+        },
+        "duckdb": {
+          "rows": 222,
+          "institutions": 141,
+          "completions": 2436,
+          "cells_lt10": 154
+        },
+        "suppression_impact_lt10_cells": 154,
+        "exact_match": true
+      },
+      "all_masters_doctoral": {
+        "pandas_from_raw": {
+          "rows": 54777,
+          "institutions": 2056,
+          "completions": 1047606,
+          "cells_lt10": 34502,
+          "share_lt10": 0.6298628986618471
+        },
+        "duckdb": {
+          "rows": 54777,
+          "institutions": 2056,
+          "completions": 1047606,
+          "cells_lt10": 34502
+        },
+        "suppression_impact_lt10_cells": 34502,
+        "exact_match": true
+      }
+    },
+    "2021": {
+      "masters": {
+        "pandas_from_raw": {
+          "rows": 41301,
+          "institutions": 2007,
+          "completions": 880522,
+          "cells_lt10": 24269,
+          "share_lt10": 0.587612890729038
+        },
+        "duckdb": {
+          "rows": 41301,
+          "institutions": 2007,
+          "completions": 880522,
+          "cells_lt10": 24269
+        },
+        "suppression_impact_lt10_cells": 24269,
+        "exact_match": true
+      },
+      "research_doctorate": {
+        "pandas_from_raw": {
+          "rows": 12231,
+          "institutions": 812,
+          "completions": 73372,
+          "cells_lt10": 10167,
+          "share_lt10": 0.8312484670100564
+        },
+        "duckdb": {
+          "rows": 12231,
+          "institutions": 812,
+          "completions": 73372,
+          "cells_lt10": 10167
+        },
+        "suppression_impact_lt10_cells": 10167,
+        "exact_match": true
+      },
+      "professional_doctorate": {
+        "pandas_from_raw": {
+          "rows": 2027,
+          "institutions": 814,
+          "completions": 120374,
+          "cells_lt10": 771,
+          "share_lt10": 0.3803650715342871
+        },
+        "duckdb": {
+          "rows": 2027,
+          "institutions": 814,
+          "completions": 120374,
+          "cells_lt10": 771
+        },
+        "suppression_impact_lt10_cells": 771,
+        "exact_match": true
+      },
+      "other_doctorate": {
+        "pandas_from_raw": {
+          "rows": 238,
+          "institutions": 145,
+          "completions": 2552,
+          "cells_lt10": 162,
+          "share_lt10": 0.680672268907563
+        },
+        "duckdb": {
+          "rows": 238,
+          "institutions": 145,
+          "completions": 2552,
+          "cells_lt10": 162
+        },
+        "suppression_impact_lt10_cells": 162,
+        "exact_match": true
+      },
+      "all_masters_doctoral": {
+        "pandas_from_raw": {
+          "rows": 55797,
+          "institutions": 2048,
+          "completions": 1076820,
+          "cells_lt10": 35369,
+          "share_lt10": 0.6338871265480223
+        },
+        "duckdb": {
+          "rows": 55797,
+          "institutions": 2048,
+          "completions": 1076820,
+          "cells_lt10": 35369
+        },
+        "suppression_impact_lt10_cells": 35369,
+        "exact_match": true
+      }
+    },
+    "2022": {
+      "masters": {
+        "pandas_from_raw": {
+          "rows": 41904,
+          "institutions": 2020,
+          "completions": 894277,
+          "cells_lt10": 24650,
+          "share_lt10": 0.5882493318060328
+        },
+        "duckdb": {
+          "rows": 41904,
+          "institutions": 2020,
+          "completions": 894277,
+          "cells_lt10": 24650
+        },
+        "suppression_impact_lt10_cells": 24650,
+        "exact_match": true
+      },
+      "research_doctorate": {
+        "pandas_from_raw": {
+          "rows": 12399,
+          "institutions": 831,
+          "completions": 80307,
+          "cells_lt10": 10053,
+          "share_lt10": 0.8107911928381321
+        },
+        "duckdb": {
+          "rows": 12399,
+          "institutions": 831,
+          "completions": 80307,
+          "cells_lt10": 10053
+        },
+        "suppression_impact_lt10_cells": 10053,
+        "exact_match": true
+      },
+      "professional_doctorate": {
+        "pandas_from_raw": {
+          "rows": 2134,
+          "institutions": 838,
+          "completions": 123650,
+          "cells_lt10": 766,
+          "share_lt10": 0.358950328022493
+        },
+        "duckdb": {
+          "rows": 2134,
+          "institutions": 838,
+          "completions": 123650,
+          "cells_lt10": 766
+        },
+        "suppression_impact_lt10_cells": 766,
+        "exact_match": true
+      },
+      "other_doctorate": {
+        "pandas_from_raw": {
+          "rows": 238,
+          "institutions": 137,
+          "completions": 2563,
+          "cells_lt10": 176,
+          "share_lt10": 0.7394957983193278
+        },
+        "duckdb": {
+          "rows": 238,
+          "institutions": 137,
+          "completions": 2563,
+          "cells_lt10": 176
+        },
+        "suppression_impact_lt10_cells": 176,
+        "exact_match": true
+      },
+      "all_masters_doctoral": {
+        "pandas_from_raw": {
+          "rows": 56675,
+          "institutions": 2059,
+          "completions": 1100797,
+          "cells_lt10": 35645,
+          "share_lt10": 0.6289369210410234
+        },
+        "duckdb": {
+          "rows": 56675,
+          "institutions": 2059,
+          "completions": 1100797,
+          "cells_lt10": 35645
+        },
+        "suppression_impact_lt10_cells": 35645,
+        "exact_match": true
+      }
+    },
+    "2023": {
+      "masters": {
+        "pandas_from_raw": {
+          "rows": 42382,
+          "institutions": 2021,
+          "completions": 947728,
+          "cells_lt10": 24935,
+          "share_lt10": 0.588339389363409
+        },
+        "duckdb": {
+          "rows": 42382,
+          "institutions": 2021,
+          "completions": 947728,
+          "cells_lt10": 24935
+        },
+        "suppression_impact_lt10_cells": 24935,
+        "exact_match": true
+      },
+      "research_doctorate": {
+        "pandas_from_raw": {
+          "rows": 12326,
+          "institutions": 837,
+          "completions": 82438,
+          "cells_lt10": 9926,
+          "share_lt10": 0.8052896316728866
+        },
+        "duckdb": {
+          "rows": 12326,
+          "institutions": 837,
+          "completions": 82438,
+          "cells_lt10": 9926
+        },
+        "suppression_impact_lt10_cells": 9926,
+        "exact_match": true
+      },
+      "professional_doctorate": {
+        "pandas_from_raw": {
+          "rows": 2252,
+          "institutions": 846,
+          "completions": 122895,
+          "cells_lt10": 865,
+          "share_lt10": 0.38410301953818826
+        },
+        "duckdb": {
+          "rows": 2252,
+          "institutions": 846,
+          "completions": 122895,
+          "cells_lt10": 865
+        },
+        "suppression_impact_lt10_cells": 865,
+        "exact_match": true
+      },
+      "other_doctorate": {
+        "pandas_from_raw": {
+          "rows": 222,
+          "institutions": 129,
+          "completions": 2431,
+          "cells_lt10": 161,
+          "share_lt10": 0.7252252252252253
+        },
+        "duckdb": {
+          "rows": 222,
+          "institutions": 129,
+          "completions": 2431,
+          "cells_lt10": 161
+        },
+        "suppression_impact_lt10_cells": 161,
+        "exact_match": true
+      },
+      "all_masters_doctoral": {
+        "pandas_from_raw": {
+          "rows": 57182,
+          "institutions": 2057,
+          "completions": 1155492,
+          "cells_lt10": 35887,
+          "share_lt10": 0.6275925990696373
+        },
+        "duckdb": {
+          "rows": 57182,
+          "institutions": 2057,
+          "completions": 1155492,
+          "cells_lt10": 35887
+        },
+        "suppression_impact_lt10_cells": 35887,
+        "exact_match": true
+      }
+    }
+  },
+  "b_total_rows": {
+    "2020": {
+      "institution_levels_with_total_row": 3739,
+      "institution_levels_with_detail": 3739,
+      "total_row_without_detail": 0,
+      "detail_without_total_row": 0,
+      "compared": 3739,
+      "mismatches": 0,
+      "sum_total_rows": 1047606,
+      "sum_detail_rows": 1047606,
+      "mismatch_examples": [],
+      "duckdb_detail_sum": 1047606,
+      "duckdb_equals_raw_detail": true
+    },
+    "2021": {
+      "institution_levels_with_total_row": 3778,
+      "institution_levels_with_detail": 3778,
+      "total_row_without_detail": 0,
+      "detail_without_total_row": 0,
+      "compared": 3778,
+      "mismatches": 0,
+      "sum_total_rows": 1076820,
+      "sum_detail_rows": 1076820,
+      "mismatch_examples": [],
+      "duckdb_detail_sum": 1076820,
+      "duckdb_equals_raw_detail": true
+    },
+    "2022": {
+      "institution_levels_with_total_row": 3826,
+      "institution_levels_with_detail": 3826,
+      "total_row_without_detail": 0,
+      "detail_without_total_row": 0,
+      "compared": 3826,
+      "mismatches": 0,
+      "sum_total_rows": 1100797,
+      "sum_detail_rows": 1100797,
+      "mismatch_examples": [],
+      "duckdb_detail_sum": 1100797,
+      "duckdb_equals_raw_detail": true
+    },
+    "2023": {
+      "institution_levels_with_total_row": 3833,
+      "institution_levels_with_detail": 3833,
+      "total_row_without_detail": 0,
+      "detail_without_total_row": 0,
+      "compared": 3833,
+      "mismatches": 0,
+      "sum_total_rows": 1155492,
+      "sum_detail_rows": 1155492,
+      "mismatch_examples": [],
+      "duckdb_detail_sum": 1155492,
+      "duckdb_equals_raw_detail": true
+    }
+  },
+  "c_digest": {
+    "2020": {
+      "digest_masters": 843531,
+      "ipeds_masters_first_majors": 855580,
+      "masters_diff_pct": 1.4284003788835264,
+      "digest_doctors": 190133,
+      "ipeds_doctors_17_18_19_first_majors": 192026,
+      "doctors_diff_pct": 0.9956188562742923,
+      "digest_value_is_projected": false,
+      "within_tolerance_3pct": true
+    },
+    "2021": {
+      "digest_masters": 866932,
+      "ipeds_masters_first_majors": 880522,
+      "masters_diff_pct": 1.5675969972270027,
+      "digest_doctors": 194052,
+      "ipeds_doctors_17_18_19_first_majors": 196298,
+      "doctors_diff_pct": 1.1574217220126564,
+      "digest_value_is_projected": false,
+      "within_tolerance_3pct": true
+    },
+    "2022": {
+      "digest_masters": 880249,
+      "ipeds_masters_first_majors": 894277,
+      "masters_diff_pct": 1.5936399814143498,
+      "digest_doctors": 203884,
+      "ipeds_doctors_17_18_19_first_majors": 206520,
+      "doctors_diff_pct": 1.29289203664829,
+      "digest_value_is_projected": false,
+      "within_tolerance_3pct": true
+    },
+    "2023": {
+      "digest_masters": 881580,
+      "ipeds_masters_first_majors": 947728,
+      "masters_diff_pct": 7.503346264661176,
+      "digest_doctors": 202258,
+      "ipeds_doctors_17_18_19_first_majors": 207764,
+      "doctors_diff_pct": 2.722265621137359,
+      "digest_value_is_projected": true,
+      "within_tolerance_3pct": false
+    }
+  },
+  "d_sed": {
+    "sed_2023_total_research_doctorates": 57862,
+    "sed_2023_revised_total_per_later_release": 57806,
+    "sed_2022_total": 57448,
+    "ipeds_awlevel17_2023_first_majors": 82438,
+    "ipeds_awlevel17_2022_first_majors": 80307,
+    "ipeds_minus_sed_2023": 24576,
+    "ipeds_over_sed_2023_ratio": 1.4247347136289792,
+    "ipeds_over_sed_2022_ratio": 1.397907673026041,
+    "ipeds_awlevel17_2023_top_cip2": [
+      {
+        "cip2": "13",
+        "t": "Education",
+        "c": 14517.0
+      },
+      {
+        "cip2": "14",
+        "t": "Engineering",
+        "c": 11885.0
+      },
+      {
+        "cip2": "26",
+        "t": "Biological and Biomedical Sciences",
+        "c": 9050.0
+      },
+      {
+        "cip2": "51",
+        "t": "Health Professions and Related Programs",
+        "c": 8761.0
+      },
+      {
+        "cip2": "40",
+        "t": "Physical Sciences",
+        "c": 6577.0
+      },
+      {
+        "cip2": "42",
+        "t": "Psychology",
+        "c": 5218.0
+      }
+    ],
+    "match": false
+  },
+  "c_digest_source": "https://nces.ed.gov/programs/digest/d23/tables/dt23_318.10.asp",
+  "d_sed_source": "https://ncses.nsf.gov/surveys/earned-doctorates/2023",
+  "a_all_exact_match": true,
+  "a_mismatch_count": 0,
+  "a_original_vs_revised_masters": {
+    "2020": {
+      "original": {
+        "rows": 40566,
+        "institutions": 2014,
+        "completions": 855498,
+        "cells_lt10": 23729,
+        "share_lt10": 0.5849479859981265
+      },
+      "revised": {
+        "rows": 40562,
+        "institutions": 2014,
+        "completions": 855580,
+        "cells_lt10": 23724,
+        "share_lt10": 0.5848824022484098
+      }
+    },
+    "2021": {
+      "original": {
+        "rows": 41321,
+        "institutions": 2007,
+        "completions": 880488,
+        "cells_lt10": 24291,
+        "share_lt10": 0.5878608939764285
+      },
+      "revised": {
+        "rows": 41301,
+        "institutions": 2007,
+        "completions": 880522,
+        "cells_lt10": 24269,
+        "share_lt10": 0.587612890729038
+      }
+    },
+    "2022": {
+      "original": {
+        "rows": 41889,
+        "institutions": 2020,
+        "completions": 894215,
+        "cells_lt10": 24643,
+        "share_lt10": 0.5882928692496837
+      },
+      "revised": {
+        "rows": 41904,
+        "institutions": 2020,
+        "completions": 894277,
+        "cells_lt10": 24650,
+        "share_lt10": 0.5882493318060328
+      }
+    },
+    "2023": {
+      "original": {
+        "rows": 42371,
+        "institutions": 2021,
+        "completions": 947602,
+        "cells_lt10": 24926,
+        "share_lt10": 0.5882797196195511
+      },
+      "revised": {
+        "rows": 42382,
+        "institutions": 2021,
+        "completions": 947728,
+        "cells_lt10": 24935,
+        "share_lt10": 0.588339389363409
+      }
+    }
+  },
+  "c_masters_2023_top_gainers": [
+    {
+      "unitid": 193900,
+      "instnm": "New York University",
+      "c2023": 12937.0,
+      "c2022": 9466.0,
+      "change": 3471.0
+    },
+    {
+      "unitid": 183026,
+      "instnm": "Southern New Hampshire University",
+      "c2023": 9475.0,
+      "c2022": 6791.0,
+      "change": 2684.0
+    },
+    {
+      "unitid": 433387,
+      "instnm": "Western Governors University",
+      "c2023": 22141.0,
+      "c2022": 19615.0,
+      "change": 2526.0
+    },
+    {
+      "unitid": 190150,
+      "instnm": "Columbia University in the City of New York",
+      "c2023": 11596.0,
+      "c2022": 9372.0,
+      "change": 2224.0
+    },
+    {
+      "unitid": 123961,
+      "instnm": "University of Southern California",
+      "c2023": 10921.0,
+      "c2022": 9291.0,
+      "change": 1630.0
+    },
+    {
+      "unitid": 211440,
+      "instnm": "Carnegie Mellon University",
+      "c2023": 4339.0,
+      "c2022": 2780.0,
+      "change": 1559.0
+    },
+    {
+      "unitid": 227216,
+      "instnm": "University of North Texas",
+      "c2023": 4238.0,
+      "c2022": 2702.0,
+      "change": 1536.0
+    },
+    {
+      "unitid": 145637,
+      "instnm": "University of Illinois Urbana-Champaign",
+      "c2023": 7148.0,
+      "c2022": 5615.0,
+      "change": 1533.0
+    },
+    {
+      "unitid": 228787,
+      "instnm": "The University of Texas at Dallas",
+      "c2023": 3724.0,
+      "c2022": 2358.0,
+      "change": 1366.0
+    },
+    {
+      "unitid": 162928,
+      "instnm": "Johns Hopkins University",
+      "c2023": 8840.0,
+      "c2022": 7519.0,
+      "change": 1321.0
+    }
+  ],
+  "c_masters_2023_total_change": 53451,
+  "c_masters_2023_top10_gain_share": 0.37136816897719405,
+  "c_masters_2023_top_family_gains": [
+    {
+      "cip2": "11",
+      "t": "Computer and Information Sciences and Support Services",
+      "change": 25977.0
+    },
+    {
+      "cip2": "14",
+      "t": "Engineering",
+      "change": 10567.0
+    },
+    {
+      "cip2": "30",
+      "t": "Multi/Interdisciplinary Studies",
+      "change": 6669.0
+    },
+    {
+      "cip2": "42",
+      "t": "Psychology",
+      "change": 4118.0
+    },
+    {
+      "cip2": "52",
+      "t": "Business, Management, Marketing, and Related Support Services",
+      "change": 2706.0
+    }
+  ]
+}

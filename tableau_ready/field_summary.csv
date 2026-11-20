@@ -1,0 +1,603 @@
+year,cip2,cip2_title,level_key,award_level,completions_total,completions_suppressed,n_institutions,n_program_cells,n_program_cells_lt10,share_program_cells_lt10,share_completions_in_cells_lt10,n_program_cells_suppressed_incl_complementary,completions_prior_year,n_program_cells_prior_year,n_institutions_prior_year,yoy_pct_change,completions_2020,n_program_cells_2020,n_institutions_2020,pct_change_vs_2020,sed_broad_field_approx
+2020,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",7425,0,113,766,602,0.7859007833,0.254006734,607,,,,,,,,,Agricultural sciences and natural resources
+2020,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,masters,Master's degree,3130,0,109,445,334,0.7505617978,0.3581469649,336,,,,,,,,,Agricultural sciences and natural resources
+2020,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,professional_doctorate,Doctor's degree - professional practice,3281,0,34,36,5,0.1388888889,0.000609570253,8,,,,,,,,,Agricultural sciences and natural resources
+2020,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,research_doctorate,Doctor's degree - research/scholarship,1014,0,59,285,263,0.9228070175,0.7524654832,263,,,,,,,,,Agricultural sciences and natural resources
+2020,03,Natural Resources and Conservation,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",4972,0,259,595,456,0.7663865546,0.2670957361,479,,,,,,,,,Agricultural sciences and natural resources
+2020,03,Natural Resources and Conservation,masters,Master's degree,4371,0,250,417,287,0.6882494005,0.1942347289,309,,,,,,,,,Agricultural sciences and natural resources
+2020,03,Natural Resources and Conservation,research_doctorate,Doctor's degree - research/scholarship,601,0,109,178,169,0.9494382022,0.7970049917,170,,,,,,,,,Agricultural sciences and natural resources
+2020,04,Architecture and Related Services,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",7087,0,179,464,275,0.5926724138,0.1166925356,314,,,,,,,,,
+2020,04,Architecture and Related Services,masters,Master's degree,6835,0,179,391,205,0.5242966752,0.09070958303,243,,,,,,,,,
+2020,04,Architecture and Related Services,other_doctorate,Doctor's degree - other,,1,1,1,1,1,1,1,,,,,,,,,
+2020,04,Architecture and Related Services,professional_doctorate,Doctor's degree - professional practice,14,0,2,2,1,0.5,0,2,,,,,,,,,
+2020,04,Architecture and Related Services,research_doctorate,Doctor's degree - research/scholarship,231,0,45,70,68,0.9714285714,0.8658008658,68,,,,,,,,,
+2020,05,"Area, Ethnic, Cultural, Gender, and Group Studies",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",1862,0,173,520,487,0.9365384615,0.6992481203,495,,,,,,,,,
+2020,05,"Area, Ethnic, Cultural, Gender, and Group Studies",masters,Master's degree,1528,0,168,378,347,0.917989418,0.6472513089,354,,,,,,,,,
+2020,05,"Area, Ethnic, Cultural, Gender, and Group Studies",research_doctorate,Doctor's degree - research/scholarship,334,0,71,142,140,0.985915493,0.9371257485,141,,,,,,,,,
+2020,09,"Communication, Journalism, and Related Programs",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",11331,0,404,846,537,0.634751773,0.1686523696,596,,,,,,,,,
+2020,09,"Communication, Journalism, and Related Programs",masters,Master's degree,10729,0,402,726,433,0.5964187328,0.1413924877,488,,,,,,,,,
+2020,09,"Communication, Journalism, and Related Programs",research_doctorate,Doctor's degree - research/scholarship,602,0,85,120,104,0.8666666667,0.6544850498,108,,,,,,,,,
+2020,10,Communications Technologies/Technicians and Support Services,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",552,0,36,39,25,0.641025641,0.1847826087,27,,,,,,,,,
+2020,10,Communications Technologies/Technicians and Support Services,masters,Master's degree,551,0,35,38,24,0.6315789474,0.1833030853,26,,,,,,,,,
+2020,10,Communications Technologies/Technicians and Support Services,research_doctorate,Doctor's degree - research/scholarship,,1,1,1,1,1,1,1,,,,,,,,,
+2020,11,Computer and Information Sciences and Support Services,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",54192,0,643,1536,747,0.486328125,0.04203572483,871,,,,,,,,,Computer and information sciences
+2020,11,Computer and Information Sciences and Support Services,masters,Master's degree,51772,0,642,1247,544,0.4362469928,0.03073089701,652,,,,,,,,,Computer and information sciences
+2020,11,Computer and Information Sciences and Support Services,professional_doctorate,Doctor's degree - professional practice,47,0,1,1,0,0,0,1,,,,,,,,,Computer and information sciences
+2020,11,Computer and Information Sciences and Support Services,research_doctorate,Doctor's degree - research/scholarship,2373,0,201,288,203,0.7048611111,0.2895069532,218,,,,,,,,,Computer and information sciences
+2020,12,"Culinary, Entertainment, and Personal Services",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",20,0,3,4,3,0.75,0.1,3,,,,,,,,,
+2020,12,"Culinary, Entertainment, and Personal Services",masters,Master's degree,20,0,3,3,2,0.6666666667,0.1,2,,,,,,,,,
+2020,12,"Culinary, Entertainment, and Personal Services",research_doctorate,Doctor's degree - research/scholarship,,1,1,1,1,1,,1,,,,,,,,,
+2020,13,Education,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",164147,0,1253,9479,5783,0.6100854521,0.09264257038,6028,,,,,,,,,Education
+2020,13,Education,masters,Master's degree,150855,0,1242,8002,4708,0.5883529118,0.07910907825,4874,,,,,,,,,Education
+2020,13,Education,other_doctorate,Doctor's degree - other,608,0,30,47,28,0.5957446809,0.1694078947,32,,,,,,,,,Education
+2020,13,Education,professional_doctorate,Doctor's degree - professional practice,276,0,47,63,52,0.8253968254,0.3623188406,58,,,,,,,,,Education
+2020,13,Education,research_doctorate,Doctor's degree - research/scholarship,12408,0,469,1367,995,0.7278712509,0.2474210187,1064,,,,,,,,,Education
+2020,14,Engineering,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",59370,0,366,3575,2074,0.5801398601,0.1230419404,2118,,,,,,,,,Engineering
+2020,14,Engineering,masters,Master's degree,48184,0,365,2213,1110,0.5015815635,0.07988128839,1144,,,,,,,,,Engineering
+2020,14,Engineering,other_doctorate,Doctor's degree - other,,1,2,2,2,1,1,2,,,,,,,,,Engineering
+2020,14,Engineering,professional_doctorate,Doctor's degree - professional practice,,1,2,4,4,1,1,4,,,,,,,,,Engineering
+2020,14,Engineering,research_doctorate,Doctor's degree - research/scholarship,11184,0,231,1356,958,0.7064896755,0.3088340486,968,,,,,,,,,Engineering
+2020,15,Engineering/Engineering-Related Technologies/Technicians,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",6488,0,227,358,183,0.5111731844,0.07891491985,220,,,,,,,,,Engineering
+2020,15,Engineering/Engineering-Related Technologies/Technicians,masters,Master's degree,6345,0,224,319,146,0.4576802508,0.06650906225,183,,,,,,,,,Engineering
+2020,15,Engineering/Engineering-Related Technologies/Technicians,other_doctorate,Doctor's degree - other,,1,1,1,1,1,1,1,,,,,,,,,Engineering
+2020,15,Engineering/Engineering-Related Technologies/Technicians,professional_doctorate,Doctor's degree - professional practice,28,0,2,2,1,0.5,0,1,,,,,,,,,Engineering
+2020,15,Engineering/Engineering-Related Technologies/Technicians,research_doctorate,Doctor's degree - research/scholarship,113,0,31,36,35,0.9722222222,0.7787610619,35,,,,,,,,,Engineering
+2020,16,"Foreign Languages, Literatures, and Linguistics",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",4132,0,255,1259,1177,0.9348689436,0.6902226525,1189,,,,,,,,,Humanities and arts
+2020,16,"Foreign Languages, Literatures, and Linguistics",masters,Master's degree,2958,0,250,815,742,0.9104294479,0.6017579446,753,,,,,,,,,Humanities and arts
+2020,16,"Foreign Languages, Literatures, and Linguistics",research_doctorate,Doctor's degree - research/scholarship,1174,0,111,444,435,0.9797297297,0.9131175468,436,,,,,,,,,Humanities and arts
+2020,19,Family and Consumer Sciences/Human Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",3562,0,195,385,277,0.7194805195,0.2274003369,298,,,,,,,,,
+2020,19,Family and Consumer Sciences/Human Sciences,masters,Master's degree,3281,0,193,308,204,0.6623376623,0.175861018,224,,,,,,,,,
+2020,19,Family and Consumer Sciences/Human Sciences,research_doctorate,Doctor's degree - research/scholarship,281,0,56,77,73,0.9480519481,0.8291814947,74,,,,,,,,,
+2020,22,Legal Professions and Studies,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",45030,0,231,729,312,0.4279835391,0.01772151899,367,,,,,,,,,
+2020,22,Legal Professions and Studies,masters,Master's degree,10055,0,183,435,233,0.5356321839,0.06026852312,275,,,,,,,,,
+2020,22,Legal Professions and Studies,other_doctorate,Doctor's degree - other,20,0,1,1,0,0,0,0,,,,,,,,,
+2020,22,Legal Professions and Studies,professional_doctorate,Doctor's degree - professional practice,34768,0,213,229,17,0.07423580786,0.0008916244823,30,,,,,,,,,
+2020,22,Legal Professions and Studies,research_doctorate,Doctor's degree - research/scholarship,187,0,53,64,62,0.96875,0.8609625668,62,,,,,,,,,
+2020,23,English Language and Literature/Letters,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",9197,0,530,967,647,0.6690796277,0.2965097314,712,,,,,,,,,Humanities and arts
+2020,23,English Language and Literature/Letters,masters,Master's degree,7894,0,530,777,505,0.6499356499,0.2672916139,562,,,,,,,,,Humanities and arts
+2020,23,English Language and Literature/Letters,other_doctorate,Doctor's degree - other,27,0,2,2,0,0,0,1,,,,,,,,,Humanities and arts
+2020,23,English Language and Literature/Letters,research_doctorate,Doctor's degree - research/scholarship,1276,0,158,188,142,0.7553191489,0.4835423197,149,,,,,,,,,Humanities and arts
+2020,24,"Liberal Arts and Sciences, General Studies and Humanities",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",2104,0,225,278,212,0.7625899281,0.2219581749,217,,,,,,,,,
+2020,24,"Liberal Arts and Sciences, General Studies and Humanities",masters,Master's degree,1990,0,219,247,183,0.7408906883,0.1959798995,188,,,,,,,,,
+2020,24,"Liberal Arts and Sciences, General Studies and Humanities",research_doctorate,Doctor's degree - research/scholarship,114,0,29,31,29,0.935483871,0.6754385965,29,,,,,,,,,
+2020,25,Library Science,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",4989,0,66,88,25,0.2840909091,0.008819402686,29,,,,,,,,,
+2020,25,Library Science,masters,Master's degree,4960,0,66,74,12,0.1621621622,0.006451612903,16,,,,,,,,,
+2020,25,Library Science,research_doctorate,Doctor's degree - research/scholarship,29,0,13,14,13,0.9285714286,0.4137931034,13,,,,,,,,,
+2020,26,Biological and Biomedical Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",26976,0,588,4066,3365,0.8275946877,0.3318505338,3429,,,,,,,,,Biological and biomedical sciences
+2020,26,Biological and Biomedical Sciences,masters,Master's degree,18999,0,584,2238,1737,0.7761394102,0.2153271225,1789,,,,,,,,,Biological and biomedical sciences
+2020,26,Biological and Biomedical Sciences,professional_doctorate,Doctor's degree - professional practice,,1,5,11,11,1,1,11,,,,,,,,,Biological and biomedical sciences
+2020,26,Biological and Biomedical Sciences,research_doctorate,Doctor's degree - research/scholarship,7969,0,295,1817,1617,0.8899284535,0.6089848162,1629,,,,,,,,,Biological and biomedical sciences
+2020,27,Mathematics and Statistics,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",14105,0,410,1101,757,0.6875567666,0.2030485643,848,,,,,,,,,Mathematics and statistics
+2020,27,Mathematics and Statistics,masters,Master's degree,12077,0,409,754,471,0.624668435,0.1447379316,543,,,,,,,,,Mathematics and statistics
+2020,27,Mathematics and Statistics,research_doctorate,Doctor's degree - research/scholarship,2028,0,194,347,286,0.8242074928,0.550295858,305,,,,,,,,,Mathematics and statistics
+2020,29,Military Technologies and Applied Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",972,0,22,29,15,0.5172413793,0.04320987654,15,,,,,,,,,
+2020,29,Military Technologies and Applied Sciences,masters,Master's degree,972,0,22,28,14,0.5,0.04320987654,14,,,,,,,,,
+2020,29,Military Technologies and Applied Sciences,research_doctorate,Doctor's degree - research/scholarship,,1,1,1,1,1,,1,,,,,,,,,
+2020,30,Multi/Interdisciplinary Studies,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",12587,0,503,1249,926,0.7413931145,0.1871772464,995,,,,,,,,,
+2020,30,Multi/Interdisciplinary Studies,masters,Master's degree,11597,0,491,949,647,0.6817702845,0.1487453652,711,,,,,,,,,
+2020,30,Multi/Interdisciplinary Studies,other_doctorate,Doctor's degree - other,13,0,4,4,3,0.75,0.1538461538,3,,,,,,,,,
+2020,30,Multi/Interdisciplinary Studies,professional_doctorate,Doctor's degree - professional practice,37,0,3,3,2,0.6666666667,0,2,,,,,,,,,
+2020,30,Multi/Interdisciplinary Studies,research_doctorate,Doctor's degree - research/scholarship,940,0,177,293,274,0.9351535836,0.6691489362,279,,,,,,,,,
+2020,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",9502,0,391,621,336,0.5410628019,0.1183961271,398,,,,,,,,,
+2020,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",masters,Master's degree,9153,0,388,540,267,0.4944444444,0.101496777,327,,,,,,,,,
+2020,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",other_doctorate,Doctor's degree - other,15,0,2,2,1,0.5,0.3333333333,1,,,,,,,,,
+2020,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",research_doctorate,Doctor's degree - research/scholarship,334,0,63,79,68,0.8607594937,0.5718562874,70,,,,,,,,,
+2020,38,Philosophy and Religious Studies,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",2904,0,320,589,528,0.896434635,0.5165289256,545,,,,,,,,,Humanities and arts
+2020,38,Philosophy and Religious Studies,masters,Master's degree,2198,0,305,399,351,0.8796992481,0.4308462238,361,,,,,,,,,Humanities and arts
+2020,38,Philosophy and Religious Studies,other_doctorate,Doctor's degree - other,21,0,2,2,0,0,0,0,,,,,,,,,Humanities and arts
+2020,38,Philosophy and Religious Studies,professional_doctorate,Doctor's degree - professional practice,,1,1,1,1,1,,1,,,,,,,,,Humanities and arts
+2020,38,Philosophy and Religious Studies,research_doctorate,Doctor's degree - research/scholarship,685,0,139,187,176,0.9411764706,0.8072992701,183,,,,,,,,,Humanities and arts
+2020,39,Theology and Religious Vocations,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",15589,0,416,1343,923,0.687267312,0.1577394317,1001,,,,,,,,,
+2020,39,Theology and Religious Vocations,masters,Master's degree,13414,0,410,1035,680,0.6570048309,0.1370210228,740,,,,,,,,,
+2020,39,Theology and Religious Vocations,other_doctorate,Doctor's degree - other,433,0,51,64,50,0.78125,0.2933025404,54,,,,,,,,,
+2020,39,Theology and Religious Vocations,professional_doctorate,Doctor's degree - professional practice,755,0,71,83,62,0.7469879518,0.2185430464,69,,,,,,,,,
+2020,39,Theology and Religious Vocations,research_doctorate,Doctor's degree - research/scholarship,987,0,100,161,131,0.8136645963,0.3333333333,138,,,,,,,,,
+2020,40,Physical Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",12953,0,366,1902,1487,0.7818086225,0.3934223732,1534,,,,,,,,,Physical sciences
+2020,40,Physical Sciences,masters,Master's degree,6965,0,364,1090,881,0.8082568807,0.4489590811,904,,,,,,,,,Physical sciences
+2020,40,Physical Sciences,other_doctorate,Doctor's degree - other,,1,2,2,2,1,,2,,,,,,,,,Physical sciences
+2020,40,Physical Sciences,research_doctorate,Doctor's degree - research/scholarship,5988,0,234,810,604,0.7456790123,0.3288243153,628,,,,,,,,,Physical sciences
+2020,41,Science Technologies/Technicians,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",65,0,14,15,12,0.8,0.3538461538,12,,,,,,,,,
+2020,41,Science Technologies/Technicians,masters,Master's degree,65,0,13,13,10,0.7692307692,0.3538461538,10,,,,,,,,,
+2020,41,Science Technologies/Technicians,research_doctorate,Doctor's degree - research/scholarship,,1,2,2,2,1,,2,,,,,,,,,
+2020,42,Psychology,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",36746,0,759,2302,1356,0.5890529974,0.1266260273,1532,,,,,,,,,Psychology
+2020,42,Psychology,masters,Master's degree,30227,0,747,1512,762,0.503968254,0.08637972673,896,,,,,,,,,Psychology
+2020,42,Psychology,other_doctorate,Doctor's degree - other,63,0,3,3,2,0.6666666667,0,2,,,,,,,,,Psychology
+2020,42,Psychology,professional_doctorate,Doctor's degree - professional practice,1467,0,83,107,62,0.5794392523,0.1199727335,76,,,,,,,,,Psychology
+2020,42,Psychology,research_doctorate,Doctor's degree - research/scholarship,4989,0,313,680,530,0.7794117647,0.3740228503,558,,,,,,,,,Psychology
+2020,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",11157,0,414,633,363,0.5734597156,0.1082728332,401,,,,,,,,,
+2020,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",masters,Master's degree,10894,0,412,585,322,0.5504273504,0.09987148889,359,,,,,,,,,
+2020,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",other_doctorate,Doctor's degree - other,,1,1,1,1,1,,1,,,,,,,,,
+2020,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",professional_doctorate,Doctor's degree - professional practice,16,0,1,1,0,0,0,0,,,,,,,,,
+2020,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",research_doctorate,Doctor's degree - research/scholarship,247,0,41,46,40,0.8695652174,0.4858299595,41,,,,,,,,,
+2020,44,Public Administration and Social Service Professions,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",51280,0,609,1153,454,0.3937554206,0.02833463339,565,,,,,,,,,
+2020,44,Public Administration and Social Service Professions,masters,Master's degree,49869,0,602,942,275,0.2919320594,0.01712486715,378,,,,,,,,,
+2020,44,Public Administration and Social Service Professions,other_doctorate,Doctor's degree - other,146,0,1,1,0,0,0,0,,,,,,,,,
+2020,44,Public Administration and Social Service Professions,professional_doctorate,Doctor's degree - professional practice,35,0,7,7,5,0.7142857143,0.3428571429,5,,,,,,,,,
+2020,44,Public Administration and Social Service Professions,research_doctorate,Doctor's degree - research/scholarship,1230,0,152,203,174,0.8571428571,0.4772357724,182,,,,,,,,,
+2020,45,Social Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",20311,0,469,2258,1719,0.7612931798,0.2805376397,1764,,,,,,,,,Social sciences
+2020,45,Social Sciences,masters,Master's degree,16710,0,466,1547,1119,0.723335488,0.2207660084,1157,,,,,,,,,Social sciences
+2020,45,Social Sciences,other_doctorate,Doctor's degree - other,,1,1,1,1,1,,1,,,,,,,,,Social sciences
+2020,45,Social Sciences,professional_doctorate,Doctor's degree - professional practice,,1,2,2,2,1,1,2,,,,,,,,,Social sciences
+2020,45,Social Sciences,research_doctorate,Doctor's degree - research/scholarship,3600,0,199,708,597,0.843220339,0.5577777778,604,,,,,,,,,Social sciences
+2020,47,Mechanic and Repair Technologies/Technicians,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",22,0,1,1,0,0,0,0,,,,,,,,,
+2020,47,Mechanic and Repair Technologies/Technicians,masters,Master's degree,22,0,1,1,0,0,0,0,,,,,,,,,
+2020,48,Precision Production,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",11,0,2,2,2,1,1,2,,,,,,,,,
+2020,48,Precision Production,masters,Master's degree,11,0,2,2,2,1,1,2,,,,,,,,,
+2020,49,Transportation and Materials Moving,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",651,0,22,30,20,0.6666666667,0.07219662058,21,,,,,,,,,
+2020,49,Transportation and Materials Moving,masters,Master's degree,631,0,20,23,13,0.5652173913,0.04278922345,14,,,,,,,,,
+2020,49,Transportation and Materials Moving,research_doctorate,Doctor's degree - research/scholarship,20,0,7,7,7,1,1,7,,,,,,,,,
+2020,50,Visual and Performing Arts,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",18344,0,513,2468,1923,0.7791734198,0.2847252508,1969,,,,,,,,,Humanities and arts
+2020,50,Visual and Performing Arts,masters,Master's degree,16628,0,513,2069,1568,0.7578540358,0.2633509743,1606,,,,,,,,,Humanities and arts
+2020,50,Visual and Performing Arts,other_doctorate,Doctor's degree - other,26,0,4,13,12,0.9230769231,0.5769230769,12,,,,,,,,,Humanities and arts
+2020,50,Visual and Performing Arts,professional_doctorate,Doctor's degree - professional practice,64,0,5,9,7,0.7777777778,0.296875,7,,,,,,,,,Humanities and arts
+2020,50,Visual and Performing Arts,research_doctorate,Doctor's degree - research/scholarship,1626,0,126,377,336,0.8912466844,0.4981549815,344,,,,,,,,,Humanities and arts
+2020,51,Health Professions and Related Programs,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",219638,0,1290,7646,3798,0.4967303165,0.04542019141,4186,,,,,,,,,Health sciences
+2020,51,Health Professions and Related Programs,masters,Master's degree,136719,0,1247,5158,2411,0.4674292361,0.04697225697,2638,,,,,,,,,Health sciences
+2020,51,Health Professions and Related Programs,other_doctorate,Doctor's degree - other,1012,0,49,71,48,0.676056338,0.1126482213,51,,,,,,,,,Health sciences
+2020,51,Health Professions and Related Programs,professional_doctorate,Doctor's degree - professional practice,74373,0,610,1363,469,0.3440939105,0.01640380246,602,,,,,,,,,Health sciences
+2020,51,Health Professions and Related Programs,research_doctorate,Doctor's degree - research/scholarship,7534,0,316,1054,870,0.825426945,0.294664189,895,,,,,,,,,Health sciences
+2020,52,"Business, Management, Marketing, and Related Support Services",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",203283,0,1311,4875,2200,0.4512820513,0.02710507027,2512,,,,,,,,,Business
+2020,52,"Business, Management, Marketing, and Related Support Services",masters,Master's degree,199793,0,1306,4414,1835,0.4157227005,0.02282862763,2124,,,,,,,,,Business
+2020,52,"Business, Management, Marketing, and Related Support Services",other_doctorate,Doctor's degree - other,17,0,3,3,2,0.6666666667,0.2941176471,3,,,,,,,,,Business
+2020,52,"Business, Management, Marketing, and Related Support Services",professional_doctorate,Doctor's degree - professional practice,261,0,16,18,11,0.6111111111,0.04980842912,11,,,,,,,,,Business
+2020,52,"Business, Management, Marketing, and Related Support Services",research_doctorate,Doctor's degree - research/scholarship,3212,0,261,440,352,0.8,0.2898505604,374,,,,,,,,,Business
+2020,54,History,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",4050,0,383,606,496,0.8184818482,0.4427160494,509,,,,,,,,,Humanities and arts
+2020,54,History,masters,Master's degree,3178,0,381,428,340,0.7943925234,0.3898678414,349,,,,,,,,,Humanities and arts
+2020,54,History,other_doctorate,Doctor's degree - other,25,0,1,1,0,0,0,0,,,,,,,,,Humanities and arts
+2020,54,History,research_doctorate,Doctor's degree - research/scholarship,847,0,155,177,156,0.8813559322,0.6540731995,160,,,,,,,,,Humanities and arts
+2021,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",7211,0,112,753,607,0.8061088977,0.2578005824,616,7425,766,113,-2.882154882,7425,766,113,-2.882154882,Agricultural sciences and natural resources
+2021,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,masters,Master's degree,2943,0,109,439,342,0.7790432802,0.3890587836,348,3130,445,109,-5.974440895,3130,445,109,-5.974440895,Agricultural sciences and natural resources
+2021,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,professional_doctorate,Doctor's degree - professional practice,3345,0,33,35,4,0.1142857143,0.001793721973,7,3281,36,34,1.95062481,3281,36,34,1.95062481,Agricultural sciences and natural resources
+2021,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,research_doctorate,Doctor's degree - research/scholarship,923,0,58,279,261,0.935483871,0.767063922,261,1014,285,59,-8.974358974,1014,285,59,-8.974358974,Agricultural sciences and natural resources
+2021,03,Natural Resources and Conservation,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",5114,0,265,602,453,0.7524916944,0.2622213531,479,4972,595,259,2.855993564,4972,595,259,2.855993564,Agricultural sciences and natural resources
+2021,03,Natural Resources and Conservation,masters,Master's degree,4508,0,255,423,286,0.6761229314,0.2029724933,310,4371,417,250,3.134294212,4371,417,250,3.134294212,Agricultural sciences and natural resources
+2021,03,Natural Resources and Conservation,research_doctorate,Doctor's degree - research/scholarship,606,0,110,179,167,0.9329608939,0.702970297,169,601,178,109,0.8319467554,601,178,109,0.8319467554,Agricultural sciences and natural resources
+2021,04,Architecture and Related Services,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",6601,0,181,455,272,0.5978021978,0.1254355401,312,7087,464,179,-6.85762664,7087,464,179,-6.85762664,
+2021,04,Architecture and Related Services,masters,Master's degree,6346,0,181,381,202,0.530183727,0.1000630318,241,6835,391,179,-7.154352597,6835,391,179,-7.154352597,
+2021,04,Architecture and Related Services,other_doctorate,Doctor's degree - other,,1,1,1,1,1,1,1,,1,1,,,1,1,,
+2021,04,Architecture and Related Services,professional_doctorate,Doctor's degree - professional practice,16,0,2,2,1,0.5,0,1,14,2,2,14.28571429,14,2,2,14.28571429,
+2021,04,Architecture and Related Services,research_doctorate,Doctor's degree - research/scholarship,234,0,45,71,68,0.9577464789,0.8034188034,69,231,70,45,1.298701299,231,70,45,1.298701299,
+2021,05,"Area, Ethnic, Cultural, Gender, and Group Studies",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",2272,0,174,530,492,0.9283018868,0.5008802817,499,1862,520,173,22.01933405,1862,520,173,22.01933405,
+2021,05,"Area, Ethnic, Cultural, Gender, and Group Studies",masters,Master's degree,1932,0,168,388,353,0.9097938144,0.4616977226,360,1528,378,168,26.43979058,1528,378,168,26.43979058,
+2021,05,"Area, Ethnic, Cultural, Gender, and Group Studies",research_doctorate,Doctor's degree - research/scholarship,340,0,72,142,139,0.9788732394,0.7235294118,139,334,142,71,1.796407186,334,142,71,1.796407186,
+2021,09,"Communication, Journalism, and Related Programs",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",11534,0,407,870,568,0.6528735632,0.160915554,634,11331,846,404,1.791545318,11331,846,404,1.791545318,
+2021,09,"Communication, Journalism, and Related Programs",masters,Master's degree,11002,0,404,743,452,0.6083445491,0.1331576077,515,10729,726,402,2.544505546,10729,726,402,2.544505546,
+2021,09,"Communication, Journalism, and Related Programs",research_doctorate,Doctor's degree - research/scholarship,532,0,90,127,116,0.9133858268,0.734962406,119,602,120,85,-11.62790698,602,120,85,-11.62790698,
+2021,10,Communications Technologies/Technicians and Support Services,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",531,0,35,38,23,0.6052631579,0.1581920904,24,552,39,36,-3.804347826,552,39,36,-3.804347826,
+2021,10,Communications Technologies/Technicians and Support Services,masters,Master's degree,531,0,34,37,22,0.5945945946,0.1581920904,23,551,38,35,-3.629764065,551,38,35,-3.629764065,
+2021,10,Communications Technologies/Technicians and Support Services,research_doctorate,Doctor's degree - research/scholarship,,1,1,1,1,1,,1,,1,1,,,1,1,,
+2021,11,Computer and Information Sciences and Support Services,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",57041,0,654,1598,754,0.4718397997,0.03998878,879,54192,1536,643,5.25723354,54192,1536,643,5.25723354,Computer and information sciences
+2021,11,Computer and Information Sciences and Support Services,masters,Master's degree,54456,0,653,1300,552,0.4246153846,0.0300058763,658,51772,1247,642,5.184269489,51772,1247,642,5.184269489,Computer and information sciences
+2021,11,Computer and Information Sciences and Support Services,professional_doctorate,Doctor's degree - professional practice,70,0,1,1,0,0,0,1,47,1,1,48.93617021,47,1,1,48.93617021,Computer and information sciences
+2021,11,Computer and Information Sciences and Support Services,research_doctorate,Doctor's degree - research/scholarship,2515,0,205,297,202,0.6801346801,0.2572564612,220,2373,288,201,5.983986515,2373,288,201,5.983986515,Computer and information sciences
+2021,12,"Culinary, Entertainment, and Personal Services",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",22,0,6,7,6,0.8571428571,0,6,20,4,3,10,20,4,3,10,
+2021,12,"Culinary, Entertainment, and Personal Services",masters,Master's degree,22,0,6,6,5,0.8333333333,0,5,20,3,3,10,20,3,3,10,
+2021,12,"Culinary, Entertainment, and Personal Services",research_doctorate,Doctor's degree - research/scholarship,,1,1,1,1,1,,1,,1,1,,,1,1,,
+2021,13,Education,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",172112,0,1249,9505,5816,0.6118884797,0.08792530445,6040,164147,9479,1253,4.852357947,164147,9479,1253,4.852357947,Education
+2021,13,Education,masters,Master's degree,158199,0,1236,8000,4709,0.588625,0.0751711452,4851,150855,8002,1242,4.868250969,150855,8002,1242,4.868250969,Education
+2021,13,Education,other_doctorate,Doctor's degree - other,557,0,31,50,28,0.56,0.09694793537,31,608,47,30,-8.388157895,608,47,30,-8.388157895,Education
+2021,13,Education,professional_doctorate,Doctor's degree - professional practice,300,0,48,64,52,0.8125,0.34,55,276,63,47,8.695652174,276,63,47,8.695652174,Education
+2021,13,Education,research_doctorate,Doctor's degree - research/scholarship,13056,0,478,1391,1027,0.738317757,0.2362898284,1103,12408,1367,469,5.222437137,12408,1367,469,5.222437137,Education
+2021,14,Engineering,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",58970,0,372,3652,2162,0.5920043812,0.125640156,2211,59370,3575,366,-0.6737409466,59370,3575,366,-0.6737409466,Engineering
+2021,14,Engineering,masters,Master's degree,48041,0,371,2261,1157,0.5117204777,0.08168023147,1196,48184,2213,365,-0.2967790138,48184,2213,365,-0.2967790138,Engineering
+2021,14,Engineering,other_doctorate,Doctor's degree - other,,1,2,2,2,1,1,2,,2,2,,,2,2,,Engineering
+2021,14,Engineering,professional_doctorate,Doctor's degree - professional practice,,1,3,6,6,1,1,6,,4,2,,,4,2,,Engineering
+2021,14,Engineering,research_doctorate,Doctor's degree - research/scholarship,10922,0,234,1383,997,0.7208966016,0.3184398462,1007,11184,1356,231,-2.342632332,11184,1356,231,-2.342632332,Engineering
+2021,15,Engineering/Engineering-Related Technologies/Technicians,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",6740,0,231,365,193,0.5287671233,0.08442136499,226,6488,358,227,3.884093711,6488,358,227,3.884093711,Engineering
+2021,15,Engineering/Engineering-Related Technologies/Technicians,masters,Master's degree,6537,0,228,327,160,0.4892966361,0.07556983326,193,6345,319,224,3.026004728,6345,319,224,3.026004728,Engineering
+2021,15,Engineering/Engineering-Related Technologies/Technicians,other_doctorate,Doctor's degree - other,,1,1,1,1,1,1,1,,1,1,,,1,1,,Engineering
+2021,15,Engineering/Engineering-Related Technologies/Technicians,professional_doctorate,Doctor's degree - professional practice,50,0,2,2,1,0.5,0.02,1,28,2,2,78.57142857,28,2,2,78.57142857,Engineering
+2021,15,Engineering/Engineering-Related Technologies/Technicians,research_doctorate,Doctor's degree - research/scholarship,150,0,31,35,31,0.8857142857,0.4733333333,31,113,36,31,32.74336283,113,36,31,32.74336283,Engineering
+2021,16,"Foreign Languages, Literatures, and Linguistics",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",3900,0,255,1269,1187,0.9353821907,0.6648717949,1199,4132,1259,255,-5.614714424,4132,1259,255,-5.614714424,Humanities and arts
+2021,16,"Foreign Languages, Literatures, and Linguistics",masters,Master's degree,2907,0,250,824,750,0.9101941748,0.5810113519,761,2958,815,250,-1.724137931,2958,815,250,-1.724137931,Humanities and arts
+2021,16,"Foreign Languages, Literatures, and Linguistics",research_doctorate,Doctor's degree - research/scholarship,993,0,113,445,437,0.9820224719,0.9103726083,438,1174,444,111,-15.41737649,1174,444,111,-15.41737649,Humanities and arts
+2021,19,Family and Consumer Sciences/Human Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",3375,0,198,391,285,0.7289002558,0.2216296296,304,3562,385,195,-5.249859629,3562,385,195,-5.249859629,
+2021,19,Family and Consumer Sciences/Human Sciences,masters,Master's degree,3137,0,196,310,208,0.6709677419,0.1766018489,227,3281,308,193,-4.388905821,3281,308,193,-4.388905821,
+2021,19,Family and Consumer Sciences/Human Sciences,research_doctorate,Doctor's degree - research/scholarship,238,0,56,81,77,0.950617284,0.8151260504,77,281,77,56,-15.3024911,281,77,56,-15.3024911,
+2021,22,Legal Professions and Studies,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",43485,0,229,738,345,0.4674796748,0.01920202369,398,45030,729,231,-3.431045969,45030,729,231,-3.431045969,
+2021,22,Legal Professions and Studies,masters,Master's degree,7064,0,182,441,264,0.5986394558,0.100792752,300,10055,435,183,-29.74639483,10055,435,183,-29.74639483,
+2021,22,Legal Professions and Studies,other_doctorate,Doctor's degree - other,14,0,1,1,0,0,0,0,20,1,1,-30,20,1,1,-30,
+2021,22,Legal Professions and Studies,professional_doctorate,Doctor's degree - professional practice,36249,0,211,228,17,0.07456140351,0.0007448481337,33,34768,229,213,4.259664059,34768,229,213,4.259664059,
+2021,22,Legal Professions and Studies,research_doctorate,Doctor's degree - research/scholarship,158,0,55,68,64,0.9411764706,0.6075949367,65,187,64,53,-15.50802139,187,64,53,-15.50802139,
+2021,23,English Language and Literature/Letters,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",8985,0,533,975,677,0.6943589744,0.3110740122,749,9197,967,530,-2.305099489,9197,967,530,-2.305099489,Humanities and arts
+2021,23,English Language and Literature/Letters,masters,Master's degree,7893,0,533,784,517,0.6594387755,0.2717597872,584,7894,777,530,-0.012667849,7894,777,530,-0.012667849,Humanities and arts
+2021,23,English Language and Literature/Letters,other_doctorate,Doctor's degree - other,29,0,2,2,0,0,0,0,27,2,2,7.407407407,27,2,2,7.407407407,Humanities and arts
+2021,23,English Language and Literature/Letters,research_doctorate,Doctor's degree - research/scholarship,1063,0,160,189,160,0.8465608466,0.611476952,165,1276,188,158,-16.69278997,1276,188,158,-16.69278997,Humanities and arts
+2021,24,"Liberal Arts and Sciences, General Studies and Humanities",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",2134,0,221,276,220,0.7971014493,0.2417994377,225,2104,278,225,1.425855513,2104,278,225,1.425855513,
+2021,24,"Liberal Arts and Sciences, General Studies and Humanities",masters,Master's degree,2044,0,215,245,192,0.7836734694,0.2250489237,197,1990,247,219,2.713567839,1990,247,219,2.713567839,
+2021,24,"Liberal Arts and Sciences, General Studies and Humanities",professional_doctorate,Doctor's degree - professional practice,,1,1,1,1,1,,1,,,,,,,,,
+2021,24,"Liberal Arts and Sciences, General Studies and Humanities",research_doctorate,Doctor's degree - research/scholarship,90,0,28,30,27,0.9,0.6222222222,27,114,31,29,-21.05263158,114,31,29,-21.05263158,
+2021,25,Library Science,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",5493,0,70,91,27,0.2967032967,0.009648643728,31,4989,88,66,10.10222489,4989,88,66,10.10222489,
+2021,25,Library Science,masters,Master's degree,5481,0,70,78,14,0.1794871795,0.007480386791,18,4960,74,66,10.50403226,4960,74,66,10.50403226,
+2021,25,Library Science,research_doctorate,Doctor's degree - research/scholarship,12,0,12,13,13,1,1,13,29,14,13,-58.62068966,29,14,13,-58.62068966,
+2021,26,Biological and Biomedical Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",27172,0,603,4097,3379,0.8247498169,0.3199249227,3430,26976,4066,588,0.7265717675,26976,4066,588,0.7265717675,Biological and biomedical sciences
+2021,26,Biological and Biomedical Sciences,masters,Master's degree,19614,0,597,2266,1741,0.7683142101,0.2065361476,1784,18999,2238,584,3.237012474,18999,2238,584,3.237012474,Biological and biomedical sciences
+2021,26,Biological and Biomedical Sciences,professional_doctorate,Doctor's degree - professional practice,11,0,6,12,12,1,1,12,,11,5,,,11,5,,Biological and biomedical sciences
+2021,26,Biological and Biomedical Sciences,research_doctorate,Doctor's degree - research/scholarship,7547,0,301,1819,1626,0.893897746,0.6136213065,1634,7969,1817,295,-5.295520141,7969,1817,295,-5.295520141,Biological and biomedical sciences
+2021,27,Mathematics and Statistics,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",14564,0,413,1110,739,0.6657657658,0.181543532,826,14105,1101,410,3.25416519,14105,1101,410,3.25416519,Mathematics and statistics
+2021,27,Mathematics and Statistics,masters,Master's degree,12604,0,412,763,460,0.6028833552,0.1317835608,529,12077,754,409,4.363666473,12077,754,409,4.363666473,Mathematics and statistics
+2021,27,Mathematics and Statistics,research_doctorate,Doctor's degree - research/scholarship,1960,0,196,347,279,0.8040345821,0.5015306122,297,2028,347,194,-3.353057199,2028,347,194,-3.353057199,Mathematics and statistics
+2021,29,Military Technologies and Applied Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",1033,0,27,38,20,0.5263157895,0.03872216844,21,972,29,22,6.275720165,972,29,22,6.275720165,
+2021,29,Military Technologies and Applied Sciences,masters,Master's degree,1033,0,27,37,19,0.5135135135,0.03872216844,20,972,28,22,6.275720165,972,28,22,6.275720165,
+2021,29,Military Technologies and Applied Sciences,research_doctorate,Doctor's degree - research/scholarship,,1,1,1,1,1,,1,,1,1,,,1,1,,
+2021,30,Multi/Interdisciplinary Studies,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",13464,0,525,1331,988,0.7422990233,0.1856803327,1064,12587,1249,503,6.967506157,12587,1249,503,6.967506157,
+2021,30,Multi/Interdisciplinary Studies,masters,Master's degree,12407,0,508,1005,685,0.6815920398,0.1444345934,757,11597,949,491,6.984564974,11597,949,491,6.984564974,
+2021,30,Multi/Interdisciplinary Studies,other_doctorate,Doctor's degree - other,,1,4,4,4,1,1,4,13,4,4,,13,4,4,,
+2021,30,Multi/Interdisciplinary Studies,professional_doctorate,Doctor's degree - professional practice,36,0,3,3,2,0.6666666667,0,2,37,3,3,-2.702702703,37,3,3,-2.702702703,
+2021,30,Multi/Interdisciplinary Studies,research_doctorate,Doctor's degree - research/scholarship,1015,0,178,319,297,0.9310344828,0.6916256158,301,940,293,177,7.978723404,940,293,177,7.978723404,
+2021,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",10217,0,404,639,329,0.5148669797,0.1052167955,388,9502,621,391,7.524731635,9502,621,391,7.524731635,
+2021,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",masters,Master's degree,9891,0,400,556,255,0.4586330935,0.09058740269,313,9153,540,388,8.062930187,9153,540,388,8.062930187,
+2021,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",other_doctorate,Doctor's degree - other,16,0,2,2,1,0.5,0.0625,1,15,2,2,6.666666667,15,2,2,6.666666667,
+2021,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",research_doctorate,Doctor's degree - research/scholarship,310,0,65,81,73,0.9012345679,0.5741935484,74,334,79,63,-7.185628743,334,79,63,-7.185628743,
+2021,38,Philosophy and Religious Studies,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",2713,0,322,594,542,0.9124579125,0.5558422411,552,2904,589,320,-6.577134986,2904,589,320,-6.577134986,Humanities and arts
+2021,38,Philosophy and Religious Studies,masters,Master's degree,2085,0,307,405,358,0.8839506173,0.4522781775,365,2198,399,305,-5.141037307,2198,399,305,-5.141037307,Humanities and arts
+2021,38,Philosophy and Religious Studies,other_doctorate,Doctor's degree - other,,1,2,2,2,1,1,2,21,2,2,,21,2,2,,Humanities and arts
+2021,38,Philosophy and Religious Studies,professional_doctorate,Doctor's degree - professional practice,,1,1,1,1,1,,1,,1,1,,,1,1,,Humanities and arts
+2021,38,Philosophy and Religious Studies,research_doctorate,Doctor's degree - research/scholarship,621,0,139,186,181,0.9731182796,0.8985507246,184,685,187,139,-9.343065693,685,187,139,-9.343065693,Humanities and arts
+2021,39,Theology and Religious Vocations,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",16370,0,414,1373,944,0.6875455208,0.1579108125,1020,15589,1343,416,5.009942908,15589,1343,416,5.009942908,
+2021,39,Theology and Religious Vocations,masters,Master's degree,14014,0,410,1054,689,0.6537001898,0.1378621379,751,13414,1035,410,4.472938721,13414,1035,410,4.472938721,
+2021,39,Theology and Religious Vocations,other_doctorate,Doctor's degree - other,493,0,53,69,51,0.7391304348,0.2332657201,53,433,64,51,13.85681293,433,64,51,13.85681293,
+2021,39,Theology and Religious Vocations,professional_doctorate,Doctor's degree - professional practice,749,0,70,83,65,0.7831325301,0.2510013351,70,755,83,71,-0.7947019868,755,83,71,-0.7947019868,
+2021,39,Theology and Religious Vocations,research_doctorate,Doctor's degree - research/scholarship,1114,0,98,167,139,0.8323353293,0.3141831239,146,987,161,100,12.86727457,987,161,100,12.86727457,
+2021,40,Physical Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",12480,0,369,1917,1532,0.7991653625,0.4018429487,1579,12953,1902,366,-3.651663707,12953,1902,366,-3.651663707,Physical sciences
+2021,40,Physical Sciences,masters,Master's degree,6755,0,365,1105,919,0.8316742081,0.4561065877,939,6965,1090,364,-3.015075377,6965,1090,364,-3.015075377,Physical sciences
+2021,40,Physical Sciences,other_doctorate,Doctor's degree - other,,1,2,2,2,1,,2,,2,2,,,2,2,,Physical sciences
+2021,40,Physical Sciences,research_doctorate,Doctor's degree - research/scholarship,5725,0,235,810,611,0.7543209877,0.3378165939,638,5988,810,234,-4.392117568,5988,810,234,-4.392117568,Physical sciences
+2021,41,Science Technologies/Technicians,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",66,0,13,14,10,0.7142857143,0.2878787879,10,65,15,14,1.538461538,65,15,14,1.538461538,
+2021,41,Science Technologies/Technicians,masters,Master's degree,66,0,13,13,9,0.6923076923,0.2878787879,9,65,13,13,1.538461538,65,13,13,1.538461538,
+2021,41,Science Technologies/Technicians,research_doctorate,Doctor's degree - research/scholarship,,1,1,1,1,1,,1,,2,2,,,2,2,,
+2021,42,Psychology,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",38815,0,772,2345,1381,0.58891258,0.1199278629,1544,36746,2302,759,5.630544821,36746,2302,759,5.630544821,Psychology
+2021,42,Psychology,masters,Master's degree,32265,0,760,1538,770,0.5006501951,0.07990082132,898,30227,1512,747,6.742316472,30227,1512,747,6.742316472,Psychology
+2021,42,Psychology,other_doctorate,Doctor's degree - other,50,0,3,3,2,0.6666666667,0,2,63,3,3,-20.63492063,63,3,3,-20.63492063,Psychology
+2021,42,Psychology,professional_doctorate,Doctor's degree - professional practice,1443,0,88,116,70,0.6034482759,0.1302841303,77,1467,107,83,-1.63599182,1467,107,83,-1.63599182,Psychology
+2021,42,Psychology,research_doctorate,Doctor's degree - research/scholarship,5057,0,319,688,539,0.7834302326,0.3735416255,567,4989,680,313,1.362998597,4989,680,313,1.362998597,Psychology
+2021,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",11810,0,409,638,350,0.5485893417,0.09237933954,394,11157,633,414,5.852827821,11157,633,414,5.852827821,
+2021,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",masters,Master's degree,11571,0,407,588,307,0.5221088435,0.08676864575,350,10894,585,412,6.214429961,10894,585,412,6.214429961,
+2021,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",professional_doctorate,Doctor's degree - professional practice,13,0,1,1,0,0,0,0,16,1,1,-18.75,16,1,1,-18.75,
+2021,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",research_doctorate,Doctor's degree - research/scholarship,226,0,44,49,43,0.8775510204,0.3849557522,44,247,46,41,-8.502024291,247,46,41,-8.502024291,
+2021,44,Public Administration and Social Service Professions,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",51014,0,608,1172,453,0.3865187713,0.02863919708,558,51280,1153,609,-0.5187207488,51280,1153,609,-0.5187207488,
+2021,44,Public Administration and Social Service Professions,masters,Master's degree,49573,0,603,952,263,0.2762605042,0.0173683255,361,49869,942,602,-0.5935551144,49869,942,602,-0.5935551144,
+2021,44,Public Administration and Social Service Professions,other_doctorate,Doctor's degree - other,184,0,1,1,0,0,0,0,146,1,1,26.02739726,146,1,1,26.02739726,
+2021,44,Public Administration and Social Service Professions,professional_doctorate,Doctor's degree - professional practice,55,0,12,12,9,0.75,0.2,9,35,7,7,57.14285714,35,7,7,57.14285714,
+2021,44,Public Administration and Social Service Professions,research_doctorate,Doctor's degree - research/scholarship,1202,0,153,207,181,0.8743961353,0.4900166389,188,1230,203,152,-2.276422764,1230,203,152,-2.276422764,
+2021,45,Social Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",20157,0,469,2272,1777,0.7821302817,0.2838219973,1818,20311,2258,469,-0.758209837,20311,2258,469,-0.758209837,Social sciences
+2021,45,Social Sciences,masters,Master's degree,16686,0,466,1557,1163,0.7469492614,0.2298333933,1193,16710,1547,466,-0.1436265709,16710,1547,466,-0.1436265709,Social sciences
+2021,45,Social Sciences,other_doctorate,Doctor's degree - other,,1,1,1,1,1,,1,,1,1,,,1,1,,Social sciences
+2021,45,Social Sciences,professional_doctorate,Doctor's degree - professional practice,11,0,3,3,2,0.6666666667,0.09090909091,3,,2,2,,,2,2,,Social sciences
+2021,45,Social Sciences,research_doctorate,Doctor's degree - research/scholarship,3460,0,204,711,611,0.8593530239,0.5447976879,621,3600,708,199,-3.888888889,3600,708,199,-3.888888889,Social sciences
+2021,47,Mechanic and Repair Technologies/Technicians,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",29,0,2,3,2,0.6666666667,0.1379310345,2,22,1,1,31.81818182,22,1,1,31.81818182,
+2021,47,Mechanic and Repair Technologies/Technicians,masters,Master's degree,27,0,2,2,1,0.5,0.07407407407,1,22,1,1,22.72727273,22,1,1,22.72727273,
+2021,47,Mechanic and Repair Technologies/Technicians,research_doctorate,Doctor's degree - research/scholarship,,1,1,1,1,1,1,1,,,,,,,,,
+2021,48,Precision Production,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",,1,2,2,2,1,1,2,11,2,2,,11,2,2,,
+2021,48,Precision Production,masters,Master's degree,,1,2,2,2,1,1,2,11,2,2,,11,2,2,,
+2021,49,Transportation and Materials Moving,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",690,0,22,32,21,0.65625,0.06666666667,22,651,30,22,5.99078341,651,30,22,5.99078341,
+2021,49,Transportation and Materials Moving,masters,Master's degree,670,0,21,24,14,0.5833333333,0.05373134328,15,631,23,20,6.18066561,631,23,20,6.18066561,
+2021,49,Transportation and Materials Moving,research_doctorate,Doctor's degree - research/scholarship,20,0,7,8,7,0.875,0.5,7,20,7,7,0,20,7,7,0,
+2021,50,Visual and Performing Arts,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",17492,0,507,2479,1953,0.7878176684,0.3005373885,1998,18344,2468,513,-4.644570432,18344,2468,513,-4.644570432,Humanities and arts
+2021,50,Visual and Performing Arts,masters,Master's degree,15823,0,507,2076,1590,0.7658959538,0.2795929975,1630,16628,2069,513,-4.841231657,16628,2069,513,-4.841231657,Humanities and arts
+2021,50,Visual and Performing Arts,other_doctorate,Doctor's degree - other,19,0,5,14,14,1,1,14,26,13,4,-26.92307692,26,13,4,-26.92307692,Humanities and arts
+2021,50,Visual and Performing Arts,professional_doctorate,Doctor's degree - professional practice,72,0,5,9,7,0.7777777778,0.25,7,64,9,5,12.5,64,9,5,12.5,Humanities and arts
+2021,50,Visual and Performing Arts,research_doctorate,Doctor's degree - research/scholarship,1578,0,125,380,342,0.9,0.5044359949,347,1626,377,126,-2.95202952,1626,377,126,-2.95202952,Humanities and arts
+2021,51,Health Professions and Related Programs,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",230299,0,1305,7948,4019,0.5056618017,0.04577527475,4416,219638,7646,1290,4.853895956,219638,7646,1290,4.853895956,Health sciences
+2021,51,Health Professions and Related Programs,masters,Master's degree,143930,0,1266,5369,2562,0.4771838331,0.04725908428,2795,136719,5158,1247,5.274321784,136719,5158,1247,5.274321784,Health sciences
+2021,51,Health Professions and Related Programs,other_doctorate,Doctor's degree - other,1138,0,52,78,49,0.6282051282,0.1063268893,56,1012,71,49,12.45059289,1012,71,49,12.45059289,Health sciences
+2021,51,Health Professions and Related Programs,professional_doctorate,Doctor's degree - professional practice,77672,0,627,1429,510,0.3568929321,0.01765114842,644,74373,1363,610,4.435749533,74373,1363,610,4.435749533,Health sciences
+2021,51,Health Professions and Related Programs,research_doctorate,Doctor's degree - research/scholarship,7559,0,329,1072,898,0.8376865672,0.2973938352,921,7534,1054,316,0.3318290417,7534,1054,316,0.3318290417,Health sciences
+2021,52,"Business, Management, Marketing, and Related Support Services",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",208690,0,1323,5073,2354,0.4640252316,0.026953855,2663,203283,4875,1311,2.659838747,203283,4875,1311,2.659838747,Business
+2021,52,"Business, Management, Marketing, and Related Support Services",masters,Master's degree,204956,0,1317,4576,1947,0.4254807692,0.0224487207,2235,199793,4414,1306,2.584174621,199793,4414,1306,2.584174621,Business
+2021,52,"Business, Management, Marketing, and Related Support Services",other_doctorate,Doctor's degree - other,15,0,4,4,4,1,1,4,17,3,3,-11.76470588,17,3,3,-11.76470588,Business
+2021,52,"Business, Management, Marketing, and Related Support Services",professional_doctorate,Doctor's degree - professional practice,277,0,17,19,11,0.5789473684,0.02888086643,12,261,18,16,6.130268199,261,18,16,6.130268199,Business
+2021,52,"Business, Management, Marketing, and Related Support Services",research_doctorate,Doctor's degree - research/scholarship,3442,0,279,474,392,0.8270042194,0.2908192911,412,3212,440,261,7.160647572,3212,440,261,7.160647572,Business
+2021,54,History,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",4217,0,381,605,487,0.8049586777,0.3832108134,502,4050,606,383,4.12345679,4050,606,383,4.12345679,Humanities and arts
+2021,54,History,masters,Master's degree,3501,0,380,426,330,0.7746478873,0.3364752928,339,3178,428,381,10.16362492,3178,428,381,10.16362492,Humanities and arts
+2021,54,History,other_doctorate,Doctor's degree - other,14,0,1,1,0,0,0,0,25,1,1,-44,25,1,1,-44,Humanities and arts
+2021,54,History,research_doctorate,Doctor's degree - research/scholarship,702,0,156,178,157,0.8820224719,0.6239316239,163,847,177,155,-17.11924439,847,177,155,-17.11924439,Humanities and arts
+2022,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",7410,0,119,756,606,0.8015873016,0.2539811066,616,7211,753,112,2.759672722,7425,766,113,-0.202020202,Agricultural sciences and natural resources
+2022,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,masters,Master's degree,3073,0,116,446,342,0.7668161435,0.3680442564,347,2943,439,109,4.417261298,3130,445,109,-1.821086262,Agricultural sciences and natural resources
+2022,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,professional_doctorate,Doctor's degree - professional practice,3396,0,34,36,5,0.1388888889,0.001472320377,9,3345,35,33,1.524663677,3281,36,34,3.505028955,Agricultural sciences and natural resources
+2022,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,research_doctorate,Doctor's degree - research/scholarship,941,0,59,274,259,0.9452554745,0.7927736451,260,923,279,58,1.950162514,1014,285,59,-7.199211045,Agricultural sciences and natural resources
+2022,03,Natural Resources and Conservation,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",5706,0,267,601,442,0.7354409318,0.2362425517,472,5114,602,265,11.5760657,4972,595,259,14.76267096,Agricultural sciences and natural resources
+2022,03,Natural Resources and Conservation,masters,Master's degree,5057,0,256,424,279,0.6580188679,0.175400435,308,4508,423,255,12.1783496,4371,417,250,15.69434912,Agricultural sciences and natural resources
+2022,03,Natural Resources and Conservation,research_doctorate,Doctor's degree - research/scholarship,649,0,107,177,163,0.9209039548,0.7103235747,164,606,179,110,7.095709571,601,178,109,7.986688852,Agricultural sciences and natural resources
+2022,04,Architecture and Related Services,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",7011,0,182,451,270,0.5986696231,0.109114249,306,6601,455,181,6.211180124,7087,464,179,-1.072386059,
+2022,04,Architecture and Related Services,masters,Master's degree,6759,0,182,371,192,0.5175202156,0.08255659121,227,6346,381,181,6.508036558,6835,391,179,-1.111923921,
+2022,04,Architecture and Related Services,other_doctorate,Doctor's degree - other,,1,1,1,1,1,1,1,,1,1,,,1,1,,
+2022,04,Architecture and Related Services,professional_doctorate,Doctor's degree - professional practice,28,0,2,2,1,0.5,0,1,16,2,2,75,14,2,2,100,
+2022,04,Architecture and Related Services,research_doctorate,Doctor's degree - research/scholarship,218,0,48,77,76,0.987012987,0.9220183486,77,234,71,45,-6.837606838,231,70,45,-5.627705628,
+2022,05,"Area, Ethnic, Cultural, Gender, and Group Studies",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",2249,0,173,528,482,0.9128787879,0.5206758559,494,2272,530,174,-1.012323944,1862,520,173,20.78410311,
+2022,05,"Area, Ethnic, Cultural, Gender, and Group Studies",masters,Master's degree,1833,0,167,381,339,0.8897637795,0.4549918167,350,1932,388,168,-5.124223602,1528,378,168,19.96073298,
+2022,05,"Area, Ethnic, Cultural, Gender, and Group Studies",other_doctorate,Doctor's degree - other,27,0,1,1,0,0,0,0,,,,,,,,,
+2022,05,"Area, Ethnic, Cultural, Gender, and Group Studies",research_doctorate,Doctor's degree - research/scholarship,389,0,73,146,143,0.9794520548,0.8663239075,144,340,142,72,14.41176471,334,142,71,16.46706587,
+2022,09,"Communication, Journalism, and Related Programs",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",12874,0,421,888,581,0.6542792793,0.1560509554,631,11534,870,407,11.61782556,11331,846,404,13.61750949,
+2022,09,"Communication, Journalism, and Related Programs",masters,Master's degree,12273,0,419,756,463,0.6124338624,0.1285749206,509,11002,743,404,11.55244501,10729,726,402,14.39090316,
+2022,09,"Communication, Journalism, and Related Programs",research_doctorate,Doctor's degree - research/scholarship,601,0,92,132,118,0.8939393939,0.7171381032,122,532,127,90,12.96992481,602,120,85,-0.1661129568,
+2022,10,Communications Technologies/Technicians and Support Services,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",589,0,37,41,24,0.5853658537,0.1273344652,24,531,38,35,10.92278719,552,39,36,6.702898551,
+2022,10,Communications Technologies/Technicians and Support Services,masters,Master's degree,589,0,36,40,23,0.575,0.1273344652,23,531,37,34,10.92278719,551,38,35,6.896551724,
+2022,10,Communications Technologies/Technicians and Support Services,research_doctorate,Doctor's degree - research/scholarship,,1,1,1,1,1,,1,,1,1,,,1,1,,
+2022,11,Computer and Information Sciences and Support Services,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",54548,0,666,1687,822,0.4872554831,0.04326464765,962,57041,1598,654,-4.370540488,54192,1536,643,0.6569235311,Computer and information sciences
+2022,11,Computer and Information Sciences and Support Services,masters,Master's degree,51748,0,666,1372,610,0.444606414,0.03331529721,731,54456,1300,653,-4.972822095,51772,1247,642,-0.04635710423,Computer and information sciences
+2022,11,Computer and Information Sciences and Support Services,professional_doctorate,Doctor's degree - professional practice,64,0,2,2,1,0.5,0,2,70,1,1,-8.571428571,47,1,1,36.17021277,Computer and information sciences
+2022,11,Computer and Information Sciences and Support Services,research_doctorate,Doctor's degree - research/scholarship,2736,0,212,313,211,0.6741214058,0.2324561404,229,2515,297,205,8.787276342,2373,288,201,15.29709229,Computer and information sciences
+2022,12,"Culinary, Entertainment, and Personal Services",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",18,0,7,8,7,0.875,0.2222222222,7,22,7,6,-18.18181818,20,4,3,-10,
+2022,12,"Culinary, Entertainment, and Personal Services",masters,Master's degree,18,0,6,6,5,0.8333333333,0.2222222222,5,22,6,6,-18.18181818,20,3,3,-10,
+2022,12,"Culinary, Entertainment, and Personal Services",research_doctorate,Doctor's degree - research/scholarship,,1,2,2,2,1,,2,,1,1,,,1,1,,
+2022,13,Education,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",171905,0,1259,9560,5841,0.6109832636,0.0875483552,6106,172112,9505,1249,-0.1202705215,164147,9479,1253,4.72625147,Education
+2022,13,Education,masters,Master's degree,156769,0,1242,8009,4724,0.589836434,0.07547410521,4899,158199,8000,1236,-0.9039248036,150855,8002,1242,3.920320838,Education
+2022,13,Education,other_doctorate,Doctor's degree - other,423,0,29,49,41,0.8367346939,0.05200945626,42,557,50,31,-24.05745063,608,47,30,-30.42763158,Education
+2022,13,Education,professional_doctorate,Doctor's degree - professional practice,354,0,53,72,58,0.8055555556,0.3926553672,62,300,64,48,18,276,63,47,28.26086957,Education
+2022,13,Education,research_doctorate,Doctor's degree - research/scholarship,14359,0,500,1430,1018,0.7118881119,0.2128978341,1103,13056,1391,478,9.980085784,12408,1367,469,15.72372663,Education
+2022,14,Engineering,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",55815,0,380,3701,2159,0.5833558498,0.1339783212,2208,58970,3652,372,-5.350178057,59370,3575,366,-5.987872663,Engineering
+2022,14,Engineering,masters,Master's degree,43694,0,379,2295,1199,0.5224400871,0.0945438733,1232,48041,2261,371,-9.048521055,48184,2213,365,-9.318445957,Engineering
+2022,14,Engineering,other_doctorate,Doctor's degree - other,,1,2,2,2,1,,2,,2,2,,,2,2,,Engineering
+2022,14,Engineering,professional_doctorate,Doctor's degree - professional practice,,1,3,6,6,1,1,6,,6,3,,,4,2,,Engineering
+2022,14,Engineering,research_doctorate,Doctor's degree - research/scholarship,12114,0,234,1398,952,0.6809728183,0.2757140499,968,10922,1383,234,10.91375206,11184,1356,231,8.315450644,Engineering
+2022,15,Engineering/Engineering-Related Technologies/Technicians,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",6607,0,239,382,203,0.5314136126,0.08884516422,245,6740,365,231,-1.973293769,6488,358,227,1.834155364,Engineering
+2022,15,Engineering/Engineering-Related Technologies/Technicians,masters,Master's degree,6440,0,235,342,167,0.4883040936,0.08152173913,209,6537,327,228,-1.483861098,6345,319,224,1.497241923,Engineering
+2022,15,Engineering/Engineering-Related Technologies/Technicians,other_doctorate,Doctor's degree - other,,1,1,1,1,1,1,1,,1,1,,,1,1,,Engineering
+2022,15,Engineering/Engineering-Related Technologies/Technicians,professional_doctorate,Doctor's degree - professional practice,54,0,3,3,2,0.6666666667,0.09259259259,2,50,2,2,8,28,2,2,92.85714286,Engineering
+2022,15,Engineering/Engineering-Related Technologies/Technicians,research_doctorate,Doctor's degree - research/scholarship,112,0,33,36,33,0.9166666667,0.5,33,150,35,31,-25.33333333,113,36,31,-0.8849557522,Engineering
+2022,16,"Foreign Languages, Literatures, and Linguistics",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",3895,0,253,1251,1171,0.9360511591,0.6744544288,1182,3900,1269,255,-0.1282051282,4132,1259,255,-5.7357212,Humanities and arts
+2022,16,"Foreign Languages, Literatures, and Linguistics",masters,Master's degree,2861,0,250,808,734,0.9084158416,0.5809157637,745,2907,824,250,-1.582387341,2958,815,250,-3.279242732,Humanities and arts
+2022,16,"Foreign Languages, Literatures, and Linguistics",research_doctorate,Doctor's degree - research/scholarship,1034,0,110,443,437,0.9864559819,0.9332688588,437,993,445,113,4.128902316,1174,444,111,-11.92504259,Humanities and arts
+2022,19,Family and Consumer Sciences/Human Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",3228,0,200,382,280,0.7329842932,0.2385377943,301,3375,391,198,-4.355555556,3562,385,195,-9.376754632,
+2022,19,Family and Consumer Sciences/Human Sciences,masters,Master's degree,2950,0,198,306,209,0.6830065359,0.1871186441,229,3137,310,196,-5.96110934,3281,308,193,-10.08838769,
+2022,19,Family and Consumer Sciences/Human Sciences,research_doctorate,Doctor's degree - research/scholarship,278,0,57,76,71,0.9342105263,0.7841726619,72,238,81,56,16.80672269,281,77,56,-1.067615658,
+2022,22,Legal Professions and Studies,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",48984,0,230,754,333,0.4416445623,0.0154540258,390,43485,738,229,12.64573991,45030,729,231,8.780812791,
+2022,22,Legal Professions and Studies,masters,Master's degree,12145,0,185,458,255,0.556768559,0.05261424455,294,7064,441,182,71.92808607,10055,435,183,20.78567877,
+2022,22,Legal Professions and Studies,other_doctorate,Doctor's degree - other,15,0,2,2,1,0.5,0,1,14,1,1,7.142857143,20,1,1,-25,
+2022,22,Legal Professions and Studies,professional_doctorate,Doctor's degree - professional practice,36667,0,210,227,15,0.06607929515,0.0006818119835,33,36249,228,211,1.153135259,34768,229,213,5.461919006,
+2022,22,Legal Professions and Studies,research_doctorate,Doctor's degree - research/scholarship,157,0,55,67,62,0.9253731343,0.5923566879,62,158,68,55,-0.6329113924,187,64,53,-16.04278075,
+2022,23,English Language and Literature/Letters,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",9362,0,533,980,671,0.6846938776,0.2942747276,753,8985,975,533,4.195882026,9197,967,530,1.794063282,Humanities and arts
+2022,23,English Language and Literature/Letters,masters,Master's degree,8154,0,533,788,521,0.6611675127,0.2582781457,599,7893,784,533,3.30672748,7894,777,530,3.29364074,Humanities and arts
+2022,23,English Language and Literature/Letters,other_doctorate,Doctor's degree - other,32,0,2,2,0,0,0,0,29,2,2,10.34482759,27,2,2,18.51851852,Humanities and arts
+2022,23,English Language and Literature/Letters,research_doctorate,Doctor's degree - research/scholarship,1176,0,159,190,150,0.7894736842,0.5518707483,154,1063,189,160,10.63029163,1276,188,158,-7.836990596,Humanities and arts
+2022,24,"Liberal Arts and Sciences, General Studies and Humanities",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",1969,0,214,267,212,0.7940074906,0.2300660234,221,2134,276,221,-7.731958763,2104,278,225,-6.41634981,
+2022,24,"Liberal Arts and Sciences, General Studies and Humanities",masters,Master's degree,1862,0,208,236,185,0.7838983051,0.2137486574,193,2044,245,215,-8.904109589,1990,247,219,-6.432160804,
+2022,24,"Liberal Arts and Sciences, General Studies and Humanities",professional_doctorate,Doctor's degree - professional practice,,1,1,1,1,1,,1,,1,1,,,,,,
+2022,24,"Liberal Arts and Sciences, General Studies and Humanities",research_doctorate,Doctor's degree - research/scholarship,107,0,28,30,26,0.8666666667,0.5140186916,27,90,30,28,18.88888889,114,31,29,-6.140350877,
+2022,25,Library Science,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",5873,0,69,87,22,0.2528735632,0.005108121914,24,5493,91,70,6.917895503,4989,88,66,17.71898176,
+2022,25,Library Science,masters,Master's degree,5856,0,69,75,10,0.1333333333,0.002219945355,12,5481,78,70,6.841817187,4960,74,66,18.06451613,
+2022,25,Library Science,research_doctorate,Doctor's degree - research/scholarship,17,0,11,12,12,1,1,12,12,13,12,41.66666667,29,14,13,-41.37931034,
+2022,26,Biological and Biomedical Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",29447,0,614,4086,3310,0.810083211,0.3141236798,3380,27172,4097,603,8.37258943,26976,4066,588,9.159994069,Biological and biomedical sciences
+2022,26,Biological and Biomedical Sciences,masters,Master's degree,20808,0,609,2266,1739,0.7674315975,0.2167435602,1799,19614,2266,597,6.087488529,18999,2238,584,9.521553766,Biological and biomedical sciences
+2022,26,Biological and Biomedical Sciences,professional_doctorate,Doctor's degree - professional practice,,1,6,10,10,1,1,10,11,12,6,,,11,5,,Biological and biomedical sciences
+2022,26,Biological and Biomedical Sciences,research_doctorate,Doctor's degree - research/scholarship,8635,0,301,1810,1561,0.8624309392,0.5484655472,1571,7547,1819,301,14.41632437,7969,1817,295,8.357384866,Biological and biomedical sciences
+2022,27,Mathematics and Statistics,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",14003,0,422,1131,763,0.6746242263,0.1982432336,851,14564,1110,413,-3.851963746,14105,1101,410,-0.7231478199,Mathematics and statistics
+2022,27,Mathematics and Statistics,masters,Master's degree,11788,0,420,783,500,0.6385696041,0.1527824907,565,12604,763,412,-6.474135195,12077,754,409,-2.392978389,Mathematics and statistics
+2022,27,Mathematics and Statistics,research_doctorate,Doctor's degree - research/scholarship,2215,0,193,348,263,0.7557471264,0.4401805869,286,1960,347,196,13.01020408,2028,347,194,9.220907298,Mathematics and statistics
+2022,29,Military Technologies and Applied Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",978,0,30,46,28,0.6086956522,0.06748466258,28,1033,38,27,-5.324298161,972,29,22,0.6172839506,
+2022,29,Military Technologies and Applied Sciences,masters,Master's degree,975,0,30,41,23,0.5609756098,0.06461538462,23,1033,37,27,-5.614714424,972,28,22,0.3086419753,
+2022,29,Military Technologies and Applied Sciences,professional_doctorate,Doctor's degree - professional practice,,1,1,1,1,1,1,1,,,,,,,,,
+2022,29,Military Technologies and Applied Sciences,research_doctorate,Doctor's degree - research/scholarship,,1,3,4,4,1,1,4,,1,1,,,1,1,,
+2022,30,Multi/Interdisciplinary Studies,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",16253,0,552,1452,1050,0.7231404959,0.1632314034,1131,13464,1331,525,20.71449792,12587,1249,503,29.125288,
+2022,30,Multi/Interdisciplinary Studies,masters,Master's degree,15102,0,536,1119,741,0.6621983914,0.1261422328,816,12407,1005,508,21.72160877,11597,949,491,30.22333362,
+2022,30,Multi/Interdisciplinary Studies,other_doctorate,Doctor's degree - other,,1,3,3,3,1,1,3,,4,4,,13,4,4,,
+2022,30,Multi/Interdisciplinary Studies,professional_doctorate,Doctor's degree - professional practice,43,0,3,3,2,0.6666666667,0,2,36,3,3,19.44444444,37,3,3,16.21621622,
+2022,30,Multi/Interdisciplinary Studies,research_doctorate,Doctor's degree - research/scholarship,1103,0,184,327,304,0.9296636086,0.6736174071,310,1015,319,178,8.669950739,940,293,177,17.34042553,
+2022,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",10468,0,410,649,345,0.531587057,0.116545663,392,10217,639,404,2.456689831,9502,621,391,10.16628078,
+2022,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",masters,Master's degree,10145,0,406,569,272,0.4780316344,0.1007392804,318,9891,556,400,2.567991103,9153,540,388,10.83797662,
+2022,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",other_doctorate,Doctor's degree - other,17,0,2,2,1,0.5,0.05882352941,1,16,2,2,6.25,15,2,2,13.33333333,
+2022,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",professional_doctorate,Doctor's degree - professional practice,,1,1,1,1,1,,1,,,,,,,,,
+2022,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",research_doctorate,Doctor's degree - research/scholarship,306,0,63,77,71,0.9220779221,0.6437908497,72,310,81,65,-1.290322581,334,79,63,-8.383233533,
+2022,38,Philosophy and Religious Studies,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",2892,0,318,596,543,0.9110738255,0.5217842324,556,2713,594,322,6.597862145,2904,589,320,-0.4132231405,Humanities and arts
+2022,38,Philosophy and Religious Studies,masters,Master's degree,2236,0,302,405,359,0.8864197531,0.4190518784,367,2085,405,307,7.242206235,2198,399,305,1.728844404,Humanities and arts
+2022,38,Philosophy and Religious Studies,other_doctorate,Doctor's degree - other,,1,2,3,3,1,1,3,,2,2,,21,2,2,,Humanities and arts
+2022,38,Philosophy and Religious Studies,professional_doctorate,Doctor's degree - professional practice,,1,1,1,1,1,1,1,,1,1,,,1,1,,Humanities and arts
+2022,38,Philosophy and Religious Studies,research_doctorate,Doctor's degree - research/scholarship,649,0,141,187,180,0.9625668449,0.8705701079,185,621,186,139,4.508856683,685,187,139,-5.255474453,Humanities and arts
+2022,39,Theology and Religious Vocations,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",16088,0,419,1403,978,0.6970776907,0.159373446,1050,16370,1373,414,-1.722663409,15589,1343,416,3.200975047,
+2022,39,Theology and Religious Vocations,masters,Master's degree,13381,0,416,1071,715,0.6676003735,0.1397503923,771,14014,1054,410,-4.51691166,13414,1035,410,-0.2460116296,
+2022,39,Theology and Religious Vocations,other_doctorate,Doctor's degree - other,436,0,53,70,57,0.8142857143,0.3600917431,57,493,69,53,-11.56186613,433,64,51,0.6928406467,
+2022,39,Theology and Religious Vocations,professional_doctorate,Doctor's degree - professional practice,810,0,73,87,64,0.7356321839,0.2234567901,69,749,83,70,8.144192256,755,83,71,7.284768212,
+2022,39,Theology and Religious Vocations,research_doctorate,Doctor's degree - research/scholarship,1461,0,100,175,142,0.8114285714,0.2436687201,153,1114,167,98,31.14901257,987,161,100,48.02431611,
+2022,40,Physical Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",13422,0,369,1926,1514,0.7860851506,0.3789301147,1567,12480,1917,369,7.548076923,12953,1902,366,3.62078283,Physical sciences
+2022,40,Physical Sciences,masters,Master's degree,6874,0,365,1110,915,0.8243243243,0.4479196974,936,6755,1105,365,1.761658031,6965,1090,364,-1.306532663,Physical sciences
+2022,40,Physical Sciences,other_doctorate,Doctor's degree - other,,1,1,1,1,1,,1,,2,2,,,2,2,,Physical sciences
+2022,40,Physical Sciences,research_doctorate,Doctor's degree - research/scholarship,6548,0,234,815,598,0.7337423313,0.3065058033,630,5725,810,235,14.37554585,5988,810,234,9.352037408,Physical sciences
+2022,41,Science Technologies/Technicians,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",76,0,12,13,9,0.6923076923,0.2105263158,9,66,14,13,15.15151515,65,15,14,16.92307692,
+2022,41,Science Technologies/Technicians,masters,Master's degree,76,0,12,12,8,0.6666666667,0.2105263158,8,66,13,13,15.15151515,65,13,13,16.92307692,
+2022,41,Science Technologies/Technicians,research_doctorate,Doctor's degree - research/scholarship,,1,1,1,1,1,,1,,1,1,,,2,2,,
+2022,42,Psychology,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",40925,0,778,2395,1399,0.5841336117,0.1126939524,1559,38815,2345,772,5.436042767,36746,2302,759,11.37266641,Psychology
+2022,42,Psychology,masters,Master's degree,34011,0,765,1561,770,0.4932735426,0.07353503278,891,32265,1538,760,5.411436541,30227,1512,747,12.51860919,Psychology
+2022,42,Psychology,other_doctorate,Doctor's degree - other,53,0,3,3,2,0.6666666667,0,2,50,3,3,6,63,3,3,-15.87301587,Psychology
+2022,42,Psychology,professional_doctorate,Doctor's degree - professional practice,1714,0,99,131,78,0.5954198473,0.1102683781,84,1443,116,88,18.78031878,1467,107,83,16.83708248,Psychology
+2022,42,Psychology,research_doctorate,Doctor's degree - research/scholarship,5147,0,315,700,549,0.7842857143,0.3734214105,582,5057,688,319,1.779711291,4989,680,313,3.166967328,Psychology
+2022,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",12056,0,427,682,386,0.5659824047,0.09713005972,426,11810,638,409,2.082980525,11157,633,414,8.05772161,
+2022,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",masters,Master's degree,11763,0,425,624,337,0.5400641026,0.08858284451,375,11571,588,407,1.659320716,10894,585,412,7.976868001,
+2022,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",professional_doctorate,Doctor's degree - professional practice,14,0,1,1,0,0,0,0,13,1,1,7.692307692,16,1,1,-12.5,
+2022,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",research_doctorate,Doctor's degree - research/scholarship,279,0,48,57,49,0.8596491228,0.4623655914,51,226,49,44,23.45132743,247,46,41,12.95546559,
+2022,44,Public Administration and Social Service Professions,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",51763,0,624,1199,478,0.3986655546,0.02990553098,573,51014,1172,608,1.468224409,51280,1153,609,0.9418876755,
+2022,44,Public Administration and Social Service Professions,masters,Master's degree,50192,0,617,972,285,0.2932098765,0.01900701307,376,49573,952,603,1.248663587,49869,942,602,0.6476969661,
+2022,44,Public Administration and Social Service Professions,other_doctorate,Doctor's degree - other,112,0,1,1,0,0,0,0,184,1,1,-39.13043478,146,1,1,-23.28767123,
+2022,44,Public Administration and Social Service Professions,professional_doctorate,Doctor's degree - professional practice,133,0,15,15,11,0.7333333333,0.1428571429,11,55,12,12,141.8181818,35,7,7,280,
+2022,44,Public Administration and Social Service Professions,research_doctorate,Doctor's degree - research/scholarship,1326,0,154,211,182,0.8625592417,0.4336349925,186,1202,207,153,10.31613977,1230,203,152,7.804878049,
+2022,45,Social Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",21155,0,468,2282,1742,0.7633654689,0.2731269203,1777,20157,2272,469,4.951133601,20311,2258,469,4.155383782,Social sciences
+2022,45,Social Sciences,masters,Master's degree,17394,0,464,1551,1127,0.7266279819,0.2165114407,1156,16686,1557,466,4.243078029,16710,1547,466,4.093357271,Social sciences
+2022,45,Social Sciences,other_doctorate,Doctor's degree - other,,1,1,1,1,1,1,1,,1,1,,,1,1,,Social sciences
+2022,45,Social Sciences,professional_doctorate,Doctor's degree - professional practice,13,0,3,3,2,0.6666666667,0.1538461538,3,11,3,3,18.18181818,,2,2,,Social sciences
+2022,45,Social Sciences,research_doctorate,Doctor's degree - research/scholarship,3744,0,205,727,612,0.8418156809,0.5357905983,617,3460,711,204,8.208092486,3600,708,199,4,Social sciences
+2022,46,Construction Trades,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",,1,1,1,1,1,,1,,,,,,,,,
+2022,46,Construction Trades,masters,Master's degree,,1,1,1,1,1,,1,,,,,,,,,
+2022,47,Mechanic and Repair Technologies/Technicians,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",28,0,3,5,4,0.8,0.03571428571,4,29,3,2,-3.448275862,22,1,1,27.27272727,
+2022,47,Mechanic and Repair Technologies/Technicians,masters,Master's degree,27,0,3,4,3,0.75,0,3,27,2,2,0,22,1,1,22.72727273,
+2022,47,Mechanic and Repair Technologies/Technicians,research_doctorate,Doctor's degree - research/scholarship,,1,1,1,1,1,1,1,,1,1,,,,,,
+2022,48,Precision Production,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",11,0,2,2,2,1,1,2,,2,2,,11,2,2,0,
+2022,48,Precision Production,masters,Master's degree,11,0,2,2,2,1,1,2,,2,2,,11,2,2,0,
+2022,49,Transportation and Materials Moving,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",694,0,24,34,22,0.6470588235,0.06340057637,23,690,32,22,0.5797101449,651,30,22,6.605222734,
+2022,49,Transportation and Materials Moving,masters,Master's degree,674,0,24,27,15,0.5555555556,0.03560830861,16,670,24,21,0.5970149254,631,23,20,6.814580032,
+2022,49,Transportation and Materials Moving,research_doctorate,Doctor's degree - research/scholarship,20,0,7,7,7,1,1,7,20,8,7,0,20,7,7,0,
+2022,50,Visual and Performing Arts,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",17537,0,512,2490,1979,0.7947791165,0.3072931516,2016,17492,2479,507,0.2572604619,18344,2468,513,-4.399258613,Humanities and arts
+2022,50,Visual and Performing Arts,masters,Master's degree,15775,0,512,2078,1613,0.7762271415,0.2851347068,1643,15823,2076,507,-0.3033558744,16628,2069,513,-5.129901371,Humanities and arts
+2022,50,Visual and Performing Arts,other_doctorate,Doctor's degree - other,25,0,5,14,14,1,1,14,19,14,5,31.57894737,26,13,4,-3.846153846,Humanities and arts
+2022,50,Visual and Performing Arts,professional_doctorate,Doctor's degree - professional practice,84,0,5,9,7,0.7777777778,0.3928571429,7,72,9,5,16.66666667,64,9,5,31.25,Humanities and arts
+2022,50,Visual and Performing Arts,research_doctorate,Doctor's degree - research/scholarship,1653,0,123,389,345,0.8868894602,0.5039322444,352,1578,380,125,4.752851711,1626,377,126,1.660516605,Humanities and arts
+2022,51,Health Professions and Related Programs,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",237569,0,1326,8165,4019,0.4922229026,0.04541417441,4430,230299,7948,1305,3.15676577,219638,7646,1290,8.163887852,Health sciences
+2022,51,Health Professions and Related Programs,masters,Master's degree,148836,0,1283,5506,2590,0.4703959317,0.04760273052,2831,143930,5369,1266,3.408601403,136719,5158,1247,8.862703794,Health sciences
+2022,51,Health Professions and Related Programs,other_doctorate,Doctor's degree - other,1097,0,46,76,44,0.5789473684,0.08295350957,49,1138,78,52,-3.602811951,1012,71,49,8.399209486,Health sciences
+2022,51,Health Professions and Related Programs,professional_doctorate,Doctor's degree - professional practice,80032,0,646,1501,486,0.3237841439,0.01603108756,630,77672,1429,627,3.038417963,74373,1363,610,7.608944106,Health sciences
+2022,51,Health Professions and Related Programs,research_doctorate,Doctor's degree - research/scholarship,7604,0,329,1082,899,0.8308687616,0.3064176749,920,7559,1072,329,0.5953168409,7534,1054,316,0.9291213167,Health sciences
+2022,52,"Business, Management, Marketing, and Related Support Services",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",213102,0,1327,5187,2452,0.4727202622,0.02797721279,2776,208690,5073,1323,2.114140591,203283,4875,1311,4.830212069,Business
+2022,52,"Business, Management, Marketing, and Related Support Services",masters,Master's degree,208593,0,1322,4661,2043,0.4383179575,0.02377836265,2337,204956,4576,1317,1.774527216,199793,4414,1306,4.404558718,Business
+2022,52,"Business, Management, Marketing, and Related Support Services",other_doctorate,Doctor's degree - other,286,0,5,5,4,0.8,0.006993006993,4,15,4,4,1806.666667,17,3,3,1582.352941,Business
+2022,52,"Business, Management, Marketing, and Related Support Services",professional_doctorate,Doctor's degree - professional practice,229,0,19,22,14,0.6363636364,0.03930131004,16,277,19,17,-17.32851986,261,18,16,-12.2605364,Business
+2022,52,"Business, Management, Marketing, and Related Support Services",research_doctorate,Doctor's degree - research/scholarship,3994,0,288,499,391,0.7835671343,0.2481221833,419,3442,474,279,16.03718768,3212,440,261,24.34620174,Business
+2022,54,History,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",4287,0,383,607,495,0.8154859967,0.3993468626,506,4217,605,381,1.65994783,4050,606,383,5.851851852,Humanities and arts
+2022,54,History,masters,Master's degree,3535,0,380,428,335,0.7827102804,0.3448373409,344,3501,426,380,0.9711510997,3178,428,381,11.23348018,Humanities and arts
+2022,54,History,other_doctorate,Doctor's degree - other,20,0,1,1,0,0,0,0,14,1,1,42.85714286,25,1,1,-20,Humanities and arts
+2022,54,History,research_doctorate,Doctor's degree - research/scholarship,732,0,157,178,160,0.8988764045,0.6734972678,162,702,178,156,4.273504274,847,177,155,-13.57733176,Humanities and arts
+2023,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",7578,0,122,731,579,0.7920656635,0.2465030351,590,7410,756,119,2.267206478,7425,766,113,2.060606061,Agricultural sciences and natural resources
+2023,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,masters,Master's degree,3180,0,118,433,326,0.752886836,0.3518867925,333,3073,446,116,3.481939473,3130,445,109,1.597444089,Agricultural sciences and natural resources
+2023,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,other_doctorate,Doctor's degree - other,,1,1,1,1,1,,1,,,,,,,,,Agricultural sciences and natural resources
+2023,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,professional_doctorate,Doctor's degree - professional practice,3471,0,34,36,5,0.1388888889,0.001440507058,8,3396,36,34,2.208480565,3281,36,34,5.790917403,Agricultural sciences and natural resources
+2023,01,Agricultural/Animal/Plant/Veterinary Science and Related Fields,research_doctorate,Doctor's degree - research/scholarship,927,0,60,261,247,0.9463601533,0.8025889968,248,941,274,59,-1.487778959,1014,285,59,-8.579881657,Agricultural sciences and natural resources
+2023,03,Natural Resources and Conservation,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",5981,0,269,600,443,0.7383333333,0.2158501923,478,5706,601,267,4.819488258,4972,595,259,20.29364441,Agricultural sciences and natural resources
+2023,03,Natural Resources and Conservation,masters,Master's degree,5381,0,259,426,281,0.6596244131,0.1570340085,313,5057,424,256,6.406960649,4371,417,250,23.10684054,Agricultural sciences and natural resources
+2023,03,Natural Resources and Conservation,professional_doctorate,Doctor's degree - professional practice,,1,1,1,1,1,,1,,,,,,,,,Agricultural sciences and natural resources
+2023,03,Natural Resources and Conservation,research_doctorate,Doctor's degree - research/scholarship,600,0,109,173,161,0.9306358382,0.7433333333,164,649,177,107,-7.550077042,601,178,109,-0.1663893511,Agricultural sciences and natural resources
+2023,04,Architecture and Related Services,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",7681,0,185,454,265,0.5837004405,0.0843640151,310,7011,451,182,9.556411354,7087,464,179,8.381543672,
+2023,04,Architecture and Related Services,masters,Master's degree,7437,0,185,380,195,0.5131578947,0.06252521178,238,6759,371,182,10.03106968,6835,391,179,8.807607901,
+2023,04,Architecture and Related Services,other_doctorate,Doctor's degree - other,,1,1,1,1,1,1,1,,1,1,,,1,1,,
+2023,04,Architecture and Related Services,professional_doctorate,Doctor's degree - professional practice,14,0,2,3,2,0.6666666667,0,3,28,2,2,-50,14,2,2,0,
+2023,04,Architecture and Related Services,research_doctorate,Doctor's degree - research/scholarship,224,0,46,70,67,0.9571428571,0.7901785714,68,218,77,48,2.752293578,231,70,45,-3.03030303,
+2023,05,"Area, Ethnic, Cultural, Gender, and Group Studies",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",2364,0,168,530,488,0.920754717,0.5186125212,497,2249,528,173,5.113383726,1862,520,173,26.96025779,
+2023,05,"Area, Ethnic, Cultural, Gender, and Group Studies",masters,Master's degree,1920,0,163,381,343,0.9002624672,0.4645833333,352,1833,381,167,4.746317512,1528,378,168,25.65445026,
+2023,05,"Area, Ethnic, Cultural, Gender, and Group Studies",other_doctorate,Doctor's degree - other,52,0,1,1,0,0,0,0,27,1,1,92.59259259,,,,,
+2023,05,"Area, Ethnic, Cultural, Gender, and Group Studies",professional_doctorate,Doctor's degree - professional practice,,1,2,6,6,1,,6,,,,,,,,,
+2023,05,"Area, Ethnic, Cultural, Gender, and Group Studies",research_doctorate,Doctor's degree - research/scholarship,392,0,72,142,139,0.9788732394,0.8520408163,139,389,146,73,0.7712082262,334,142,71,17.36526946,
+2023,09,"Communication, Journalism, and Related Programs",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",13663,0,430,908,588,0.6475770925,0.1447705482,656,12874,888,421,6.12863135,11331,846,404,20.58070779,
+2023,09,"Communication, Journalism, and Related Programs",masters,Master's degree,12981,0,428,774,474,0.6124031008,0.12002157,534,12273,756,419,5.768760694,10729,726,402,20.98984062,
+2023,09,"Communication, Journalism, and Related Programs",professional_doctorate,Doctor's degree - professional practice,,1,1,3,3,1,,3,,,,,,,,,
+2023,09,"Communication, Journalism, and Related Programs",research_doctorate,Doctor's degree - research/scholarship,682,0,91,131,111,0.8473282443,0.6158357771,119,601,132,92,13.47753744,602,120,85,13.28903654,
+2023,10,Communications Technologies/Technicians and Support Services,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",542,0,38,42,26,0.619047619,0.1531365314,27,589,41,37,-7.979626486,552,39,36,-1.811594203,
+2023,10,Communications Technologies/Technicians and Support Services,masters,Master's degree,542,0,38,42,26,0.619047619,0.1531365314,27,589,40,36,-7.979626486,551,38,35,-1.633393829,
+2023,11,Computer and Information Sciences and Support Services,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",80610,0,678,1754,823,0.4692132269,0.02870611587,969,54548,1687,666,47.77810369,54192,1536,643,48.74889283,Computer and information sciences
+2023,11,Computer and Information Sciences and Support Services,masters,Master's degree,77725,0,676,1438,607,0.4221140473,0.02063686073,732,51748,1372,666,50.19904151,51772,1247,642,50.12941358,Computer and information sciences
+2023,11,Computer and Information Sciences and Support Services,professional_doctorate,Doctor's degree - professional practice,51,0,3,4,3,0.75,0.03921568627,4,64,2,2,-20.3125,47,1,1,8.510638298,Computer and information sciences
+2023,11,Computer and Information Sciences and Support Services,research_doctorate,Doctor's degree - research/scholarship,2834,0,212,312,213,0.6826923077,0.2498235709,233,2736,313,212,3.581871345,2373,288,201,19.4268858,Computer and information sciences
+2023,12,"Culinary, Entertainment, and Personal Services",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",23,0,4,4,3,0.75,0.1304347826,3,18,8,7,27.77777778,20,4,3,15,
+2023,12,"Culinary, Entertainment, and Personal Services",masters,Master's degree,23,0,4,4,3,0.75,0.1304347826,3,18,6,6,27.77777778,20,3,3,15,
+2023,13,Education,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",164127,0,1254,9445,5851,0.619481207,0.09378712826,6088,171905,9560,1259,-4.524592071,164147,9479,1253,-0.01218420075,Education
+2023,13,Education,masters,Master's degree,148825,0,1240,7929,4770,0.6015891033,0.08155887788,4915,156769,8009,1242,-5.067328362,150855,8002,1242,-1.345663054,Education
+2023,13,Education,other_doctorate,Doctor's degree - other,406,0,15,25,17,0.68,0.09113300493,18,423,49,29,-4.01891253,608,47,30,-33.22368421,Education
+2023,13,Education,professional_doctorate,Doctor's degree - professional practice,379,0,54,75,59,0.7866666667,0.3245382586,63,354,72,53,7.062146893,276,63,47,37.31884058,Education
+2023,13,Education,research_doctorate,Doctor's degree - research/scholarship,14517,0,508,1416,1005,0.7097457627,0.2131983192,1092,14359,1430,500,1.100355178,12408,1367,469,16.99709865,Education
+2023,14,Engineering,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",66157,0,386,3725,2148,0.5766442953,0.1128678749,2208,55815,3701,380,18.52906925,59370,3575,366,11.43169951,Engineering
+2023,14,Engineering,masters,Master's degree,54261,0,385,2325,1185,0.5096774194,0.07513683861,1231,43694,2295,379,24.1840985,48184,2213,365,12.6120704,Engineering
+2023,14,Engineering,other_doctorate,Doctor's degree - other,,1,2,3,3,1,1,3,,2,2,,,2,2,,Engineering
+2023,14,Engineering,professional_doctorate,Doctor's degree - professional practice,,1,3,6,6,1,1,6,,6,3,,,4,2,,Engineering
+2023,14,Engineering,research_doctorate,Doctor's degree - research/scholarship,11885,0,235,1391,954,0.685837527,0.2843079512,968,12114,1398,234,-1.890374773,11184,1356,231,6.26788269,Engineering
+2023,15,Engineering/Engineering-Related Technologies/Technicians,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",8748,0,246,389,198,0.5089974293,0.06881572931,232,6607,382,239,32.40502497,6488,358,227,34.83353884,Engineering
+2023,15,Engineering/Engineering-Related Technologies/Technicians,masters,Master's degree,8566,0,243,352,166,0.4715909091,0.06245622227,200,6440,342,235,33.01242236,6345,319,224,35.00394011,Engineering
+2023,15,Engineering/Engineering-Related Technologies/Technicians,other_doctorate,Doctor's degree - other,,1,1,1,1,1,1,1,,1,1,,,1,1,,Engineering
+2023,15,Engineering/Engineering-Related Technologies/Technicians,professional_doctorate,Doctor's degree - professional practice,57,0,3,3,2,0.6666666667,0.1052631579,2,54,3,3,5.555555556,28,2,2,103.5714286,Engineering
+2023,15,Engineering/Engineering-Related Technologies/Technicians,research_doctorate,Doctor's degree - research/scholarship,124,0,30,33,29,0.8787878788,0.4838709677,29,112,36,33,10.71428571,113,36,31,9.734513274,Engineering
+2023,16,"Foreign Languages, Literatures, and Linguistics",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",4061,0,249,1239,1160,0.9362389023,0.6754493967,1172,3895,1251,253,4.261874198,4132,1259,255,-1.718296225,Humanities and arts
+2023,16,"Foreign Languages, Literatures, and Linguistics",masters,Master's degree,2953,0,245,801,730,0.911360799,0.5838130715,742,2861,808,250,3.215658861,2958,815,250,-0.1690331305,Humanities and arts
+2023,16,"Foreign Languages, Literatures, and Linguistics",professional_doctorate,Doctor's degree - professional practice,,1,2,2,2,1,,2,,,,,,,,,Humanities and arts
+2023,16,"Foreign Languages, Literatures, and Linguistics",research_doctorate,Doctor's degree - research/scholarship,1108,0,108,436,428,0.9816513761,0.9196750903,428,1034,443,110,7.156673114,1174,444,111,-5.621805792,Humanities and arts
+2023,19,Family and Consumer Sciences/Human Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",3316,0,203,371,269,0.7250673854,0.2288902292,287,3228,382,200,2.726146221,3562,385,195,-6.906232454,
+2023,19,Family and Consumer Sciences/Human Sciences,masters,Master's degree,3059,0,198,296,198,0.6689189189,0.1794704152,216,2950,306,198,3.694915254,3281,308,193,-6.766229808,
+2023,19,Family and Consumer Sciences/Human Sciences,research_doctorate,Doctor's degree - research/scholarship,257,0,59,75,71,0.9466666667,0.8171206226,71,278,76,57,-7.553956835,281,77,56,-8.540925267,
+2023,22,Legal Professions and Studies,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",46752,0,233,755,341,0.4516556291,0.01604209446,398,48984,754,230,-4.556589907,45030,729,231,3.824117255,
+2023,22,Legal Professions and Studies,masters,Master's degree,10688,0,186,453,252,0.5562913907,0.05510853293,292,12145,458,185,-11.99670646,10055,435,183,6.295375435,
+2023,22,Legal Professions and Studies,other_doctorate,Doctor's degree - other,21,0,2,2,1,0.5,0,1,15,2,2,40,20,1,1,5,
+2023,22,Legal Professions and Studies,professional_doctorate,Doctor's degree - professional practice,35888,0,212,231,21,0.09090909091,0.0009752563531,38,36667,227,210,-2.124526141,34768,229,213,3.221352968,
+2023,22,Legal Professions and Studies,research_doctorate,Doctor's degree - research/scholarship,155,0,57,69,67,0.9710144928,0.8129032258,67,157,67,55,-1.27388535,187,64,53,-17.11229947,
+2023,23,English Language and Literature/Letters,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",9547,0,531,965,668,0.6922279793,0.2819733948,738,9362,980,533,1.976073489,9197,967,530,3.805588779,Humanities and arts
+2023,23,English Language and Literature/Letters,masters,Master's degree,8365,0,531,775,518,0.6683870968,0.2505678422,582,8154,788,533,2.587687025,7894,777,530,5.966556879,Humanities and arts
+2023,23,English Language and Literature/Letters,other_doctorate,Doctor's degree - other,42,0,2,2,1,0.5,0.09523809524,1,32,2,2,31.25,27,2,2,55.55555556,Humanities and arts
+2023,23,English Language and Literature/Letters,professional_doctorate,Doctor's degree - professional practice,,1,1,1,1,1,,1,,,,,,,,,Humanities and arts
+2023,23,English Language and Literature/Letters,research_doctorate,Doctor's degree - research/scholarship,1140,0,157,187,148,0.7914438503,0.5192982456,154,1176,190,159,-3.06122449,1276,188,158,-10.65830721,Humanities and arts
+2023,24,"Liberal Arts and Sciences, General Studies and Humanities",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",1786,0,207,254,199,0.7834645669,0.2217245241,207,1969,267,214,-9.294057897,2104,278,225,-15.11406844,
+2023,24,"Liberal Arts and Sciences, General Studies and Humanities",masters,Master's degree,1692,0,202,227,176,0.7753303965,0.2044917258,184,1862,236,208,-9.129967777,1990,247,219,-14.97487437,
+2023,24,"Liberal Arts and Sciences, General Studies and Humanities",professional_doctorate,Doctor's degree - professional practice,,1,2,2,2,1,,2,,1,1,,,,,,
+2023,24,"Liberal Arts and Sciences, General Studies and Humanities",research_doctorate,Doctor's degree - research/scholarship,94,0,25,25,21,0.84,0.5319148936,21,107,30,28,-12.14953271,114,31,29,-17.54385965,
+2023,25,Library Science,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",5697,0,68,86,23,0.2674418605,0.005616991399,26,5873,87,69,-2.996764856,4989,88,66,14.19122069,
+2023,25,Library Science,masters,Master's degree,5686,0,68,75,12,0.16,0.003693281745,15,5856,75,69,-2.903005464,4960,74,66,14.63709677,
+2023,25,Library Science,research_doctorate,Doctor's degree - research/scholarship,11,0,10,11,11,1,1,11,17,12,11,-35.29411765,29,14,13,-62.06896552,
+2023,26,Biological and Biomedical Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",32388,0,619,4130,3298,0.7985472155,0.2889650488,3372,29447,4086,614,9.987435053,26976,4066,588,20.06227758,Biological and biomedical sciences
+2023,26,Biological and Biomedical Sciences,masters,Master's degree,23333,0,614,2305,1741,0.7553145336,0.1930741868,1801,20808,2266,609,12.13475586,18999,2238,584,22.81172693,Biological and biomedical sciences
+2023,26,Biological and Biomedical Sciences,professional_doctorate,Doctor's degree - professional practice,,1,8,14,14,1,1,14,,10,6,,,11,5,,Biological and biomedical sciences
+2023,26,Biological and Biomedical Sciences,research_doctorate,Doctor's degree - research/scholarship,9050,0,301,1811,1543,0.8520154611,0.535801105,1557,8635,1810,301,4.806022003,7969,1817,295,13.56506463,Biological and biomedical sciences
+2023,27,Mathematics and Statistics,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",15228,0,424,1127,762,0.6761313221,0.189190964,846,14003,1131,422,8.748125402,14105,1101,410,7.961715704,Mathematics and statistics
+2023,27,Mathematics and Statistics,masters,Master's degree,13123,0,421,782,491,0.6278772379,0.1406690543,553,11788,783,420,11.32507635,12077,754,409,8.661091331,Mathematics and statistics
+2023,27,Mathematics and Statistics,professional_doctorate,Doctor's degree - professional practice,,1,1,1,1,1,,1,,,,,,,,,Mathematics and statistics
+2023,27,Mathematics and Statistics,research_doctorate,Doctor's degree - research/scholarship,2105,0,194,344,270,0.7848837209,0.4916864608,292,2215,348,193,-4.966139955,2028,347,194,3.796844181,Mathematics and statistics
+2023,29,Military Technologies and Applied Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",1127,0,33,49,29,0.5918367347,0.04968944099,29,978,46,30,15.23517382,972,29,22,15.94650206,
+2023,29,Military Technologies and Applied Sciences,masters,Master's degree,1121,0,33,43,23,0.5348837209,0.04460303301,23,975,41,30,14.97435897,972,28,22,15.32921811,
+2023,29,Military Technologies and Applied Sciences,research_doctorate,Doctor's degree - research/scholarship,,1,4,6,6,1,1,6,,4,3,,,1,1,,
+2023,30,Multi/Interdisciplinary Studies,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",23026,0,601,1617,1149,0.7105751391,0.1315469469,1234,16253,1452,552,41.67230665,12587,1249,503,82.93477397,
+2023,30,Multi/Interdisciplinary Studies,masters,Master's degree,21771,0,582,1253,810,0.6464485235,0.09990354141,889,15102,1119,536,44.15971395,11597,949,491,87.72958524,
+2023,30,Multi/Interdisciplinary Studies,other_doctorate,Doctor's degree - other,,1,3,3,3,1,1,3,,3,3,,13,4,4,,
+2023,30,Multi/Interdisciplinary Studies,professional_doctorate,Doctor's degree - professional practice,53,0,4,4,3,0.75,0.01886792453,3,43,3,3,23.25581395,37,3,3,43.24324324,
+2023,30,Multi/Interdisciplinary Studies,research_doctorate,Doctor's degree - research/scholarship,1200,0,192,357,333,0.9327731092,0.7091666667,339,1103,327,184,8.794197643,940,293,177,27.65957447,
+2023,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",10144,0,428,676,379,0.5606508876,0.1331821767,444,10468,649,410,-3.095147115,9502,621,391,6.756472322,
+2023,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",masters,Master's degree,9801,0,423,595,305,0.512605042,0.1157024793,368,10145,569,406,-3.390832923,9153,540,388,7.079646018,
+2023,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",other_doctorate,Doctor's degree - other,12,0,2,2,1,0.5,0.1666666667,1,17,2,2,-29.41176471,15,2,2,-20,
+2023,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",professional_doctorate,Doctor's degree - professional practice,,1,3,4,4,1,1,4,,1,1,,,,,,
+2023,31,"Parks, Recreation, Leisure, Fitness, and Kinesiology",research_doctorate,Doctor's degree - research/scholarship,325,0,64,75,69,0.92,0.6430769231,71,306,77,63,6.209150327,334,79,63,-2.694610778,
+2023,38,Philosophy and Religious Studies,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",3071,0,311,588,531,0.9030612245,0.4614132204,544,2892,596,318,6.189488243,2904,589,320,5.750688705,Humanities and arts
+2023,38,Philosophy and Religious Studies,masters,Master's degree,2418,0,295,395,346,0.8759493671,0.3564929694,355,2236,405,302,8.139534884,2198,399,305,10.00909918,Humanities and arts
+2023,38,Philosophy and Religious Studies,other_doctorate,Doctor's degree - other,10,0,4,5,5,1,1,5,,3,2,,21,2,2,-52.38095238,Humanities and arts
+2023,38,Philosophy and Religious Studies,professional_doctorate,Doctor's degree - professional practice,,1,3,4,4,1,1,4,,1,1,,,1,1,,Humanities and arts
+2023,38,Philosophy and Religious Studies,research_doctorate,Doctor's degree - research/scholarship,641,0,138,184,176,0.9565217391,0.8471138846,180,649,187,141,-1.232665639,685,187,139,-6.423357664,Humanities and arts
+2023,39,Theology and Religious Vocations,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",15971,0,418,1386,963,0.6948051948,0.1602279131,1040,16088,1403,419,-0.7272501243,15589,1343,416,2.450445827,
+2023,39,Theology and Religious Vocations,masters,Master's degree,13295,0,415,1056,696,0.6590909091,0.1402783001,760,13381,1071,416,-0.6427023391,13414,1035,410,-0.8871328463,
+2023,39,Theology and Religious Vocations,other_doctorate,Doctor's degree - other,453,0,54,72,57,0.7916666667,0.3002207506,57,436,70,53,3.899082569,433,64,51,4.618937644,
+2023,39,Theology and Religious Vocations,professional_doctorate,Doctor's degree - professional practice,749,0,72,88,69,0.7840909091,0.2563417891,74,810,87,73,-7.530864198,755,83,71,-0.7947019868,
+2023,39,Theology and Religious Vocations,research_doctorate,Doctor's degree - research/scholarship,1474,0,100,170,141,0.8294117647,0.2483039349,149,1461,175,100,0.8898015058,987,161,100,49.3414387,
+2023,40,Physical Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",13743,0,368,1921,1505,0.7834461218,0.3814305465,1552,13422,1926,369,2.391595887,12953,1902,366,6.098973211,Physical sciences
+2023,40,Physical Sciences,masters,Master's degree,7166,0,364,1109,911,0.8214607755,0.4450181412,927,6874,1110,365,4.247890602,6965,1090,364,2.885857861,Physical sciences
+2023,40,Physical Sciences,professional_doctorate,Doctor's degree - professional practice,,1,2,3,3,1,,3,,,,,,,,,Physical sciences
+2023,40,Physical Sciences,research_doctorate,Doctor's degree - research/scholarship,6577,0,235,809,591,0.7305315204,0.3121483959,622,6548,815,234,0.4428833232,5988,810,234,9.836339345,Physical sciences
+2023,41,Science Technologies/Technicians,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",93,0,14,14,10,0.7142857143,0.1397849462,10,76,13,12,22.36842105,65,15,14,43.07692308,
+2023,41,Science Technologies/Technicians,masters,Master's degree,93,0,13,13,9,0.6923076923,0.1397849462,9,76,12,12,22.36842105,65,13,13,43.07692308,
+2023,41,Science Technologies/Technicians,research_doctorate,Doctor's degree - research/scholarship,,1,1,1,1,1,,1,,1,1,,,2,2,,
+2023,42,Psychology,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",45339,0,787,2412,1366,0.5663349917,0.09986986921,1551,40925,2395,778,10.78558338,36746,2302,759,23.38485822,Psychology
+2023,42,Psychology,masters,Master's degree,38129,0,774,1576,760,0.4822335025,0.06708804322,901,34011,1561,765,12.10784746,30227,1512,747,26.14219076,Psychology
+2023,42,Psychology,other_doctorate,Doctor's degree - other,60,0,3,3,2,0.6666666667,0,2,53,3,3,13.20754717,63,3,3,-4.761904762,Psychology
+2023,42,Psychology,professional_doctorate,Doctor's degree - professional practice,1932,0,107,135,78,0.5777777778,0.1102484472,87,1714,131,99,12.71878646,1467,107,83,31.69734151,Psychology
+2023,42,Psychology,research_doctorate,Doctor's degree - research/scholarship,5218,0,312,698,526,0.7535816619,0.3367190494,561,5147,700,315,1.379444337,4989,680,313,4.590098216,Psychology
+2023,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",11695,0,433,698,406,0.5816618911,0.1133817871,445,12056,682,427,-2.994359655,11157,633,414,4.82208479,
+2023,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",masters,Master's degree,11336,0,430,638,356,0.5579937304,0.1032110092,395,11763,624,425,-3.630026354,10894,585,412,4.057279236,
+2023,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",professional_doctorate,Doctor's degree - professional practice,12,0,2,2,1,0.5,0,1,14,1,1,-14.28571429,16,1,1,-25,
+2023,43,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",research_doctorate,Doctor's degree - research/scholarship,347,0,49,58,49,0.8448275862,0.4495677233,49,279,57,48,24.37275986,247,46,41,40.48582996,
+2023,44,Public Administration and Social Service Professions,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",53087,0,643,1221,479,0.3923013923,0.03002618343,566,51763,1199,624,2.557811564,51280,1153,609,3.523790952,
+2023,44,Public Administration and Social Service Professions,masters,Master's degree,51395,0,636,997,297,0.297893681,0.01842591692,380,50192,972,617,2.396796302,49869,942,602,3.060017245,
+2023,44,Public Administration and Social Service Professions,other_doctorate,Doctor's degree - other,21,0,1,1,0,0,0,0,112,1,1,-81.25,146,1,1,-85.61643836,
+2023,44,Public Administration and Social Service Professions,professional_doctorate,Doctor's degree - professional practice,228,0,13,14,7,0.5,0.05701754386,8,133,15,15,71.42857143,35,7,7,551.4285714,
+2023,44,Public Administration and Social Service Professions,research_doctorate,Doctor's degree - research/scholarship,1443,0,155,209,175,0.8373205742,0.4393624394,178,1326,211,154,8.823529412,1230,203,152,17.31707317,
+2023,45,Social Sciences,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",22993,0,475,2281,1728,0.7575624726,0.2462923498,1769,21155,2282,468,8.688253368,20311,2258,469,13.20466742,Social sciences
+2023,45,Social Sciences,masters,Master's degree,19289,0,467,1554,1107,0.7123552124,0.190367567,1140,17394,1551,464,10.89456134,16710,1547,466,15.43387193,Social sciences
+2023,45,Social Sciences,other_doctorate,Doctor's degree - other,,1,1,1,1,1,1,1,,1,1,,,1,1,,Social sciences
+2023,45,Social Sciences,professional_doctorate,Doctor's degree - professional practice,23,0,4,9,8,0.8888888889,0,9,13,3,3,76.92307692,,2,2,,Social sciences
+2023,45,Social Sciences,research_doctorate,Doctor's degree - research/scholarship,3677,0,206,717,612,0.8535564854,0.5403861844,619,3744,727,205,-1.789529915,3600,708,199,2.138888889,Social sciences
+2023,46,Construction Trades,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",,1,1,1,1,1,,1,,1,1,,,,,,
+2023,46,Construction Trades,masters,Master's degree,,1,1,1,1,1,,1,,1,1,,,,,,
+2023,47,Mechanic and Repair Technologies/Technicians,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",29,0,2,3,2,0.6666666667,0,2,28,5,3,3.571428571,22,1,1,31.81818182,
+2023,47,Mechanic and Repair Technologies/Technicians,masters,Master's degree,29,0,2,3,2,0.6666666667,0,2,27,4,3,7.407407407,22,1,1,31.81818182,
+2023,48,Precision Production,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",10,0,2,2,2,1,1,2,11,2,2,-9.090909091,11,2,2,-9.090909091,
+2023,48,Precision Production,masters,Master's degree,10,0,2,2,2,1,1,2,11,2,2,-9.090909091,11,2,2,-9.090909091,
+2023,49,Transportation and Materials Moving,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",757,0,27,41,26,0.6341463415,0.07926023778,28,694,34,24,9.077809798,651,30,22,16.28264209,
+2023,49,Transportation and Materials Moving,masters,Master's degree,726,0,27,32,18,0.5625,0.05371900826,20,674,27,24,7.715133531,631,23,20,15.05546751,
+2023,49,Transportation and Materials Moving,professional_doctorate,Doctor's degree - professional practice,,1,1,1,1,1,1,1,,,,,,,,,
+2023,49,Transportation and Materials Moving,research_doctorate,Doctor's degree - research/scholarship,29,0,7,8,7,0.875,0.6551724138,7,20,7,7,45,20,7,7,45,
+2023,50,Visual and Performing Arts,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",18421,0,507,2471,1933,0.7822743828,0.2807122306,1975,17537,2490,512,5.040770941,18344,2468,513,0.4197557785,Humanities and arts
+2023,50,Visual and Performing Arts,masters,Master's degree,16649,0,507,2065,1575,0.7627118644,0.2594149799,1610,15775,2078,512,5.540412044,16628,2069,513,0.1262929998,Humanities and arts
+2023,50,Visual and Performing Arts,other_doctorate,Doctor's degree - other,29,0,4,12,12,1,1,12,25,14,5,16,26,13,4,11.53846154,Humanities and arts
+2023,50,Visual and Performing Arts,professional_doctorate,Doctor's degree - professional practice,82,0,7,13,11,0.8461538462,0.2317073171,11,84,9,5,-2.380952381,64,9,5,28.125,Humanities and arts
+2023,50,Visual and Performing Arts,research_doctorate,Doctor's degree - research/scholarship,1661,0,124,381,335,0.8792650919,0.4840457556,342,1653,389,123,0.483968542,1626,377,126,2.152521525,Humanities and arts
+2023,51,Health Professions and Related Programs,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",239314,0,1335,8413,4147,0.492927612,0.04685893847,4552,237569,8165,1326,0.7345234437,219638,7646,1290,8.958376966,Health sciences
+2023,51,Health Professions and Related Programs,masters,Master's degree,149848,0,1293,5693,2692,0.4728614087,0.04951684373,2923,148836,5506,1283,0.6799430245,136719,5158,1247,9.602908155,Health sciences
+2023,51,Health Professions and Related Programs,other_doctorate,Doctor's degree - other,1043,0,49,80,51,0.6375,0.1054650048,55,1097,76,46,-4.922515953,1012,71,49,3.063241107,Health sciences
+2023,51,Health Professions and Related Programs,professional_doctorate,Doctor's degree - professional practice,79662,0,657,1550,521,0.3361290323,0.01851572895,660,80032,1501,646,-0.462315074,74373,1363,610,7.111451737,Health sciences
+2023,51,Health Professions and Related Programs,research_doctorate,Doctor's degree - research/scholarship,8761,0,336,1090,883,0.8100917431,0.2521401666,914,7604,1082,329,15.21567596,7534,1054,316,16.28616937,Health sciences
+2023,52,"Business, Management, Marketing, and Related Support Services",all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",216013,0,1333,5271,2612,0.495541643,0.02962784647,2954,213102,5187,1327,1.36601252,203283,4875,1311,6.26220589,Business
+2023,52,"Business, Management, Marketing, and Related Support Services",masters,Master's degree,211299,0,1327,4732,2205,0.4659763314,0.02530064032,2510,208593,4661,1322,1.297263091,199793,4414,1306,5.758960524,Business
+2023,52,"Business, Management, Marketing, and Related Support Services",other_doctorate,Doctor's degree - other,242,0,5,6,4,0.6666666667,0.02892561983,5,286,5,5,-15.38461538,17,3,3,1323.529412,Business
+2023,52,"Business, Management, Marketing, and Related Support Services",professional_doctorate,Doctor's degree - professional practice,271,0,24,36,26,0.7222222222,0.05535055351,28,229,22,19,18.34061135,261,18,16,3.831417625,Business
+2023,52,"Business, Management, Marketing, and Related Support Services",research_doctorate,Doctor's degree - research/scholarship,4201,0,301,497,377,0.7585513078,0.2456557962,411,3994,499,288,5.182774161,3212,440,261,30.79078456,Business
+2023,54,History,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",4410,0,383,608,487,0.8009868421,0.3721088435,501,4287,607,383,2.869139258,4050,606,383,8.888888889,Humanities and arts
+2023,54,History,masters,Master's degree,3613,0,381,427,326,0.7634660422,0.3196789372,333,3535,428,380,2.206506365,3178,428,381,13.687854,Humanities and arts
+2023,54,History,other_doctorate,Doctor's degree - other,24,0,1,1,0,0,0,1,20,1,1,20,25,1,1,-4,Humanities and arts
+2023,54,History,professional_doctorate,Doctor's degree - professional practice,,1,1,1,1,1,,1,,,,,,,,,Humanities and arts
+2023,54,History,research_doctorate,Doctor's degree - research/scholarship,773,0,156,179,160,0.8938547486,0.6287192755,166,732,178,157,5.601092896,847,177,155,-8.736717828,Humanities and arts

@@ -1,0 +1,21 @@
+year,level_key,award_level,completions_total,n_program_cells,n_institutions,grad_enrollment_total,grad_enrollment_ft,grad_enrollment_pt,n_institutions_with_enrollment,matched_completions,matched_enrollment,n_matched_institutions,ratio_completions_to_grad_enrollment_matched,ratio_completions_to_grad_enrollment_all,ratio_completions_to_prior_fall_grad_enrollment_matched,n_matched_institutions_prior_fall,completions_prior_year,n_program_cells_prior_year,n_institutions_prior_year,yoy_pct_change,completions_2020,n_program_cells_2020,n_institutions_2020,pct_change_vs_2020
+2020,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",1047606,54777,2056,3199650,1804676,1394974,2049,1047277,3199650,2049,0.327309862,0.3274126858,,,,,,,,,,
+2020,masters,Master's degree,855580,40562,2014,,,,,,,,,,,,,,,,,,,
+2020,other_doctorate,Doctor's degree - other,2436,222,141,,,,,,,,,,,,,,,,,,,
+2020,professional_doctorate,Doctor's degree - professional practice,115432,1942,792,,,,,,,,,,,,,,,,,,,
+2020,research_doctorate,Doctor's degree - research/scholarship,74158,12051,792,,,,,,,,,,,,,,,,,,,
+2021,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",1076820,55797,2048,3273887,1868582,1405305,2059,1076651,3273887,2059,0.3288601592,0.3289117798,0.3364572299,2029,1047606,54777,2056,2.788643822,1047606,54777,2056,2.788643822
+2021,masters,Master's degree,880522,41301,2007,,,,,,,,,,,,855580,40562,2014,2.915215409,855580,40562,2014,2.915215409
+2021,other_doctorate,Doctor's degree - other,2552,238,145,,,,,,,,,,,,2436,222,141,4.761904762,2436,222,141,4.761904762
+2021,professional_doctorate,Doctor's degree - professional practice,120374,2027,814,,,,,,,,,,,,115432,1942,792,4.281308476,115432,1942,792,4.281308476
+2021,research_doctorate,Doctor's degree - research/scholarship,73372,12231,812,,,,,,,,,,,,74158,12051,792,-1.059899134,74158,12051,792,-1.059899134
+2022,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",1100797,56675,2059,3242049,1900855,1341194,2048,1100065,3242049,2048,0.3393116514,0.3395374345,0.3364050818,2031,1076820,55797,2048,2.226648836,1047606,54777,2056,5.077385964
+2022,masters,Master's degree,894277,41904,2020,,,,,,,,,,,,880522,41301,2007,1.562141548,855580,40562,2014,4.522896748
+2022,other_doctorate,Doctor's degree - other,2563,238,137,,,,,,,,,,,,2552,238,145,0.4310344828,2436,222,141,5.213464696
+2022,professional_doctorate,Doctor's degree - professional practice,123650,2134,838,,,,,,,,,,,,120374,2027,814,2.721517936,115432,1942,792,7.11934299
+2022,research_doctorate,Doctor's degree - research/scholarship,80307,12399,831,,,,,,,,,,,,73372,12231,812,9.451834487,74158,12051,792,8.291755441
+2023,all_masters_doctoral,"All master's and doctoral levels (7, 17, 18, 19)",1155492,57182,2057,3274596,1941969,1332627,2048,1155191,3274596,2048,0.3527735941,0.3528655138,0.3568583133,2029,1100797,56675,2059,4.968672698,1047606,54777,2056,10.29833735
+2023,masters,Master's degree,947728,42382,2021,,,,,,,,,,,,894277,41904,2020,5.977007124,855580,40562,2014,10.77023773
+2023,other_doctorate,Doctor's degree - other,2431,222,129,,,,,,,,,,,,2563,238,137,-5.150214592,2436,222,141,-0.2052545156
+2023,professional_doctorate,Doctor's degree - professional practice,122895,2252,846,,,,,,,,,,,,123650,2134,838,-0.6105944197,115432,1942,792,6.465278259
+2023,research_doctorate,Doctor's degree - research/scholarship,82438,12326,837,,,,,,,,,,,,80307,12399,831,2.653566937,74158,12051,792,11.16534966
