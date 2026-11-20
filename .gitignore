@@ -11,3 +11,6 @@ __pycache__/
 
 # large intermediate file written by src/02_build_measures.py
 outputs/INTERNAL_*
+
+# local Tableau workbook files (contain local paths)
+tableau_workbook/

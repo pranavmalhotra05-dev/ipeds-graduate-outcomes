@@ -62,7 +62,7 @@ footer{padding:1rem 1.25rem;border-top:1px solid var(--line);color:var(--muted);
 </header>
 <main id="main" role="main">
   <div class="notice" role="note"><strong>Role views are filtered views of one source, not access control.</strong>
-  Every tab reads the same suppressed data (program counts under 10 are withheld). Switching tabs does not unlock any additional data. This is a static HTML dashboard; no Tableau workbook has been built.</div>
+  Every tab reads the same suppressed data (program counts under 10 are withheld). Switching tabs does not unlock any additional data. This is a static HTML dashboard; a separate Tableau Public workbook uses the same data.</div>
 
   <nav class="tabs" aria-label="Audience views">
     <div role="tablist" aria-label="Audience views" id="tablist">
@@ -230,7 +230,7 @@ footer{padding:1rem 1.25rem;border-top:1px solid var(--line);color:var(--muted);
       <li><strong>Unit of count.</strong> Counts are awards (degrees), not students; first majors only (second majors excluded); CIP 2020; award levels 7 (master's), 17, 18, 19 (doctoral). Year 2023 means academic year 2022-23.</li>
       <li><strong>Small-n warnings.</strong> A warning is shown when a percentage rests on fewer than 5 program cells, on fewer than 30 completions, or when a peer group has fewer than 10 institutions. Percentages across institutions mix new and closed programs with growth.</li>
       <li><strong>SED benchmark.</strong> NSF Survey of Earned Doctorates, Table 1-12 (median years to research doctorate, by trend broad field), cycles nsf26326 (latest year 2025) and nsf25349 (latest year 2024). It is a separate, field-level, national source covering research doctorates only; it has no institution cohorts, and the extracted table has no respondent counts, so no n can be shown for it. The CIP-to-SED field mapping used elsewhere is an approximate analyst mapping, not an official crosswalk.</li>
-      <li><strong>Not a Tableau workbook.</strong> No Tableau workbook is built; the CSVs in <code>tableau_ready/</code> are the inputs this file embeds.</li>
+      <li><strong>Also on Tableau Public.</strong> A Tableau Public workbook built from the CSVs in <code>tableau_ready/public/</code> is at <a href="https://public.tableau.com/app/profile/pranav.malhotra3148/viz/graduate_program_size/GraduateProgramSizeandTimetoDegree">Tableau Public</a>.</li>
     </ul>
   </aside>
 </main>

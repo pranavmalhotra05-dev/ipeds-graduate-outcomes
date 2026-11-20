@@ -1,6 +1,6 @@
 # Tableau Public build spec
 
-Status: no workbook has been built or published yet. This is a step-by-step plan for building one in Tableau Public web authoring. The author signs in and publishes; nothing here has been uploaded.
+Status: a workbook built from these files is published at https://public.tableau.com/app/profile/pranav.malhotra3148/viz/graduate_program_size/GraduateProgramSizeandTimetoDegree. The steps below describe how its worksheets and dashboard are set up.
 
 ## 0. Before you start
 
@@ -111,7 +111,7 @@ Neutral text and axes: #222222. Gridlines: #E5E5E5. Use no red/green pairing. In
 2. Decide whether to allow download of the workbook and data (Settings > Allow downloads). The data are suppressed and public sources, so either choice is acceptable; this is the author's choice.
 3. Add a description with the data sources and the limits caption, and link the repository README.
 4. Confirm the dashboard opens in a signed-out browser window.
-5. Reminder: no workbook has been published yet.
+5. The published workbook is at https://public.tableau.com/app/profile/pranav.malhotra3148/viz/graduate_program_size/GraduateProgramSizeandTimetoDegree.
 
 ## 7. Verification checklist (compare the dashboard with the CSVs)
 

@@ -2,7 +2,7 @@
 
 Build: `python src/04_build_dashboard.py` (reads only `tableau_ready/*.csv`; template `dashboard/template.html`; plotly.js taken from the installed plotly package and embedded inline). Output: `dashboard/graduate_outcomes_dashboard.html` (about 8.2 MB, works offline), and the same file is copied to `docs/index.html` so GitHub Pages can serve it.
 
-No Tableau workbook is built. This is a static HTML dashboard; the CSVs in `tableau_ready/` are the inputs it embeds.
+This is a static HTML dashboard; the CSVs in `tableau_ready/` are the inputs it embeds. A separate Tableau Public workbook uses the same data: https://public.tableau.com/app/profile/pranav.malhotra3148/viz/graduate_program_size/GraduateProgramSizeandTimetoDegree
 
 ## Views (tabs; filtered views of one source, not access control, anyone who opens the file sees every view)
 - Program director: institution + level + CIP family; family totals by year (displayed cells only, hidden-cell counts in axis labels), single-program chart, full program matrix with "<10" for hidden cells.

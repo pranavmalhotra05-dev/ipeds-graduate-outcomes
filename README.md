@@ -6,6 +6,8 @@ This project asks: **if a standard small-cell disclosure rule is applied (hide a
 
 All data are public, aggregate, institution-level counts from NCES IPEDS and NSF NCSES. There are no student records.
 
+**See it live:** [interactive dashboard (GitHub Pages)](https://pranavmalhotra05-dev.github.io/ipeds-graduate-outcomes/) and [Tableau Public workbook](https://public.tableau.com/app/profile/pranav.malhotra3148/viz/graduate_program_size/GraduateProgramSizeandTimetoDegree).
+
 ## What the numbers show
 
 All figures are for FY2023 (academic year 2022-23) unless stated, first majors only, from `outputs/key_numbers.json` and `tableau_ready/`.
@@ -49,12 +51,12 @@ Built:
 
 - A self-contained HTML dashboard (`dashboard/graduate_outcomes_dashboard.html`, also served from `docs/index.html`) with four views.
 - Flat, suppressed CSVs in `tableau_ready/` with a data dictionary: `tableau_ready/README_data_dictionary.md`.
-- A build specification (`tableau_ready/public/TABLEAU_BUILD_SPEC.md`) and upload-ready CSVs for Tableau Public in `tableau_ready/public/`. These are inputs for building a workbook; no workbook has been built.
+- A Tableau Public workbook built from the CSVs in `tableau_ready/public/`: https://public.tableau.com/app/profile/pranav.malhotra3148/viz/graduate_program_size/GraduateProgramSizeandTimetoDegree. The same four views of the data, as four worksheets and one dashboard. The build specification is `tableau_ready/public/TABLEAU_BUILD_SPEC.md`.
 - A reconciliation of the totals against the raw files and against NCES Digest Table 318.10 (`outputs/reconciliation.md`).
 
 Not built:
 
-- **No Tableau workbook has been built or published.** "tableau_ready" only means the CSVs are flat, snake_case and UTF-8.
+- The Tableau workbook uses Tableau's default color palette. "tableau_ready" in the folder name only means the CSVs are flat, snake_case and UTF-8.
 - No cohort completion rate, attrition or time to degree from IPEDS (it does not exist for graduate students).
 - No causal analysis and no claim about any single institution. Institution examples are illustrations read from public data.
 - Suppression here is standard disclosure-avoidance practice for small cells. It is not a FERPA compliance claim or a disclosure review.
